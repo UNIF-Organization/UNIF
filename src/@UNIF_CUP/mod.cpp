@@ -1,0 +1,11 @@
+name = "UNIF - CUP";
+description = "UNIF Equipment that is only dependent on CUP";
+actionName = "";
+action = "";
+logo = "unif_small.paa";
+logoOver = "unif_small.paa";
+tooltip = "";
+tooltipOwned = "";
+overview = "";
+author = "UNIF Mod Team";
+overviewPicture = "unif_small.paa";
