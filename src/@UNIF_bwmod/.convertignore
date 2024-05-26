@@ -5,6 +5,7 @@ key.json
 *.wss
 *.sqf
 *.ogg
+*.paa
 texHeaders.bin
 mod.cpp
 meta.cpp
