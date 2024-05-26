@@ -1,2 +1,11 @@
 name = "UNIF - Base";
 description = "UNIF Equipment that is only dependent on mods we never want to remove or vanilla";
+actionName = "";
+action = "";
+logo = "unif_small.paa";
+logoOver = "unif_small.paa";
+tooltip = "";
+tooltipOwned = "";
+overview = "";
+author = "UNIF Mod Team";
+overviewPicture = "unif_small.paa";
