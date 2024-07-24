@@ -1,0 +1,11 @@
+name = "UNIF - Factions";
+description = "UNIF Factions";
+actionName = "";
+action = "";
+logo = "unif_small.paa";
+logoOver = "unif_small.paa";
+tooltip = "";
+tooltipOwned = "";
+overview = "";
+author = "UNIF Mod Team";
+overviewPicture = "unif_small.paa";

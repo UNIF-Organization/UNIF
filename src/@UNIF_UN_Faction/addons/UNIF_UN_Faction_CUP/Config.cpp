@@ -152,6 +152,9 @@ class CfgPatches
 
             "UNIF_Faction_UN_ZSU234",
 
+            "UNIF_Faction_UN_C47",
+            "UNIF_Faction_UN_AC47",
+
         }; 
         weapons[] = 
         {
@@ -171,6 +174,46 @@ class CfgVehicles
     ///UNIF_UN_Faction_Soldier_Crewman
     ///UNIF_UN_Faction_Soldier_Pilot_Jet
     ///UNIF_UN_Faction_Soldier_Pilot_Helicopter
+    class CUP_B_AC47_Spooky_USA;
+    class CUP_B_C47_USA;
+
+    class UNIF_Faction_UN_C47: CUP_B_C47_USA
+    {
+      faction="UNIF_Faction_UNIF_UN_BLUFOR";
+      editorSubcategory = "EdSubcat_Planes";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_C47.jpg";
+
+      side=1;
+      hiddenSelectionsTextures[]= 
+      {
+        "\UNIF_UN_Faction_CUP\textures\C47\UNIF_DC3_body_co1.paa",
+        "\UNIF_UN_Faction_CUP\textures\C47\UNIF_DC3_body_co2.paa",
+      };
+      textureList[] = {};
+      crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
+      typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+
+      #include "Inventory_Parachute.hpp"
+    };
+    class UNIF_Faction_UN_AC47: CUP_B_AC47_Spooky_USA
+    {
+      faction="UNIF_Faction_UNIF_UN_BLUFOR";
+      editorSubcategory = "EdSubcat_Planes";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_AC47.jpg";
+
+      side=1;
+      hiddenSelectionsTextures[]= 
+      {
+        "\UNIF_UN_Faction_CUP\textures\C47\UNIF_DC3_body_co1.paa",
+        "\UNIF_UN_Faction_CUP\textures\C47\UNIF_DC3_body_co2.paa",
+      };
+      textureList[] = {};
+      crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
+      typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+
+      #include "Inventory_Parachute.hpp"
+    };
+
     class CUP_O_GAZ_Vodnik_Unarmed_RU;
     class CUP_O_GAZ_Vodnik_PK_RU;
     class CUP_O_GAZ_Vodnik_AGS_RU;
@@ -193,6 +236,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Vodnik_PK: CUP_O_GAZ_Vodnik_PK_RU
@@ -211,6 +256,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Vodnik_AGS: CUP_O_GAZ_Vodnik_AGS_RU
@@ -229,6 +276,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Vodnik_BPPU: CUP_O_GAZ_Vodnik_BPPU_RU
@@ -247,6 +296,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Vodnik_KPVT: CUP_O_GAZ_Vodnik_KPVT_RU
@@ -266,6 +317,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_B_Leopard_1A3GRNCROSS_UA;
@@ -291,6 +344,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Leopard_1A3: CUP_B_Leopard_1A3GRNCROSS_UA
@@ -312,6 +367,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_B_LAV25M240_USMC;
@@ -335,6 +392,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_LAV25_m240: CUP_B_LAV25M240_USMC
@@ -354,6 +413,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_LAV25_HQ: CUP_B_LAV25_HQ_USMC
@@ -373,6 +434,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_O_T90M_RU;
@@ -397,6 +460,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_T90MS: CUP_O_T90MS_CSAT_T
@@ -418,6 +483,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_B_M1126_ICV_M2_Desert;
@@ -448,6 +515,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Stryker_ATGM: CUP_B_M1135_ATGMV_Desert
@@ -470,6 +539,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Stryker_MEV: CUP_B_M1133_MEV_Desert
@@ -490,6 +561,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Stryker_MGS: CUP_B_M1128_MGS_Desert
@@ -512,6 +585,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Stryker_Mk19: CUP_B_M1126_ICV_MK19_Desert
@@ -536,6 +611,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Stryker_M2: CUP_B_M1126_ICV_M2_Desert
@@ -560,6 +637,8 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
 
@@ -629,6 +708,8 @@ class CfgVehicles
 
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_CH146_Armed: CUP_B_412_Military_Armed_HIL
@@ -692,6 +773,8 @@ class CfgVehicles
 
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_CH146_Transport: CUP_B_412_Mil_Transport_HIL
@@ -755,6 +838,8 @@ class CfgVehicles
 
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_CH146_dynamic: CUP_B_412_dynamicLoadout_HIL
@@ -818,6 +903,8 @@ class CfgVehicles
 
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_B_CH47F_USA;
@@ -901,6 +988,8 @@ class CfgVehicles
 
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_CH47: CUP_B_CH47F_USA
@@ -981,6 +1070,8 @@ class CfgVehicles
 
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_B_M2StaticMG_US;
@@ -1263,6 +1354,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_B_G_Mortar_01_F: B_G_Mortar_01_F
@@ -1274,6 +1366,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_CUP_B_D30_CDF: CUP_B_D30_CDF
@@ -1285,6 +1378,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_CUP_B_2b14_82mm_CDF: CUP_B_2b14_82mm_CDF
@@ -1296,6 +1390,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_CUP_B_M252_USMC: CUP_B_M252_USMC
@@ -1307,6 +1402,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_O_T55_CHDKZ;
@@ -1327,6 +1423,7 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };    
 
@@ -1346,6 +1443,7 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };    
 
@@ -1366,6 +1464,7 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };    
 
@@ -1423,6 +1522,7 @@ class CfgVehicles
 
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_UH1H_Armed: CUP_I_UH1H_Armed_RACS
@@ -1474,6 +1574,7 @@ class CfgVehicles
 
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_UH1H_Gunship: CUP_I_UH1H_gunship_RACS
@@ -1525,6 +1626,7 @@ class CfgVehicles
 
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_UH1H_slick: CUP_I_UH1H_Slick_RACS
@@ -1577,6 +1679,7 @@ class CfgVehicles
 
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_I_LR_AA_AAF;
@@ -1603,6 +1706,8 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };
 
@@ -1621,6 +1726,8 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };
 
@@ -1639,6 +1746,8 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };
 
@@ -1658,6 +1767,8 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };
 
@@ -1677,6 +1788,8 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };
 
@@ -1695,6 +1808,8 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };
 
@@ -1712,6 +1827,8 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };
 
@@ -1739,6 +1856,7 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
       textureList[] = {};
     };
     class UNIF_Faction_UN_M113: CUP_I_M113A3_UN
@@ -1750,6 +1868,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
     class UNIF_Faction_UN_M113reammo: CUP_I_M113A3_Reammo_UN
     {
@@ -1760,6 +1879,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
     class UNIF_Faction_UN_M113repair: CUP_I_M113A3_Repair_UN
     {
@@ -1770,6 +1890,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
     class UNIF_Faction_UN_M113HQ: CUP_I_M113A3_HQ_UN
     {
@@ -1780,6 +1901,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
     class UNIF_Faction_UN_M113MED: CUP_I_M113A3_Med_UN
     {
@@ -1790,6 +1912,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_B_Ural_ZU23_AFU;
@@ -1815,6 +1938,7 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_URALREAMMO: CUP_B_Ural_Reammo_AFU
@@ -1833,6 +1957,7 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_URALOPEN: CUP_B_Ural_Open_AFU
@@ -1851,6 +1976,7 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_URALEMPTY: CUP_B_Ural_Empty_AFU
@@ -1869,6 +1995,7 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_URALREFUEL: CUP_B_Ural_Refuel_AFU
@@ -1888,6 +2015,7 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_URALREPAIR: CUP_B_Ural_Repair_AFU
@@ -1906,6 +2034,7 @@ class CfgVehicles
       };
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_B_nM1097_AVENGER_NATO;
@@ -1961,6 +2090,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1025_M2: CUP_B_nM1025_M2_NATO_T
@@ -2001,6 +2131,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1025_M240: CUP_B_nM1025_M240_NATO_T
@@ -2041,6 +2172,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1025_Mk19: CUP_B_nM1025_Mk19_NATO_T
@@ -2081,6 +2213,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1036_TOW: CUP_B_nM1036_TOW_NATO
@@ -2121,6 +2254,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M997: CUP_B_nM997_NATO
@@ -2161,6 +2295,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1038: CUP_B_nM1038_NATO
@@ -2200,6 +2335,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1025_Unarmed: CUP_B_nM1025_Unarmed_NATO
@@ -2240,6 +2376,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1025_SOV_M2: CUP_B_nM1025_SOV_M2_NATO_T
@@ -2280,6 +2417,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1025_SOV_Mk19: CUP_B_nM1025_SOV_Mk19_NATO_T
@@ -2320,6 +2458,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1151_M2: CUP_B_nM1151_ogpk_m2_NATO
@@ -2360,6 +2499,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1151_M240: CUP_B_nM1151_ogpk_m240_NATO
@@ -2400,6 +2540,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1151_Mk19: CUP_B_nM1151_ogpk_mk19_NATO
@@ -2440,6 +2581,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_M1151_Unarmed: CUP_B_nM1151_Unarmed_NATO
@@ -2480,6 +2622,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
 	class CUP_B_C130J_USMC;
@@ -2500,6 +2643,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Parachute.hpp"
     };
     class UNIF_Faction_UN_c130_cargo: CUP_B_C130J_Cargo_USMC
     {
@@ -2516,6 +2660,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Parachute.hpp"
     };
 
 	class CUP_I_Mi24_Mk4_UN;
@@ -2531,6 +2676,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Mi24_Mk3_UN: CUP_I_Mi24_Mk3_UN
@@ -2542,6 +2688,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Mi24_Dynamic_UN: CUP_I_Mi24_D_Dynamic_UN
@@ -2553,6 +2700,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Vehicle.hpp"
     };
 
 
@@ -2568,6 +2716,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_Mi6T: CUP_I_MI6T_UN
@@ -2579,6 +2728,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Vehicle.hpp"
     };
 
 	class CUP_I_Mi17_UN;
@@ -2594,6 +2744,7 @@ class CfgVehicles
 	  side=1;
 	  crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
 	  typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+    #include "Inventory_Vehicle.hpp"
 	};
 
 	class UNIF_Faction_UN_Mi17_VIV: CUP_I_Mi17_VIV_UN
@@ -2605,6 +2756,7 @@ class CfgVehicles
 	  side=1;
 	  crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
 	  typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+    #include "Inventory_Vehicle.hpp"
 	};
 
 	class UNIF_Faction_UN_Mi8: CUP_O_Mi8_RU
@@ -2624,6 +2776,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Pilot_Helicopter"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_I_SUV_Armored_ION;
@@ -2644,6 +2797,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_SUV_m134: CUP_I_SUV_Armored_ION
@@ -2662,6 +2816,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_I_BRDM2_HQ_UN;
@@ -2676,6 +2831,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_BRDM2_HQ: CUP_I_BRDM2_HQ_UN
@@ -2687,6 +2843,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_I_BTR60_UN;
@@ -2704,6 +2861,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_BTR_80: CUP_I_BTR80_UN
@@ -2715,6 +2873,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_BTR_80A: CUP_I_BTR80A_UN
@@ -2726,6 +2885,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_BMP2: CUP_I_BMP2_UN
@@ -2737,6 +2897,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_BMP2K: CUP_I_BMP_HQ_UN
@@ -2748,6 +2909,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
 	class CUP_O_Tigr_M_233114_GREEN_PK_RU;
@@ -2776,6 +2938,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_TIGR_233114: CUP_O_Tigr_M_233114_GREEN_RU
@@ -2799,6 +2962,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_TIGR_233114_KORD: CUP_O_Tigr_M_233114_GREEN_KORD_RU
@@ -2822,7 +2986,9 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
+
 
     class UNIF_Faction_UN_TIGR_233114_PK: CUP_O_Tigr_M_233114_GREEN_PK_RU
     {
@@ -2845,6 +3011,7 @@ class CfgVehicles
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
 	class CUP_I_UAZ_SPG9_UN;
@@ -2870,6 +3037,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_UAZ_SPG9: CUP_I_UAZ_SPG9_UN
@@ -2887,6 +3055,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_UAZ_MG: CUP_I_UAZ_MG_UN
@@ -2904,6 +3073,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_UAZ_AGS: CUP_I_UAZ_AGS30_UN
@@ -2921,6 +3091,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_UAZ_Closed: CUP_I_UAZ_Unarmed_UN
@@ -2938,6 +3109,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_UAZ_AA: CUP_I_UAZ_AA_UN
@@ -2955,6 +3127,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class UNIF_Faction_UN_UAZ_METIS: CUP_O_UAZ_METIS_TKA
@@ -2972,6 +3145,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Rifleman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
     class CUP_O_ZSU23_CSAT;
@@ -2992,6 +3166,7 @@ class CfgVehicles
       textureList[] = {};
       crew="UNIF_UN_Faction_Soldier_Crewman";
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
     };
 
   	 //************************************************************************************************************************************************************************************************

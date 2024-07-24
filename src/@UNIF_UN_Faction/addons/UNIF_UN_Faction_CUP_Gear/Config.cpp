@@ -4,7 +4,9 @@ class CfgPatches
     { 
        units[] =  // UNITTS are added here so they show up on zeus
         {
-            
+            "UNIF_Faction_UN_Condor_Backpack_Black",
+            "UNIF_Faction_UN_Condor_Backpack_OD",
+            "UNIF_Faction_UN_Condor_Backpack_OGA",
         }; 
         weapons[] = 
         {
@@ -44,6 +46,14 @@ class CfgPatches
         	"UNIF_Vest_RAV_Breacher_UN",
         	"UNIF_Vest_RAV_MG_UN",
         	"UNIF_Vest_RAV_Light_UN",
+        	"UNIF_Vest_RAV_Operator_UN_OGA",
+        	"UNIF_Vest_RAV_Breacher_UN_OGA",
+        	"UNIF_Vest_RAV_MG_UN_OGA",
+        	"UNIF_Vest_RAV_Light_UN_OGA",
+        	"UNIF_Vest_RAV_Operator_UN_OD",
+        	"UNIF_Vest_RAV_Breacher_UN_OD",
+        	"UNIF_Vest_RAV_MG_UN_OD",
+        	"UNIF_Vest_RAV_Light_UN_OD",
         	"UNIF_UN_UniformItem_C_Uni_1",
         	"UNIF_UN_UniformItem_C_Uni_2",
         	"UNIF_Headgear_VSM_Mich2000_OGA",
@@ -83,9 +93,60 @@ class CfgVehicles
         };
     };
 
+
+
   	 //************************************************************************************************************************************************************************************************
-    //*****           Soldier  Units                *********************************************************************************************************************************************************
+    //*****           Bkacpacks                *********************************************************************************************************************************************************
     //************************************************************************************************************************************************************************************************
+    class B_Carryall_Base;
+    class UNIF_Faction_UN_Condor_Backpack_Black: B_Carryall_Base 
+    {
+        armor = 200;
+        mass = 90;
+        maximumLoad = 480;
+        author = "UNIF Mod Team";
+        scope = 2; 
+        displayName = "Condor Backpack (Black)"; 
+        model = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
+        picture = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = 
+        { 
+            "\UNIF_UN_Faction_CUP_Gear\textures\Condor\Black_Condor.paa"
+        };  
+    };
+    class UNIF_Faction_UN_Condor_Backpack_OD: B_Carryall_Base 
+    {
+        armor = 200;
+        mass = 90;
+        maximumLoad = 480;
+        author = "UNIF Mod Team";
+        scope = 2; 
+        displayName = "Condor Backpack (OD)"; 
+        model = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
+        picture = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = 
+        { 
+            "\UNIF_UN_Faction_CUP_Gear\textures\Condor\OD_Condor.paa"
+        };  
+    };
+    class UNIF_Faction_UN_Condor_Backpack_OGA: B_Carryall_Base 
+    {
+        armor = 200;
+        mass = 90;
+        maximumLoad = 480;
+        author = "UNIF Mod Team";
+        scope = 2; 
+        displayName = "Condor Backpack (OGA)"; 
+        model = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
+        picture = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = 
+        { 
+            "\UNIF_UN_Faction_CUP_Gear\textures\Condor\OGA_Condor.paa"
+        };  
+    };
 
     //************************************************************************************************************************************************************************************************
     //*****           Uniform  Units                *********************************************************************************************************************************************************
@@ -485,7 +546,7 @@ class cfgWeapons
 
     class UNIF_Vest_RAV_Operator_UN: CFP_RAV_operator_OGA
     {
-        displayName = "[UNIF] Paraclete RAV Operator (UN)";
+        displayName = "[UNIF] VSM Blue Paraclete RAV Operator (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
 
         hiddenSelectionsTextures[]=
@@ -503,7 +564,7 @@ class cfgWeapons
 
     class UNIF_Vest_RAV_MG_UN: CFP_RAV_MG_OGA
     {
-        displayName = "[UNIF] Paraclete RAV Gunner (UN)";
+        displayName = "[UNIF] VSM Blue Paraclete RAV Gunner (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
 
 		hiddenSelectionsTextures[]=
@@ -522,7 +583,7 @@ class cfgWeapons
 
     class UNIF_Vest_RAV_Breacher_UN: CFP_RAV_Breacher_OGA
     {
-        displayName = "[UNIF] Paraclete RAV Breacher (UN)";
+        displayName = "[UNIF] VSM Blue Paraclete RAV Breacher (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
 
         hiddenSelectionsTextures[]=
@@ -541,7 +602,7 @@ class cfgWeapons
 
     class UNIF_Vest_RAV_Light_UN: CFP_RAV_MG_OGA
     {
-        displayName = "[UNIF] Paraclete RAV Light (UN)";
+        displayName = "[UNIF] VSM Blue Paraclete RAV Light (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa"
 
         hiddenSelectionsTextures[]=
@@ -558,50 +619,296 @@ class cfgWeapons
 		};
 
         class ItemInfo: VestItem
+        {
+            uniformModel="\VSM_Vests\Spectergear_RAV\RAV_MG.p3d";
+            containerClass="Supply160";
+            mass=50;
+            passThrough=1;
+            hiddenSelections[]=
+            {
+                "_1961aPouches",
+                "_battleBelt",
+                "_boxmag",
+                "_DropHolster",
+                "_Serpa",
+                "_SOTGGear",
+                "_SOTGRadio",
+                "_vestBase",
+                "_VSMPouches"
+            };
+            class HitpointsProtectionInfo
+            {
+                class Chest
+                {
+                    HitpointName="HitChest";
+                    armor=25;
+                    PassThrough=0.30000001;
+                };
+                class Diaphragm
+                {
+                    HitpointName="HitDiaphragm";
+                    armor=25;
+                    PassThrough=0.30000001;
+                };
+                class Abdomen
+                {
+                    hitpointName="HitAbdomen";
+                    armor=25;
+                    passThrough=0.30000001;
+                };
+                class Body
+                {
+                    hitpointName="HitBody";
+                    passThrough=0.30000001;
+                };
+            };
+        };
+    };
+///OGA
+    class UNIF_Vest_RAV_Operator_UN_OGA: CFP_RAV_operator_OGA
+    {
+        displayName = "[UNIF] VSM OGA Paraclete RAV Operator (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+
+        hiddenSelectionsTextures[]=
 		{
-			uniformModel="\VSM_Vests\Spectergear_RAV\RAV_MG.p3d";
-			containerClass="Supply160";
-			mass=50;
-			passThrough=1;
-			hiddenSelections[]=
-			{
-				"_1961aPouches",
-				"_battleBelt",
-				"_boxmag",
-				"_DropHolster",
-				"_Serpa",
-				"_SOTGGear",
-				"_SOTGRadio",
-				"_vestBase",
-				"_VSMPouches"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName="HitChest";
-					armor=25;
-					PassThrough=0.30000001;
-				};
-				class Diaphragm
-				{
-					HitpointName="HitDiaphragm";
-					armor=25;
-					PassThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
+			"x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa"
 		};
+    };
+
+    class UNIF_Vest_RAV_MG_UN_OGA: CFP_RAV_MG_OGA
+    {
+        displayName = "[UNIF] VSM OGA Paraclete RAV Gunner (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_boxmag_OGA.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
+			"x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa"
+		};
+
+    };
+
+    class UNIF_Vest_RAV_Breacher_UN_OGA: CFP_RAV_Breacher_OGA
+    {
+        displayName = "[UNIF] VSM OGA Paraclete RAV Breacher (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+
+        hiddenSelectionsTextures[]=
+		{
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
+			"x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_buttpouch_OGA.paa"
+		};
+
+    };
+
+    class UNIF_Vest_RAV_Light_UN_OGA: CFP_RAV_MG_OGA
+    {
+        displayName = "[UNIF] VSM OGA Paraclete RAV Light (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa"
+
+        hiddenSelectionsTextures[]=
+		{
+			"",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+			"",
+			"x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
+			"x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+			""
+		};
+
+        class ItemInfo: VestItem
+        {
+            uniformModel="\VSM_Vests\Spectergear_RAV\RAV_MG.p3d";
+            containerClass="Supply160";
+            mass=50;
+            passThrough=1;
+            hiddenSelections[]=
+            {
+                "_1961aPouches",
+                "_battleBelt",
+                "_boxmag",
+                "_DropHolster",
+                "_Serpa",
+                "_SOTGGear",
+                "_SOTGRadio",
+                "_vestBase",
+                "_VSMPouches"
+            };
+            class HitpointsProtectionInfo
+            {
+                class Chest
+                {
+                    HitpointName="HitChest";
+                    armor=25;
+                    PassThrough=0.30000001;
+                };
+                class Diaphragm
+                {
+                    HitpointName="HitDiaphragm";
+                    armor=25;
+                    PassThrough=0.30000001;
+                };
+                class Abdomen
+                {
+                    hitpointName="HitAbdomen";
+                    armor=25;
+                    passThrough=0.30000001;
+                };
+                class Body
+                {
+                    hitpointName="HitBody";
+                    passThrough=0.30000001;
+                };
+            };
+        };
+    };
+    ///OD
+    class UNIF_Vest_RAV_Operator_UN_OD: CFP_RAV_operator_OGA
+    {
+        displayName = "[UNIF] VSM OD Paraclete RAV Operator (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+
+        hiddenSelectionsTextures[]=
+		{
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
+			"x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa"
+		};
+    };
+
+    class UNIF_Vest_RAV_MG_UN_OD: CFP_RAV_MG_OGA
+    {
+        displayName = "[UNIF] VSM OD Paraclete RAV Gunner (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_boxmag_OGA_OD.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
+			"x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa"
+		};
+
+    };
+
+    class UNIF_Vest_RAV_Breacher_UN_OD: CFP_RAV_Breacher_OGA
+    {
+        displayName = "[UNIF] VSM OD Paraclete RAV Breacher (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+
+        hiddenSelectionsTextures[]=
+		{
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
+			"x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_buttpouch_OGA_OD.paa"
+		};
+
+    };
+
+    class UNIF_Vest_RAV_Light_UN_OD: CFP_RAV_MG_OGA
+    {
+        displayName = "[UNIF] VSM OD Paraclete RAV Light (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa"
+
+        hiddenSelectionsTextures[]=
+		{
+			"",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+			"",
+			"x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
+			"x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+			""
+		};
+
+        class ItemInfo: VestItem
+        {
+            uniformModel="\VSM_Vests\Spectergear_RAV\RAV_MG.p3d";
+            containerClass="Supply160";
+            mass=50;
+            passThrough=1;
+            hiddenSelections[]=
+            {
+                "_1961aPouches",
+                "_battleBelt",
+                "_boxmag",
+                "_DropHolster",
+                "_Serpa",
+                "_SOTGGear",
+                "_SOTGRadio",
+                "_vestBase",
+                "_VSMPouches"
+            };
+            class HitpointsProtectionInfo
+            {
+                class Chest
+                {
+                    HitpointName="HitChest";
+                    armor=25;
+                    PassThrough=0.30000001;
+                };
+                class Diaphragm
+                {
+                    HitpointName="HitDiaphragm";
+                    armor=25;
+                    PassThrough=0.30000001;
+                };
+                class Abdomen
+                {
+                    hitpointName="HitAbdomen";
+                    armor=25;
+                    passThrough=0.30000001;
+                };
+                class Body
+                {
+                    hitpointName="HitBody";
+                    passThrough=0.30000001;
+                };
+            };
+        };
     };
 
     //************************************************************************************************************************************************************************************************

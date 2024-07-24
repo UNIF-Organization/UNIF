@@ -30,8 +30,26 @@ class cfgFactionClasses // Factions are made using this cfg
 //*****        Editor Category                  *********************************************************************************************************************************************************
 //************************************************************************************************************************************************************************************************
 
- class CfgEditorSubcategories
+class CfgEditorCategories
+{ 
+    class UNIF_Faction_edcat_props
+    {
+        displayname="[UNIF] United Nations Intervention Force";
+    };
+};
+
+class CfgEditorSubcategories
 {
+    class UNIF_Faction_edcat_props
+    {
+        displayname="[UNIF] United Nations Intervention Force";
+    };
+
+    class UNIF_Faction_edcat_ammo
+    {
+        displayname="Ammo";
+    };
+
     class UNIF_Faction_edcat_NATO_Men
     {
         displayname="Men (West)";

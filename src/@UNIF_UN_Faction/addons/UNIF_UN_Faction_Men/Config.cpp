@@ -78,8 +78,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="";
   };
 
@@ -96,8 +96,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="";
   };
 
@@ -114,8 +114,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="";
   };
 
@@ -132,8 +132,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","MRAWS_HE_F","MRAWS_HEAT55_F","MRAWS_HEAT_F"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","MRAWS_HE_F","MRAWS_HEAT55_F","MRAWS_HEAT_F"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_AT_Specialist_MAAWS_pack";
   };
 
@@ -150,8 +150,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","CUP_Javelin_M"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","CUP_Javelin_M"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_AT_Specialist_Javelin_pack";
   };
 
@@ -168,8 +168,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="";
   };
 
@@ -186,8 +186,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","Titan_AA","Titan_AA"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","Titan_AA","Titan_AA"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_AA_Specialist_Titan_pack";
   };
 
@@ -204,8 +204,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="";
   };
 
@@ -222,8 +222,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_Squad_Leader_pack";
   };
 
@@ -240,8 +240,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="";
   };
 
@@ -258,8 +258,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_Ammobearer_pack";
   };
 
@@ -276,8 +276,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black","ACE_surgicalKit","ACE_bloodIV","ACE_bloodIV","ACE_bloodIV","ACE_bloodIV","ACE_bloodIV_250","ACE_bloodIV_250","ACE_bloodIV_250","ACE_bloodIV_250","ACE_bloodIV_250","ACE_bloodIV_500","ACE_bloodIV_500","ACE_bloodIV_500","ACE_bloodIV_500","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","FirstAidKit","FirstAidKit","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","ACE_painkillers","ACE_painkillers","ACE_painkillers","ACE_painkillers","ACE_painkillers"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","ACE_painkillers","ACE_painkillers","ACE_painkillers","ACE_painkillers","ACE_painkillers"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_Combat_Life_Saver_pack";
   };
 
@@ -294,8 +294,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417"};
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417","CUP_20Rnd_762x51_HK417"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="";
   };
 
@@ -312,8 +312,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22"};
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="";
   };
 
@@ -330,8 +330,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","B_UavTerminal","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","B_UavTerminal","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","B_UavTerminal","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","B_UavTerminal","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_UAV_Operator_AR2_pack";
   };
 
@@ -348,8 +348,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black","ToolKit"};
     magazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_CVCHelmet","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_CVCHelmet","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_CVCHelmet","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_CVCHelmet","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_Crewman_pack";
   };
 
@@ -366,8 +366,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_Beret_1","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_Beret_1","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_Beret_1","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_Beret_1","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_Officer_pack";
   };
 
@@ -405,8 +405,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="";
   };
 
@@ -423,8 +423,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black","ToolKit"};
     magazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_SPH4Helmet2","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_SPH4Helmet2","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_SPH4Helmet2","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_SPH4Helmet2","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_Pilot_Helicopter_pack";
   };
 
@@ -441,8 +441,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ToolKit"};
     magazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","H_PilotHelmetFighter_B","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","H_PilotHelmetFighter_B","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","H_PilotHelmetFighter_B","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","H_PilotHelmetFighter_B","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_Pilot_Jet_pack";
   };
 
@@ -459,8 +459,8 @@ class CfgVehicles
     respawnItems[]={"ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black","ACE_EntrenchingTool","ACE_DefusalKit","ACE_M26_Clacker","MineDetector","ToolKit","ACE_wirecutter","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red","ace_marker_flags_red"};
     magazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","SatchelCharge_Remote_Mag"};
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","SatchelCharge_Remote_Mag"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_Engineer_pack";
   };
 
@@ -534,8 +534,8 @@ class CfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","Chemlight_green","Chemlight_green","Chemlight_green"};
     respawnMagazines[]={"SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","Chemlight_green","Chemlight_green","Chemlight_green"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Vest_RAV_Light_UN","G_AirPurifyingRespirator_01_nofilter_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Vest_RAV_Light_UN","G_AirPurifyingRespirator_01_nofilter_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Vest_RAV_Light_UN_OD","G_AirPurifyingRespirator_01_nofilter_F"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Vest_RAV_Light_UN_OD","G_AirPurifyingRespirator_01_nofilter_F"};
     backpack="UNIF_CBRN_Specialist_pack";
     editorSubcategory = "EdSubcat_Personnel_Story";
   };
