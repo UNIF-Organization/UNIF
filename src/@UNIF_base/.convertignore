@@ -4,6 +4,7 @@ key.json
 *.bisign
 *.wss
 *.sqf
+*.paa
 *.ogg
 texHeaders.bin
 mod.cpp
