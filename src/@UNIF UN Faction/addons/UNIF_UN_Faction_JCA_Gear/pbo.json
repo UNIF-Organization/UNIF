@@ -1,0 +1,14 @@
+{
+    "compress": {
+        "exclude": [
+        ],
+        "include": [
+        ]
+    },
+    "headers": [
+        {
+            "name": "prefix",
+            "value": "UNIF_UN_Faction_JCA_Gear"
+        }
+    ]
+}
