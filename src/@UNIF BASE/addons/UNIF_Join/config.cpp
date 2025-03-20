@@ -12,7 +12,7 @@ class CfgPatches
         
         }; 
         requiredVersion = 0.1; 
-        requiredAddons[] = {"A3_Characters_F",}; 
+        requiredAddons[] = {"A3_Characters_F"}; 
     }; 
 }; 
 
@@ -21,9 +21,11 @@ class CfgPatches
 //************************************************************************************************************************************************************************************************
 
 class RscStandardDisplay;
+class RscMainMenuSpotlight;
+
 class RscDisplayMain: RscStandardDisplay
 {
-    class Spotlight
+    class Spotlight: RscMainMenuSpotlight
     {
         class AwesomeServer
         {
