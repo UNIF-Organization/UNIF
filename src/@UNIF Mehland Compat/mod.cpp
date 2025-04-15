@@ -1,5 +1,5 @@
-name = "UNIF - Join Button Mehland Fix";
-description = "Small Fix to stop the Mehland mod from removing Main Menu Elements like our UNIF Server Join Button";
+name = "UNIF - Mehland Compat";
+description = "Fixes for Compatibility Issues between the UNIF and Mehland mods";
 actionName = "";
 action = "";
 logo = "unif_small.paa";
