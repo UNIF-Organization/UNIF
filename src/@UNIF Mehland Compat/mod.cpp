@@ -1,0 +1,11 @@
+name = "UNIF - Mehland Compat";
+description = "Fixes for Compatibility Issues between the UNIF and Mehland mods";
+actionName = "";
+action = "";
+logo = "unif_small.paa";
+logoOver = "unif_small.paa";
+tooltip = "";
+tooltipOwned = "";
+overview = "";
+author = "UNIF Mod Team";
+overviewPicture = "unif_small.paa";
