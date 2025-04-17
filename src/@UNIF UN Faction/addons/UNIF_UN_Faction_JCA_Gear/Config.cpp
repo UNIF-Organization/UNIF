@@ -78,7 +78,7 @@ class cfgWeapons
     class UNIF_UN_Faction_JCA_Gear_Vest_Holster: JCA_MCRP_V_CarrierRigKBT_01_holster_olive_F
     {
         displayName="[UNIF] Modular Carrier Holster";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
@@ -91,7 +91,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Combat Rig (Blue)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
@@ -103,7 +103,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Command Rig (Blue)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
@@ -116,7 +116,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Compact Vest (Blue)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
@@ -128,7 +128,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier CQB Rig (Blue)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
@@ -140,7 +140,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Crew Vest (Blue)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
@@ -152,7 +152,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Recon Rig (Blue)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
@@ -164,7 +164,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Tactical Rig (Blue)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
@@ -181,7 +181,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Combat Rig (OD)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OD.paa",
@@ -193,7 +193,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Command Rig (OD)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OD.paa",
@@ -206,7 +206,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Compact Vest (OD)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OD.paa",
@@ -218,7 +218,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier CQB Rig (OD)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OD.paa",
@@ -230,7 +230,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Crew Vest (OD)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OD.paa",
@@ -242,7 +242,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Recon Rig (OD)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OD.paa",
@@ -254,7 +254,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Tactical Rig (OD)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OD.paa",
@@ -271,7 +271,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Combat Rig (OGA)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OGA.paa",
@@ -283,7 +283,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Command Rig (OGA)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OGA.paa",
@@ -296,7 +296,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Compact Vest (OGA)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OGA.paa",
@@ -308,7 +308,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier CQB Rig (OGA)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OGA.paa",
@@ -320,7 +320,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Crew Vest (OGA)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OGA.paa",
@@ -332,7 +332,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Recon Rig (OGA)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OGA.paa",
@@ -344,7 +344,7 @@ class cfgWeapons
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Tactical Rig (OGA)";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.paa";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[]=
         {
             "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OGA.paa",

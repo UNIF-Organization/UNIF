@@ -68,7 +68,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Rifleman: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Rifleman.png";    
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Rifleman.jpg";    
     side=1;
     displayName="Rifleman";
     uniformClass="VSM_Scorpion_Crye_SS_Camo";
@@ -86,7 +86,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Rifleman_AT: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Rifleman_Light_AT.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Rifleman_Light_AT.jpg";
     side=1;
     displayName="Rifleman AT";
     uniformClass="VSM_Scorpion_Crye_Camo";
@@ -104,7 +104,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_AT_Specialist_MAAWS: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_AT_Specialist_MAAWS.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_AT_Specialist_MAAWS.jpg";
     side=1;
     displayName="AT Specialist (MAAWS)";
     uniformClass="VSM_Scorpion_Crye_Camo";
@@ -122,7 +122,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Radioman : B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Squad_Leader.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Squad_Leader.jpg";
     side=1;
     displayName="Radioman";
     uniformClass="VSM_Scorpion_Crye_SS_Camo";
@@ -140,7 +140,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_AA_Specialist_Stinger: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_AA_Specialist_Stinger.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_AA_Specialist_Stinger.jpg";
     side=1;
     displayName="AA Specialist (Stinger)";
     uniformClass="VSM_Scorpion_Crye_Camo";
@@ -158,7 +158,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Grenadier: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Grenadier.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Grenadier.jpg";
     side=1;
     displayName="Grenadier";
     uniformClass="VSM_Scorpion_Crye_Camo";
@@ -176,7 +176,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Squad_Leader: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Squad_Leader.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Squad_Leader.jpg";
     side=1;
     displayName="Squad Leader";
     uniformClass="VSM_Scorpion_Crye_SS_Camo";
@@ -194,7 +194,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Machinegunner: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Machinegunner.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Machinegunner.jpg";
     side=1;
     displayName="Machine Gunner";
     uniformClass="VSM_Scorpion_Crye_Camo";
@@ -211,7 +211,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Autorifleman : B_Survivor_F
   {
       faction = "UNIF_Faction_UNIF_UN_BLUFOR";
-      editorPreview = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Machinegunner.png";
+      editorPreview = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Machinegunner.jpg";
       side = 1;
       displayName = "Auto Rifleman";
       uniformClass = "VSM_Scorpion_Crye_Camo";
@@ -229,7 +229,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Ammobearer: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Ammobearer.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Ammobearer.jpg";
     side=1;
     displayName="Ammo Bearer";
     uniformClass="VSM_Scorpion_Crye_SS_Camo";
@@ -247,7 +247,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Medic: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Combat_Life_Saver.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Combat_Life_Saver.jpg";
     side=1;
     displayName="Medic";
     uniformClass="VSM_Scorpion_Crye_Tee_Camo";
@@ -265,7 +265,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Marksman: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Marksman.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Marksman.jpg";
     side=1;
     displayName="Marksman";
     uniformClass="VSM_Scorpion_Crye_Camo";
@@ -283,7 +283,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Sniper: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Sniper.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Sniper.jpg";
     side=1;
     displayName="Sniper";
     uniformClass="VSM_Scorpion_Crye_Tee_Camo";
@@ -301,7 +301,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_UAV_Operator_AR2: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_UAV_Operator_AR2.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_UAV_Operator_AR2.jpg";
     side=1;
     displayName="UAV Operator (AR2)";
     uniformClass="VSM_Scorpion_Crye_Camo";
@@ -319,7 +319,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Crewman: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Crewman.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Crewman.jpg";
     side=1;
     displayName="Crewman";
     uniformClass="VSM_Scorpion_Crye_Tee_Camo";
@@ -337,7 +337,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Officer: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Officer.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Officer.jpg";
     side=1;
     displayName="Officer";
     uniformClass="VSM_Scorpion_Crye_Camo";
@@ -355,7 +355,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Officer_Parade: I_E_Uniform_ParadeUniform_01_LDF_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Officer_Parade.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Officer_Parade.jpg";
     side=1;
     scope = 2;
     scopeCurator = 2;
@@ -376,7 +376,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_JTAC : B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Rifleman_Light.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Rifleman_Light.jpg";
     side=1;
     displayName="JTAC";
     uniformClass="VSM_Scorpion_Crye_Tee_Camo";
@@ -394,7 +394,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Pilot_Helicopter: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Pilot_Helicopter.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Pilot_Helicopter.jpg";
     side=1;
     displayName="Pilot (Helicopter)";
     uniformClass="VSM_Scorpion_Crye_SS_Camo";
@@ -412,7 +412,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Pilot_Jet: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Pilot_Jet.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Pilot_Jet.jpg";
     side=1;
     displayName="Pilot (Jet)";
     uniformClass="U_B_HeliPilotCoveralls";
@@ -430,7 +430,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Engineer: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Engineer.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Engineer.jpg";
     side=1;
     displayName="Engineer";
     uniformClass="VSM_Scorpion_Crye_Camo";
@@ -448,7 +448,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Humanitarian_Worker: B_Officer_Parade_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_Worker.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_Worker.jpg";
     side=1;
     displayName="Humanitarian (Worker)";
     uniformClass="UNIF_UN_UniformItem_C_Uni_1";
@@ -467,7 +467,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Humanitarian_Engineer: B_Officer_Parade_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_Engineer.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_Engineer.jpg";
     side=1;
     displayName="Humanitarian (Engineer)";
     uniformClass="UNIF_UN_UniformItem_C_Uni_2";
@@ -486,7 +486,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Humanitarian_EOD: B_Officer_Parade_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_EOD.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_EOD.jpg";
     side=1;
     displayName="Humanitarian (EOD)";
     uniformClass="UNIF_UN_UniformItem_C_Uni_1";
@@ -505,7 +505,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_CBRN_Specialist: B_W_Soldier_CBRN_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_CBRN_Specialist.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_CBRN_Specialist.jpg";
     side=1;
     displayName="CBRN Specialist";
     uniformClass="U_C_CBRN_Suit_01_Blue_F";
@@ -524,7 +524,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Humanitarian_Medic: B_Officer_Parade_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_Medic.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_Medic.jpg";
     side=1;
     displayName="Humanitarian (Medic)";
     uniformClass="UNIF_UN_UniformItem_C_Uni_1";
@@ -543,7 +543,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Humanitarian_Aid_Worker: B_Officer_Parade_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_Aid_Worker.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_Aid_Worker.jpg";
     side=1;
     displayName="Humanitarian (Aid Worker)";
     uniformClass="UNIF_UN_UniformItem_C_Uni_1";
@@ -562,7 +562,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Humanitarian_Paramedic: B_Officer_Parade_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_Paramedic.png";
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Humanitarian_Paramedic.jpg";
     side=1;
     displayName="Humanitarian (Paramedic)";
     uniformClass="U_C_Paramedic_01_F";

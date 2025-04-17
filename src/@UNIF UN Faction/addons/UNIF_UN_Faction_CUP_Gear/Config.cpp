@@ -191,7 +191,7 @@ class cfgWeapons
         scope = 2;
         scopeArsenal = 2; 
         displayName = "[UNIF] Humanitarian Clothes (UN/Khaki)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         class ItemInfo : UniformItem { 
             uniformModel="-";
             uniformClass = "UNIF_Faction_UN_C_Char_1";
@@ -204,7 +204,7 @@ class cfgWeapons
         scope = 2;
         scopeArsenal = 2; 
         displayName = "[UNIF] Humanitarian Clothes (UN/Jeans)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa"; 
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"; 
         class ItemInfo : UniformItem { 
             uniformModel="-";
             uniformClass = "UNIF_Faction_UN_C_Char_2";
@@ -224,13 +224,13 @@ class cfgWeapons
     class UNIF_Headgear_Beret_1: SP_Beret_UN1
     {
         displayName = "[UNIF] Beret (UN Patch)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class UNIF_Headgear_Beret_2: SP_Beret_UN2
     {
         displayName = "[UNIF] Beret (UN Logo)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class SP_BoonieHat_UN;
@@ -238,7 +238,7 @@ class cfgWeapons
     class UNIF_Headgear_BoonieHat: SP_BoonieHat_UN
     {
         displayName = "[UNIF] Boonie Hat (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class SP_CVCHelmet_UN;
@@ -246,7 +246,7 @@ class cfgWeapons
     class UNIF_Headgear_CVCHelmet: SP_CVCHelmet_UN
     {
         displayName = "[UNIF] CVC Helmet (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class SP_PatrolCap_UN;
@@ -254,7 +254,7 @@ class cfgWeapons
     class UNIF_Headgear_PatrolCap: SP_PatrolCap_UN
     {
         displayName = "[UNIF] Patrol Cap (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class SP_SPH4Helmet_UN1;
@@ -264,7 +264,7 @@ class cfgWeapons
     class UNIF_Headgear_SPH4Helmet1: SP_SPH4Helmet_UN1
     {
         displayName = "[UNIF] SPH4 Helmet Blue (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         ace_hearing_lowerVolume = 0.6;
         ace_hearing_protection = 0.85;
     };
@@ -272,7 +272,7 @@ class cfgWeapons
     class UNIF_Headgear_SPH4Helmet2: SP_SPH4Helmet_UN2
     {
         displayName = "[UNIF] SPH4 Helmet Mix (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         ace_hearing_lowerVolume = 0.6;
         ace_hearing_protection = 0.85;
     };
@@ -280,7 +280,7 @@ class cfgWeapons
     class UNIF_Headgear_SPH4Helmet3: SP_SPH4Helmet_UN3
     {
         displayName = "[UNIF] SPH4 Helmet White (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         ace_hearing_lowerVolume = 0.6;
         ace_hearing_protection = 0.85;
     };
@@ -292,19 +292,19 @@ class cfgWeapons
     class UNIF_Headgear_SSh68Helmet1: SP_SSh68Helmet_UN1
     {
         displayName = "[UNIF] SSh-60 (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class UNIF_Headgear_SSh68Helmet2: SP_SSh68NetHelmet_UN1
     {
         displayName = "[UNIF] SSh-60 Net (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class UNIF_Headgear_SSh68Helmet3: SP_SSh68CoverHelmet_UN1
     {
         displayName = "[UNIF] SSh-60 Cover (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class SP_M1Helmet_UN;
@@ -312,7 +312,7 @@ class cfgWeapons
     class UNIF_Headgear_M1Helmet: SP_M1Helmet_UN
     {
         displayName = "[UNIF] M1 Helmet (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class H_Cap_marshal;
@@ -323,7 +323,7 @@ class cfgWeapons
     class UNIF_Headgear_MarshallCap: H_Cap_marshal
     {
         displayName = "[UNIF] Cap w/DEF (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
@@ -333,7 +333,7 @@ class cfgWeapons
     class UNIF_Headgear_Cap: CUP_H_PMC_Cap_Grey
     {
         displayName = "[UNIF] Cap (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
@@ -343,7 +343,7 @@ class cfgWeapons
     class UNIF_Headgear_Cap_Back: CUP_H_PMC_Cap_Back_Grey
     {
         displayName = "[UNIF] Cap Backwards (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
@@ -353,7 +353,7 @@ class cfgWeapons
     class UNIF_Headgear_MarshallCap_Back: CUP_H_PMC_Cap_Back_EP_Grey
     {
         displayName = "[UNIF] Cap Backwards w/DEF (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
@@ -368,7 +368,7 @@ class cfgWeapons
     class UNIF_Headgear_Altyn: CUP_H_RUS_Altyn_black
     {
         displayName = "[UNIF] Altyn Combat Helmet (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
@@ -379,7 +379,7 @@ class cfgWeapons
     class UNIF_Headgear_Altyn_Goggles: CUP_H_RUS_Altyn_Goggles_black
     {
         displayName = "[UNIF] Altyn Combat Helmet w/Goggles (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
@@ -390,7 +390,7 @@ class cfgWeapons
     class UNIF_Headgear_Altyn_ShieldDown: CUP_H_RUS_Altyn_Shield_Down_black
     {
         displayName = "[UNIF] Altyn Combat Helmet Shield Down (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
@@ -401,7 +401,7 @@ class cfgWeapons
     class UNIF_Headgear_Altyn_ShieldUp: CUP_H_RUS_Altyn_Shield_Up_black
     {
         displayName = "[UNIF] Altyn Combat Helmet Shield Up (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
@@ -416,7 +416,7 @@ class cfgWeapons
     class UNIF_Headgear_6B47_Goggle_Up: CUP_H_RUS_6B47_NV_6M21_6B34U_Winter
     {
         displayName = "[UNIF] 6B47 Helmet w/Goggles Up (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\6b47\UN_6b47.paa",
@@ -428,7 +428,7 @@ class cfgWeapons
     class UNIF_Headgear_6B47_Goggle_Down: CUP_H_RUS_6B47_NV_6M21_6B34D_Winter
     {
         displayName = "[UNIF] 6B47 Helmet w/Goggles Down (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\6b47\UN_6b47.paa",
@@ -440,7 +440,7 @@ class cfgWeapons
     class UNIF_Headgear_6B47: CUP_H_RUS_6B47_NV_6M21_Winter
     {
         displayName = "[UNIF] 6B47 Helmet (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] = 
         {
         	"\UNIF_UN_Faction_CUP_Gear\textures\6b47\UN_6b47.paa",
@@ -454,13 +454,13 @@ class cfgWeapons
     class UNIF_Headgear_SP_M88Helmet_UN1: SP_M88Helmet_UN1
     {
         displayName = "[UNIF] M88 Helmet Cover (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class UNIF_Headgear_SP_M88Helmet_UN2: SP_M88Helmet_UN2
     {
         displayName = "[UNIF] M88 Helmet Cover w/Goggles (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class SP_M88PSMHelmet_UN1;
@@ -469,13 +469,13 @@ class cfgWeapons
     class UNIF_Headgear_SP_M88PSMHelmet_UN1: SP_M88PSMHelmet_UN1
     {
         displayName = "[UNIF] M88 Helmet (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class UNIF_Headgear_SP_M88PSMHelmet_UN2: SP_M88PSMHelmet_UN2
     {
         displayName = "[UNIF] M88 Helmet w/Goggles (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class SP_M96Helmet_UN1;
@@ -484,13 +484,13 @@ class cfgWeapons
     class UNIF_Headgear_SP_M96Helmet_UN1: SP_M96Helmet_UN1
     {
         displayName = "[UNIF] M96 Helmet Cover (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class UNIF_Headgear_SP_M96Helmet_UN2: SP_M96Helmet_UN2
     {
         displayName = "[UNIF] M96 Helmet Cover w/Goggles (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class SP_Mk7Helmet_UN1;
@@ -499,13 +499,13 @@ class cfgWeapons
     class UNIF_Headgear_SP_Mk7Helmet_UN1: SP_Mk7Helmet_UN1
     {
         displayName = "[UNIF] Mk7 Helmet Cover (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class UNIF_Headgear_SP_Mk7Helmet_UN2: SP_Mk7Helmet_UN2
     {
         displayName = "[UNIF] Mk7 Helmet Cover w/Goggles (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
     class VSM_Mich2000_OGA;
@@ -514,7 +514,7 @@ class cfgWeapons
     class UNIF_Headgear_VSM_Mich2000_OGA: VSM_Mich2000_OGA
     {
         displayName = "[UNIF] MICH 2000 (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[] = 
         {
@@ -526,7 +526,7 @@ class cfgWeapons
     class UNIF_Headgear_VSM_Mich2000_2_OGA: VSM_Mich2000_2_OGA
     {
         displayName = "[UNIF] MICH 2000 2 (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[] = 
         {
@@ -548,7 +548,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_Operator_UN: CFP_RAV_operator_OGA
     {
         displayName = "[UNIF] VSM Blue Paraclete RAV Operator (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
 		{
@@ -566,7 +566,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_MG_UN: CFP_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM Blue Paraclete RAV Gunner (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -585,7 +585,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_Breacher_UN: CFP_RAV_Breacher_OGA
     {
         displayName = "[UNIF] VSM Blue Paraclete RAV Breacher (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
 		{
@@ -604,7 +604,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_Light_UN: CFP_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM Blue Paraclete RAV Light (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa"
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"
 
         hiddenSelectionsTextures[]=
 		{
@@ -669,7 +669,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_Operator_UN_OGA: CFP_RAV_operator_OGA
     {
         displayName = "[UNIF] VSM OGA Paraclete RAV Operator (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
 		{
@@ -687,7 +687,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_MG_UN_OGA: CFP_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM OGA Paraclete RAV Gunner (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -707,7 +707,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_Breacher_UN_OGA: CFP_RAV_Breacher_OGA
     {
         displayName = "[UNIF] VSM OGA Paraclete RAV Breacher (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
 		{
@@ -727,7 +727,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_Light_UN_OGA: CFP_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM OGA Paraclete RAV Light (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa"
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"
 
         hiddenSelectionsTextures[]=
 		{
@@ -792,7 +792,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_Operator_UN_OD: CFP_RAV_operator_OGA
     {
         displayName = "[UNIF] VSM OD Paraclete RAV Operator (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
 		{
@@ -810,7 +810,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_MG_UN_OD: CFP_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM OD Paraclete RAV Gunner (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -830,7 +830,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_Breacher_UN_OD: CFP_RAV_Breacher_OGA
     {
         displayName = "[UNIF] VSM OD Paraclete RAV Breacher (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
 		{
@@ -850,7 +850,7 @@ class cfgWeapons
     class UNIF_Vest_RAV_Light_UN_OD: CFP_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM OD Paraclete RAV Light (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.paa"
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"
 
         hiddenSelectionsTextures[]=
 		{
