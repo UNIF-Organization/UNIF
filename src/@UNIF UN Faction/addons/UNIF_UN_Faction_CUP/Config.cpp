@@ -182,7 +182,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "EdSubcat_Planes";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_C47.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_C47.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -200,7 +200,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "EdSubcat_Planes";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_AC47.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_AC47.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -225,7 +225,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Vodnik_Unarmed.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Vodnik_Unarmed.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -245,7 +245,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Vodnik_PK.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Vodnik_PK.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -265,7 +265,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Vodnik_AGS.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Vodnik_AGS.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -285,7 +285,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Vodnik_BPPU.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Vodnik_BPPU.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -305,7 +305,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Vodnik_KPVT.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Vodnik_KPVT.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -329,7 +329,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_Tanks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Leopard_2A6.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Leopard_2A6.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -353,7 +353,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_Tanks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Leopard_1A3.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Leopard_1A3.png";
 
       displayName = "Leopard 1";
 
@@ -380,7 +380,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LAV25.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LAV25.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -401,7 +401,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LAV25_m240.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LAV25_m240.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -422,7 +422,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LAV25_HQ.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LAV25_HQ.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -446,7 +446,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Tanks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_T90M.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_T90M.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -469,7 +469,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Tanks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_T90MS.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_T90MS.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -499,7 +499,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_Mortar.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_Mortar.png";
 
       displayName = "M1129 MC MK19 CROWS";
 
@@ -524,7 +524,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_ATGM.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_ATGM.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -548,7 +548,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_MEV.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_MEV.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -570,7 +570,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_MGS.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_MGS.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -594,7 +594,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_Mk19.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_Mk19.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -620,7 +620,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_M2.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Stryker_M2.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -652,7 +652,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH146_Utility.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH146_Utility.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -717,7 +717,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH146_Armed.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH146_Armed.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -782,7 +782,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH146_Transport.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH146_Transport.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -847,7 +847,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH146_dynamic.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH146_dynamic.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -915,7 +915,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH47_VIV.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH47_VIV.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -997,7 +997,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH47.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CH47.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1091,7 +1091,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_CUP_B_MK19_TriPod_US.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_CUP_B_MK19_TriPod_US.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1102,7 +1102,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_RBS70_HIL.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_RBS70_HIL.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1113,7 +1113,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_Stinger_AA_pod_Base_USMC.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_Stinger_AA_pod_Base_USMC.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1124,7 +1124,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_TOW2_TriPod_USMC.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_TOW2_TriPod_USMC.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1135,7 +1135,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_ace_dragon_staticAssembled.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_ace_dragon_staticAssembled.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1146,7 +1146,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_L134A1_TriPod_BAF_DDPM.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_L134A1_TriPod_BAF_DDPM.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1157,7 +1157,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_SearchLight_static_BAF_DDPM.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_SearchLight_static_BAF_DDPM.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1168,7 +1168,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_B_G_HMG_02_high_F.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_B_G_HMG_02_high_F.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1179,7 +1179,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_B_G_HMG_02_F.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_B_G_HMG_02_F.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1190,7 +1190,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_M2StaticMG_US.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_M2StaticMG_US.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1201,7 +1201,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_M2StaticMG_MiniTripod_US.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_M2StaticMG_MiniTripod_US.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1223,7 +1223,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_SPG9_CDF.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_SPG9_CDF.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1234,7 +1234,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_ZU23_CDF.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_ZU23_CDF.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1245,7 +1245,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_O_KORD_high_RUS_M_Desert.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_O_KORD_high_RUS_M_Desert.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1256,7 +1256,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_O_KORD_RUS_M_Desert.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_O_KORD_RUS_M_Desert.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1267,7 +1267,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_SearchLight_static_BAF_DDPM_RUS.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_SearchLight_static_BAF_DDPM_RUS.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1278,7 +1278,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_DSHKM_CDF.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_DSHKM_CDF.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1289,7 +1289,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_DSHkM_MiniTriPod_CDF.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_DSHkM_MiniTriPod_CDF.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1300,7 +1300,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_Igla_AA_pod_CDF.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_Igla_AA_pod_CDF.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1311,7 +1311,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_O_Metis_RU.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_O_Metis_RU.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1322,7 +1322,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_O_Kornet_RU.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_O_Kornet_RU.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1333,7 +1333,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Turrets";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_AGS_CDF.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_AGS_CDF.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1350,7 +1350,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="EdSubcat_Artillery";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_M119_HIL.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_M119_HIL.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1362,7 +1362,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="EdSubcat_Artillery";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_B_G_Mortar_01_F.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_B_G_Mortar_01_F.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1374,7 +1374,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="EdSubcat_Artillery";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_D30_CDF.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_D30_CDF.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1386,7 +1386,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="EdSubcat_Artillery";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_2b14_82mm_CDF.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_2b14_82mm_CDF.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1398,7 +1398,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="EdSubcat_Artillery";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_M252_USMC.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_CUP_B_M252_USMC.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Rifleman";
@@ -1414,7 +1414,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Tanks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_T55.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_T55.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1432,7 +1432,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Tanks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_T72.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_T72.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1452,7 +1452,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Tanks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_T34.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_T34.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1478,7 +1478,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UH1H.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UH1H.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1530,7 +1530,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UH1H_Armed.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UH1H_Armed.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1582,7 +1582,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UH1H_Gunship.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UH1H_Gunship.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1634,7 +1634,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UH1H_slick.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UH1H_slick.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1695,7 +1695,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Anti_Air";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_AA.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_AA.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1716,7 +1716,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_Ambulance.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_Ambulance.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1736,7 +1736,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_MG.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_MG.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1756,7 +1756,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_SF_GMG.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_SF_GMG.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1777,7 +1777,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_SF_HMG.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_SF_HMG.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1798,7 +1798,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_Transport.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_Transport.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1818,7 +1818,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_SPG.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_LR_SPG.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1844,7 +1844,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Anti_Air";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M136A1VADS.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M136A1VADS.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1864,7 +1864,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M113.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M113.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -1875,7 +1875,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M113reammo.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M113reammo.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -1886,7 +1886,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M113repair.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M113repair.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -1897,7 +1897,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M113HQ.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M113HQ.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -1908,7 +1908,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M113MED.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M113MED.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -1927,7 +1927,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Anti_Air";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALZU23.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALZU23.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1946,7 +1946,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Trucks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALREAMMO.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALREAMMO.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1965,7 +1965,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Trucks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALOPEN.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALOPEN.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -1984,7 +1984,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Trucks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALEMPTY.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALEMPTY.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -2003,7 +2003,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Trucks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALREFUEL.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALREFUEL.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -2023,7 +2023,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Trucks";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALREPAIR.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_URALREPAIR.png";
 
       side=1;
       hiddenSelectionsTextures[]=
@@ -2057,7 +2057,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Anti_Air";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1097Avenger.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1097Avenger.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2098,7 +2098,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_M2.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_M2.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2139,7 +2139,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_M240.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_M240.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2180,7 +2180,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_Mk19.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_Mk19.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2221,7 +2221,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1036_TOW.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1036_TOW.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2262,7 +2262,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M997.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M997.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2303,7 +2303,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1038.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1038.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2343,7 +2343,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_Unarmed.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_Unarmed.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2384,7 +2384,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_SOV_M2.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_SOV_M2.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2425,7 +2425,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_SOV_Mk19.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1025_SOV_Mk19.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2466,7 +2466,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_MRAPs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1151_M2.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1151_M2.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2507,7 +2507,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_MRAPs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1151_M240.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1151_M240.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2548,7 +2548,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_MRAPs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1151_Mk19.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1151_Mk19.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2589,7 +2589,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_NATO_MRAPs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1151_Unarmed.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_M1151_Unarmed.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2633,7 +2633,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "EdSubcat_Planes";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_c130_transport.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_c130_transport.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2650,7 +2650,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "EdSubcat_Planes";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_c130_cargo.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_c130_cargo.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2672,7 +2672,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi24_Mk4_UN.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi24_Mk4_UN.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
@@ -2684,7 +2684,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi24_Mk3_UN.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi24_Mk3_UN.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
@@ -2696,7 +2696,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi24_Dynamic_UN.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi24_Dynamic_UN.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
@@ -2712,7 +2712,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi6A.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi6A.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
@@ -2724,7 +2724,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi6T.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi6T.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
@@ -2740,7 +2740,7 @@ class CfgVehicles
 	{
 	  faction="UNIF_Faction_UNIF_UN_BLUFOR";
 	  editorSubcategory = "UNIF_Faction_edcat_RUS_Helicopters";
-	  editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi17.jpg";
+	  editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi17.png";
 
 	  side=1;
 	  crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
@@ -2752,7 +2752,7 @@ class CfgVehicles
 	{
 	  faction="UNIF_Faction_UNIF_UN_BLUFOR";
 	  editorSubcategory = "UNIF_Faction_edcat_RUS_Helicopters";
-	  editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi17_VIV.jpg";
+	  editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi17_VIV.png";
 
 	  side=1;
 	  crew="UNIF_UN_Faction_Soldier_Pilot_Helicopter";
@@ -2764,7 +2764,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_Helicopters";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi8.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_Mi8.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2788,7 +2788,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "EdSubcat_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_SUV.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_SUV.png";
 
       side=1;
       hiddenSelectionsTextures[]= 
@@ -2805,7 +2805,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "EdSubcat_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_SUV_m134.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_SUV_m134.png";
 
       displayName = "SUV (M134)";
 
@@ -2827,7 +2827,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BRDM2.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BRDM2.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -2839,7 +2839,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BRDM2_HQ.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BRDM2_HQ.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -2857,7 +2857,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BTR_60.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BTR_60.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -2869,7 +2869,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BTR_80.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BTR_80.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -2881,7 +2881,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BTR_80A.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BTR_80A.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -2893,7 +2893,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BMP2.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BMP2.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -2905,7 +2905,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_APCs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BMP2K.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_BMP2K.png";
 
       side=1;
       crew="UNIF_UN_Faction_Soldier_Crewman";
@@ -2922,7 +2922,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_MRAPs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_TIGR_233011.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_TIGR_233011.png";
       textureList[] = {};
 
       hiddenSelectionsTextures[] = 
@@ -2946,7 +2946,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_MRAPs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_TIGR_233114.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_TIGR_233114.png";
       textureList[] = {};
 
       hiddenSelectionsTextures[] = 
@@ -2970,7 +2970,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_MRAPs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_TIGR_233114_KORD.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_TIGR_233114_KORD.png";
       textureList[] = {};
 
       hiddenSelectionsTextures[] = 
@@ -2995,7 +2995,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_RUS_MRAPs";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_TIGR_233114_PK.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_TIGR_233114_PK.png";
       textureList[] = {};
 
       hiddenSelectionsTextures[] = 
@@ -3027,7 +3027,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_Open.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_Open.png";
 
       side=1;
       hiddenSelectionsTextures[] = 
@@ -3045,7 +3045,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_SPG9.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_SPG9.png";
 
       side=1;
       hiddenSelectionsTextures[] = 
@@ -3063,7 +3063,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_MG.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_MG.png";
 
       side=1;
       hiddenSelectionsTextures[] = 
@@ -3081,7 +3081,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_AGS.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_AGS.png";
 
       side=1;
       hiddenSelectionsTextures[] = 
@@ -3099,7 +3099,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_Closed.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_Closed.png";
 
       side=1;
       hiddenSelectionsTextures[] = 
@@ -3117,7 +3117,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Anti_Air";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_AA.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_AA.png";
 
       side=1;
       hiddenSelectionsTextures[] = 
@@ -3135,7 +3135,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Cars";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_METIS.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_UAZ_METIS.png";
 
       side=1;
       hiddenSelectionsTextures[] = 
@@ -3155,7 +3155,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory="UNIF_Faction_edcat_RUS_Anti_Air";
-      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_ZSU234.jpg";
+      editorPreview  = "\UNIF_UN_Faction_CUP\UI\UNIF_Faction_UN_ZSU234.png";
 
       side=1;
       hiddenSelectionsTextures[]=
