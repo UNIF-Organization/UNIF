@@ -1,56 +1,56 @@
 #include "BIS_AddonInfo.hpp"
-class CfgPatches 
-{ 
-    class UNIF_UN_Faction_Men
-    { 
-       units[] =  // UNITTS are added here so they show up on zeus
-        {
-            "UNIF_UN_Faction_Soldier_Rifleman",
-          "UNIF_UN_Faction_Soldier_Rifleman_AT",
-          "UNIF_UN_Faction_Soldier_AT_Specialist_MAAWS",
-          "UNIF_UN_Faction_Soldier_Radioman",
-          "UNIF_UN_Faction_Soldier_AA_Specialist_Stinger",
-          "UNIF_UN_Faction_Soldier_Grenadier",
-          "UNIF_UN_Faction_Soldier_JTAC",
-          "UNIF_UN_Faction_Soldier_Squad_Leader",
-          "UNIF_UN_Faction_Soldier_Machinegunner",
-          "UNIF_UN_Faction_Soldier_Ammobearer",
-          "UNIF_UN_Faction_Soldier_Medic",
-          "UNIF_UN_Faction_Soldier_Marksman",
-          "UNIF_UN_Faction_Soldier_Sniper",
-          "UNIF_UN_Faction_Soldier_UAV_Operator_AR2",
-          "UNIF_UN_Faction_Soldier_Crewman",
-          "UNIF_UN_Faction_Soldier_Officer",
-          "UNIF_UN_Faction_Soldier_Officer_Parade",
-          "UNIF_UN_Faction_Soldier_Autorifleman",
-          "UNIF_UN_Faction_Soldier_Pilot_Helicopter",
-          "UNIF_UN_Faction_Soldier_Pilot_Jet",
-          "UNIF_UN_Faction_Soldier_Engineer",
-          "UNIF_UN_Faction_Soldier_Humanitarian_Worker",
-          "UNIF_UN_Faction_Soldier_Humanitarian_Engineer",
-          "UNIF_UN_Faction_Soldier_Humanitarian_EOD",
-          "UNIF_UN_Faction_Soldier_CBRN_Specialist",
-          "UNIF_UN_Faction_Soldier_Humanitarian_Medic",
-          "UNIF_UN_Faction_Soldier_Humanitarian_Aid_Worker",
-          "UNIF_UN_Faction_Soldier_Humanitarian_Paramedic"
-        }; 
-        weapons[] = 
-        {
-        	
-        }; 
-        magazines[]=
-        {
-        };
-        requiredVersion = 0.1; 
-        requiredAddons[] = {}; 
-    }; 
-}; 
+class CfgPatches
+{
+  class UNIF_UN_Faction_Men
+  {
+    units[] =  // UNITTS are added here so they show up on zeus
+    {
+      "UNIF_UN_Faction_Soldier_Rifleman",
+      "UNIF_UN_Faction_Soldier_Rifleman_AT",
+      "UNIF_UN_Faction_Soldier_AT_Specialist_MAAWS",
+      "UNIF_UN_Faction_Soldier_Radioman",
+      "UNIF_UN_Faction_Soldier_AA_Specialist_Stinger",
+      "UNIF_UN_Faction_Soldier_Grenadier",
+      "UNIF_UN_Faction_Soldier_JTAC",
+      "UNIF_UN_Faction_Soldier_Squad_Leader",
+      "UNIF_UN_Faction_Soldier_Machinegunner",
+      "UNIF_UN_Faction_Soldier_Ammobearer",
+      "UNIF_UN_Faction_Soldier_Medic",
+      "UNIF_UN_Faction_Soldier_Marksman",
+      "UNIF_UN_Faction_Soldier_Sniper",
+      "UNIF_UN_Faction_Soldier_UAV_Operator_AR2",
+      "UNIF_UN_Faction_Soldier_Crewman",
+      "UNIF_UN_Faction_Soldier_Officer",
+      "UNIF_UN_Faction_Soldier_Officer_Parade",
+      "UNIF_UN_Faction_Soldier_Autorifleman",
+      "UNIF_UN_Faction_Soldier_Pilot_Helicopter",
+      "UNIF_UN_Faction_Soldier_Pilot_Jet",
+      "UNIF_UN_Faction_Soldier_Engineer",
+      "UNIF_UN_Faction_Soldier_Humanitarian_Worker",
+      "UNIF_UN_Faction_Soldier_Humanitarian_Engineer",
+      "UNIF_UN_Faction_Soldier_Humanitarian_EOD",
+      "UNIF_UN_Faction_Soldier_CBRN_Specialist",
+      "UNIF_UN_Faction_Soldier_Humanitarian_Medic",
+      "UNIF_UN_Faction_Soldier_Humanitarian_Aid_Worker",
+      "UNIF_UN_Faction_Soldier_Humanitarian_Paramedic"
+    };
+    weapons[] =
+    {
+
+    };
+    magazines[]=
+    {
+    };
+    requiredVersion = 0.1;
+    requiredAddons[] = {};
+  };
+};
 ///UNIF_UN_Faction_Soldier_Rifleman
 ///UNIF_UN_Faction_Soldier_Crewman
 ///UNIF_UN_Faction_Soldier_Pilot_Jet
 ///UNIF_UN_Faction_Soldier_Pilot_Helicopter
-class CfgVehicles 
-{     
+class CfgVehicles
+{
   class B_Survivor_F;
   class VSM_OCP_carryall;
   class VSM_OCP_Backpack_Kitbag;
@@ -68,7 +68,7 @@ class CfgVehicles
   class UNIF_UN_Faction_Soldier_Rifleman: B_Survivor_F
   {
     faction="UNIF_Faction_UNIF_UN_BLUFOR";
-    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Rifleman.jpg";    
+    editorPreview  = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Rifleman.jpg";
     side=1;
     displayName="Rifleman";
     uniformClass="VSM_Scorpion_Crye_SS_Camo";
@@ -210,20 +210,20 @@ class CfgVehicles
   };
   class UNIF_UN_Faction_Soldier_Autorifleman : B_Survivor_F
   {
-      faction = "UNIF_Faction_UNIF_UN_BLUFOR";
-      editorPreview = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Machinegunner.jpg";
-      side = 1;
-      displayName = "Auto Rifleman";
-      uniformClass = "VSM_Scorpion_Crye_Camo";
-      weapons[] = { "CUP_lmg_m249_pip4","Binocular","Put","Throw" };
-      respawnWeapons[] = { "CUP_lmg_m249_pip4","Binocular","Put","Throw" };
-      items[] = { "ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black" };
-      respawnItems[] = { "ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black" };
-      magazines[] = { "ACE_painkillers","SmokeShell","SmokeShell","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249" };
-      respawnMagazines[] = { "ACE_painkillers","SmokeShell","SmokeShell","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249" };
-      linkedItems[] = { "ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD" };
-      respawnLinkedItems[] = { "ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD" };
-      backpack = "";
+    faction = "UNIF_Faction_UNIF_UN_BLUFOR";
+    editorPreview = "\UNIF_UN_Faction_Men\UI\UNIF_UN_Faction_Soldier_Machinegunner.jpg";
+    side = 1;
+    displayName = "Auto Rifleman";
+    uniformClass = "VSM_Scorpion_Crye_Camo";
+    weapons[] = { "CUP_lmg_m249_pip4","Binocular","Put","Throw" };
+    respawnWeapons[] = { "CUP_lmg_m249_pip4","Binocular","Put","Throw" };
+    items[] = { "ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black" };
+    respawnItems[] = { "ACE_EarPlugs","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_morphine","ACE_morphine","ACE_morphine","FirstAidKit","FirstAidKit","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_NVG_Gen4_Black" };
+    magazines[] = { "ACE_painkillers","SmokeShell","SmokeShell","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249" };
+    respawnMagazines[] = { "ACE_painkillers","SmokeShell","SmokeShell","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249" };
+    linkedItems[] = { "ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD" };
+    respawnLinkedItems[] = { "ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD" };
+    backpack = "";
   };
 
   class UNIF_UN_Faction_Soldier_Ammobearer: B_Survivor_F
@@ -331,7 +331,7 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_CVCHelmet","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_CVCHelmet","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Crewman_pack";
+    backpack="UNIF_Squad_Leader_pack";
   };
 
   class UNIF_UN_Faction_Soldier_Officer: B_Survivor_F
@@ -349,7 +349,7 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_Beret_1","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_Beret_1","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Officer_pack";
+    backpack="UNIF_Squad_Leader_pack";
   };
 
   class UNIF_UN_Faction_Soldier_Officer_Parade: I_E_Uniform_ParadeUniform_01_LDF_F
@@ -388,7 +388,7 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Pilot_Helicopter_pack";
+    backpack="UNIF_Squad_Leader_pack";
   };
 
   class UNIF_UN_Faction_Soldier_Pilot_Helicopter: B_Survivor_F
@@ -406,7 +406,7 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_SPH4Helmet2","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_SPH4Helmet2","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Pilot_Helicopter_pack";
+    backpack="UNIF_Squad_Leader_pack";
   };
 
   class UNIF_UN_Faction_Soldier_Pilot_Jet: B_Survivor_F
@@ -424,7 +424,7 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","H_PilotHelmetFighter_B","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","H_PilotHelmetFighter_B","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Pilot_Jet_pack";
+    backpack="UNIF_Squad_Leader_pack";
   };
 
   class UNIF_UN_Faction_Soldier_Engineer: B_Survivor_F
@@ -584,9 +584,9 @@ class CfgVehicles
     scope=1;
     class TransportMagazines
     {
-     class _xx_MRAWS_HE_F {count=1;magazine="MRAWS_HE_F";};
-     class _xx_MRAWS_HEAT55_F {count=1;magazine="MRAWS_HEAT55_F";};
-     class _xx_MRAWS_HEAT_F {count=1;magazine="MRAWS_HEAT_F";};
+      class _xx_MRAWS_HE_F {count=1;magazine="MRAWS_HE_F";};
+      class _xx_MRAWS_HEAT55_F {count=1;magazine="MRAWS_HEAT55_F";};
+      class _xx_MRAWS_HEAT_F {count=1;magazine="MRAWS_HEAT_F";};
     };
     class TransportItems{};
     class TransportWeapons{};
@@ -598,7 +598,7 @@ class CfgVehicles
     scope=1;
     class TransportMagazines
     {
-     class _xx_CUP_Javelin_M {count=1;magazine="CUP_Javelin_M";};
+      class _xx_CUP_Javelin_M {count=1;magazine="CUP_Javelin_M";};
     };
     class TransportItems{};
     class TransportWeapons{};
@@ -610,7 +610,7 @@ class CfgVehicles
     scope=1;
     class TransportMagazines
     {
-     class _xx_Titan_AA {count=2;magazine="Titan_AA";};
+      class _xx_Titan_AA {count=2;magazine="Titan_AA";};
     };
     class TransportItems{};
     class TransportWeapons{};
@@ -631,9 +631,9 @@ class CfgVehicles
     scope=1;
     class TransportMagazines
     {
-     class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249 {count=3;magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249";};
-     class _xx_CUP_30Rnd_556x45_Emag {count=15;magazine="CUP_30Rnd_556x45_Emag";};
-     class _xx_CUP_20Rnd_762x51_HK417 {count=6;magazine="CUP_20Rnd_762x51_HK417";};
+      class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249 {count=3;magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249";};
+      class _xx_CUP_30Rnd_556x45_Emag {count=15;magazine="CUP_30Rnd_556x45_Emag";};
+      class _xx_CUP_20Rnd_762x51_HK417 {count=6;magazine="CUP_20Rnd_762x51_HK417";};
     };
     class TransportItems{};
     class TransportWeapons{};
@@ -645,22 +645,22 @@ class CfgVehicles
     scope=1;
     class TransportMagazines
     {
-     class _xx_ACE_painkillers {count=5;magazine="ACE_painkillers";};
+      class _xx_ACE_painkillers {count=5;magazine="ACE_painkillers";};
     };
     class TransportItems
     {
-     class _xx_ACE_surgicalKit {count=1;name="ACE_surgicalKit";};
-     class _xx_ACE_bloodIV {count=4;name="ACE_bloodIV";};
-     class _xx_ACE_bloodIV_250 {count=5;name="ACE_bloodIV_250";};
-     class _xx_ACE_bloodIV_500 {count=4;name="ACE_bloodIV_500";};
-     class _xx_ACE_elasticBandage {count=30;name="ACE_elasticBandage";};
-     class _xx_ACE_packingBandage {count=30;name="ACE_packingBandage";};
-     class _xx_ACE_quikclot {count=30;name="ACE_quikclot";};
-     class _xx_ACE_epinephrine {count=10;name="ACE_epinephrine";};
-     class _xx_ACE_morphine {count=10;name="ACE_morphine";};
-     class _xx_ACE_splint {count=10;name="ACE_splint";};
-     class _xx_FirstAidKit {count=2;name="FirstAidKit";};
-     class _xx_ACE_tourniquet {count=5;name="ACE_tourniquet";};
+      class _xx_ACE_surgicalKit {count=1;name="ACE_surgicalKit";};
+      class _xx_ACE_bloodIV {count=4;name="ACE_bloodIV";};
+      class _xx_ACE_bloodIV_250 {count=5;name="ACE_bloodIV_250";};
+      class _xx_ACE_bloodIV_500 {count=4;name="ACE_bloodIV_500";};
+      class _xx_ACE_elasticBandage {count=30;name="ACE_elasticBandage";};
+      class _xx_ACE_packingBandage {count=30;name="ACE_packingBandage";};
+      class _xx_ACE_quikclot {count=30;name="ACE_quikclot";};
+      class _xx_ACE_epinephrine {count=10;name="ACE_epinephrine";};
+      class _xx_ACE_morphine {count=10;name="ACE_morphine";};
+      class _xx_ACE_splint {count=10;name="ACE_splint";};
+      class _xx_FirstAidKit {count=2;name="FirstAidKit";};
+      class _xx_ACE_tourniquet {count=5;name="ACE_tourniquet";};
     };
     class TransportWeapons{};
   };
@@ -675,59 +675,23 @@ class CfgVehicles
   };
 
 
-  class UNIF_Crewman_pack: FRXA_tf_rt1523g_big_Ranger_Green
-  {
-    scope=1;
-    class TransportMagazines{};
-    class TransportItems{};
-    class TransportWeapons{};
-  };
-
-
-  class UNIF_Officer_pack: FRXA_tf_rt1523g_big_Ranger_Green
-  {
-    scope=1;
-    class TransportMagazines{};
-    class TransportItems{};
-    class TransportWeapons{};
-  };
-
-
-  class UNIF_Pilot_Helicopter_pack: FRXA_tf_rt1523g_big_Ranger_Green
-  {
-    scope=1;
-    class TransportMagazines{};
-    class TransportItems{};
-    class TransportWeapons{};
-  };
-
-
-  class UNIF_Pilot_Jet_pack: FRXA_tf_rt1523g_big_Ranger_Green
-  {
-    scope=1;
-    class TransportMagazines{};
-    class TransportItems{};
-    class TransportWeapons{};
-  };
-
-
   class UNIF_Engineer_pack: VSM_OCP_Backpack_Kitbag
   {
     scope=1;
     class TransportMagazines
     {
-     class _xx_DemoCharge_Remote_Mag {count=2;magazine="DemoCharge_Remote_Mag";};
-     class _xx_SatchelCharge_Remote_Mag {count=1;magazine="SatchelCharge_Remote_Mag";};
+      class _xx_DemoCharge_Remote_Mag {count=2;magazine="DemoCharge_Remote_Mag";};
+      class _xx_SatchelCharge_Remote_Mag {count=1;magazine="SatchelCharge_Remote_Mag";};
     };
     class TransportItems
     {
-     class _xx_ACE_EntrenchingTool {count=1;name="ACE_EntrenchingTool";};
-     class _xx_ACE_DefusalKit {count=1;name="ACE_DefusalKit";};
-     class _xx_ACE_M26_Clacker {count=1;name="ACE_M26_Clacker";};
-     class _xx_MineDetector {count=1;name="MineDetector";};
-     class _xx_ToolKit {count=1;name="ToolKit";};
-     class _xx_ACE_wirecutter {count=1;name="ACE_wirecutter";};
-     class _xx_ace_marker_flags_red {count=15;name="ace_marker_flags_red";};
+      class _xx_ACE_EntrenchingTool {count=1;name="ACE_EntrenchingTool";};
+      class _xx_ACE_DefusalKit {count=1;name="ACE_DefusalKit";};
+      class _xx_ACE_M26_Clacker {count=1;name="ACE_M26_Clacker";};
+      class _xx_MineDetector {count=1;name="MineDetector";};
+      class _xx_ToolKit {count=1;name="ToolKit";};
+      class _xx_ACE_wirecutter {count=1;name="ACE_wirecutter";};
+      class _xx_ace_marker_flags_red {count=15;name="ace_marker_flags_red";};
     };
     class TransportWeapons{};
   };
@@ -739,7 +703,7 @@ class CfgVehicles
     class TransportMagazines{};
     class TransportItems
     {
-     class _xx_ToolKit {count=1;name="ToolKit";};
+      class _xx_ToolKit {count=1;name="ToolKit";};
     };
     class TransportWeapons{};
   };
@@ -750,14 +714,14 @@ class CfgVehicles
     scope=1;
     class TransportMagazines
     {
-     class _xx_acex_intelitems_notepad {count=1;magazine="acex_intelitems_notepad";};
+      class _xx_acex_intelitems_notepad {count=1;magazine="acex_intelitems_notepad";};
     };
     class TransportItems
     {
-     class _xx_ToolKit {count=1;name="ToolKit";};
-     class _xx_ACE_DefusalKit {count=1;name="ACE_DefusalKit";};
-     class _xx_ACE_wirecutter {count=1;name="ACE_wirecutter";};
-     class _xx_MineDetector {count=1;name="MineDetector";};
+      class _xx_ToolKit {count=1;name="ToolKit";};
+      class _xx_ACE_DefusalKit {count=1;name="ACE_DefusalKit";};
+      class _xx_ACE_wirecutter {count=1;name="ACE_wirecutter";};
+      class _xx_MineDetector {count=1;name="MineDetector";};
     };
     class TransportWeapons{};
   };
@@ -768,16 +732,16 @@ class CfgVehicles
     scope=1;
     class TransportMagazines
     {
-     class _xx_acex_intelitems_notepad {count=1;magazine="acex_intelitems_notepad";};
+      class _xx_acex_intelitems_notepad {count=1;magazine="acex_intelitems_notepad";};
     };
     class TransportItems
     {
-     class _xx_ToolKit {count=1;name="ToolKit";};
-     class _xx_ACE_wirecutter {count=1;name="ACE_wirecutter";};
-     class _xx_ACE_EntrenchingTool {count=1;name="ACE_EntrenchingTool";};
-     class _xx_ACE_DefusalKit {count=1;name="ACE_DefusalKit";};
-     class _xx_ACE_M26_Clacker {count=1;name="ACE_M26_Clacker";};
-     class _xx_ACE_MapTools {count=1;name="ACE_MapTools";};
+      class _xx_ToolKit {count=1;name="ToolKit";};
+      class _xx_ACE_wirecutter {count=1;name="ACE_wirecutter";};
+      class _xx_ACE_EntrenchingTool {count=1;name="ACE_EntrenchingTool";};
+      class _xx_ACE_DefusalKit {count=1;name="ACE_DefusalKit";};
+      class _xx_ACE_M26_Clacker {count=1;name="ACE_M26_Clacker";};
+      class _xx_ACE_MapTools {count=1;name="ACE_MapTools";};
     };
     class TransportWeapons{};
   };
@@ -797,22 +761,22 @@ class CfgVehicles
     scope=1;
     class TransportMagazines
     {
-     class _xx_ACE_painkillers {count=5;magazine="ACE_painkillers";};
+      class _xx_ACE_painkillers {count=5;magazine="ACE_painkillers";};
     };
     class TransportItems
     {
-     class _xx_ACE_surgicalKit {count=1;name="ACE_surgicalKit";};
-     class _xx_ACE_tourniquet {count=10;name="ACE_tourniquet";};
-     class _xx_ACE_bloodIV {count=4;name="ACE_bloodIV";};
-     class _xx_ACE_bloodIV_250 {count=4;name="ACE_bloodIV_250";};
-     class _xx_ACE_bloodIV_500 {count=5;name="ACE_bloodIV_500";};
-     class _xx_ACE_elasticBandage {count=30;name="ACE_elasticBandage";};
-     class _xx_ACE_packingBandage {count=30;name="ACE_packingBandage";};
-     class _xx_ACE_quikclot {count=30;name="ACE_quikclot";};
-     class _xx_ACE_morphine {count=10;name="ACE_morphine";};
-     class _xx_ACE_epinephrine {count=10;name="ACE_epinephrine";};
-     class _xx_ACE_splint {count=10;name="ACE_splint";};
-     class _xx_ACE_bodyBag_blue {count=10;name="ACE_bodyBag_blue";};
+      class _xx_ACE_surgicalKit {count=1;name="ACE_surgicalKit";};
+      class _xx_ACE_tourniquet {count=10;name="ACE_tourniquet";};
+      class _xx_ACE_bloodIV {count=4;name="ACE_bloodIV";};
+      class _xx_ACE_bloodIV_250 {count=4;name="ACE_bloodIV_250";};
+      class _xx_ACE_bloodIV_500 {count=5;name="ACE_bloodIV_500";};
+      class _xx_ACE_elasticBandage {count=30;name="ACE_elasticBandage";};
+      class _xx_ACE_packingBandage {count=30;name="ACE_packingBandage";};
+      class _xx_ACE_quikclot {count=30;name="ACE_quikclot";};
+      class _xx_ACE_morphine {count=10;name="ACE_morphine";};
+      class _xx_ACE_epinephrine {count=10;name="ACE_epinephrine";};
+      class _xx_ACE_splint {count=10;name="ACE_splint";};
+      class _xx_ACE_bodyBag_blue {count=10;name="ACE_bodyBag_blue";};
     };
     class TransportWeapons{};
   };
@@ -824,7 +788,7 @@ class CfgVehicles
     class TransportMagazines{};
     class TransportItems
     {
-     class _xx_ToolKit {count=1;name="ToolKit";};
+      class _xx_ToolKit {count=1;name="ToolKit";};
     };
     class TransportWeapons{};
   };
@@ -835,34 +799,34 @@ class CfgVehicles
     scope=1;
     class TransportMagazines
     {
-     class _xx_ACE_painkillers {count=5;magazine="ACE_painkillers";};
+      class _xx_ACE_painkillers {count=5;magazine="ACE_painkillers";};
     };
     class TransportItems
     {
-     class _xx_ACE_surgicalKit {count=1;name="ACE_surgicalKit";};
-     class _xx_ACE_tourniquet {count=10;name="ACE_tourniquet";};
-     class _xx_ACE_bloodIV {count=4;name="ACE_bloodIV";};
-     class _xx_ACE_bloodIV_250 {count=4;name="ACE_bloodIV_250";};
-     class _xx_ACE_bloodIV_500 {count=5;name="ACE_bloodIV_500";};
-     class _xx_ACE_elasticBandage {count=30;name="ACE_elasticBandage";};
-     class _xx_ACE_packingBandage {count=30;name="ACE_packingBandage";};
-     class _xx_ACE_quikclot {count=30;name="ACE_quikclot";};
-     class _xx_ACE_morphine {count=10;name="ACE_morphine";};
-     class _xx_ACE_epinephrine {count=10;name="ACE_epinephrine";};
-     class _xx_ACE_splint {count=10;name="ACE_splint";};
-     class _xx_ACE_bodyBag_blue {count=10;name="ACE_bodyBag_blue";};
+      class _xx_ACE_surgicalKit {count=1;name="ACE_surgicalKit";};
+      class _xx_ACE_tourniquet {count=10;name="ACE_tourniquet";};
+      class _xx_ACE_bloodIV {count=4;name="ACE_bloodIV";};
+      class _xx_ACE_bloodIV_250 {count=4;name="ACE_bloodIV_250";};
+      class _xx_ACE_bloodIV_500 {count=5;name="ACE_bloodIV_500";};
+      class _xx_ACE_elasticBandage {count=30;name="ACE_elasticBandage";};
+      class _xx_ACE_packingBandage {count=30;name="ACE_packingBandage";};
+      class _xx_ACE_quikclot {count=30;name="ACE_quikclot";};
+      class _xx_ACE_morphine {count=10;name="ACE_morphine";};
+      class _xx_ACE_epinephrine {count=10;name="ACE_epinephrine";};
+      class _xx_ACE_splint {count=10;name="ACE_splint";};
+      class _xx_ACE_bodyBag_blue {count=10;name="ACE_bodyBag_blue";};
     };
     class TransportWeapons{};
   };
 };
-    
 
-  //************************************************************************************************************************************************************************************************
-  //*****             Groups               *********************************************************************************************************************************************************
-  //************************************************************************************************************************************************************************************************
+
+//************************************************************************************************************************************************************************************************
+//*****             Groups               *********************************************************************************************************************************************************
+//************************************************************************************************************************************************************************************************
 
 class cfgGroups
-{  
+{
   class WEST
   {
     name="BLUFOR";
@@ -896,10 +860,10 @@ class cfgGroups
           };
           class Unit2
           {
-              side = 1;
-              vehicle = "UNIF_UN_Faction_Soldier_Crewman";
-              rank = "PRIVATE";
-              position[] = { 0,-10,0 };
+            side = 1;
+            vehicle = "UNIF_UN_Faction_Soldier_Crewman";
+            rank = "PRIVATE";
+            position[] = { 0,-10,0 };
           };
         };
         class UNIF_UN_Faction_Men_Groups_B_Rifle_Squad
