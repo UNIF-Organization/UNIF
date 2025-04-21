@@ -64,18 +64,18 @@ class cfgWeapons
     //*****            Uniforms              *****************************************************************************************************************************************************
     //********************************************************************************************************************************************************************************************
 
-    class JCA_MCRP_V_CarrierRigKBT_01_combat_olive_F;
-    class JCA_MCRP_V_CarrierRigKBT_01_command_olive_F;
-    class JCA_MCRP_V_CarrierRigKBT_01_compact_olive_F;
-    class JCA_MCRP_V_CarrierRigKBT_01_CQB_olive_F;
-    class JCA_MCRP_V_CarrierRigKBT_01_crew_olive_F;
-    class JCA_MCRP_V_CarrierRigKBT_01_holster_olive_F;
-    class JCA_MCRP_V_CarrierRigKBT_01_recon_olive_F;
-    class JCA_MCRP_V_CarrierRigKBT_01_tactical_olive_F;
+    class JCA_V_CarrierRigKBT_01_combat_olive_F;
+    class JCA_V_CarrierRigKBT_01_command_olive_F;
+    class JCA_V_CarrierRigKBT_01_compact_olive_F;
+    class JCA_V_CarrierRigKBT_01_CQB_olive_F;
+    class JCA_V_CarrierRigKBT_01_crew_olive_F;
+    class JCA_V_CarrierRigKBT_01_holster_olive_F;
+    class JCA_V_CarrierRigKBT_01_recon_olive_F;
+    class JCA_V_CarrierRigKBT_01_tactical_olive_F;
 
     //// Holster
 
-    class UNIF_UN_Faction_JCA_Gear_Vest_Holster: JCA_MCRP_V_CarrierRigKBT_01_holster_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_Holster: JCA_V_CarrierRigKBT_01_holster_olive_F
     {
         displayName="[UNIF] Modular Carrier Holster";
         picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
@@ -87,7 +87,7 @@ class cfgWeapons
 
     //// Blue
 
-    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Combat: JCA_MCRP_V_CarrierRigKBT_01_combat_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Combat: JCA_V_CarrierRigKBT_01_combat_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Combat Rig (Blue)";
@@ -99,7 +99,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Command: JCA_MCRP_V_CarrierRigKBT_01_command_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Command: JCA_V_CarrierRigKBT_01_command_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Command Rig (Blue)";
@@ -112,7 +112,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Compact: JCA_MCRP_V_CarrierRigKBT_01_compact_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Compact: JCA_V_CarrierRigKBT_01_compact_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Compact Vest (Blue)";
@@ -124,7 +124,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_CQB: JCA_MCRP_V_CarrierRigKBT_01_CQB_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_CQB: JCA_V_CarrierRigKBT_01_CQB_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier CQB Rig (Blue)";
@@ -136,7 +136,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Crew: JCA_MCRP_V_CarrierRigKBT_01_crew_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Crew: JCA_V_CarrierRigKBT_01_crew_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Crew Vest (Blue)";
@@ -148,7 +148,7 @@ class cfgWeapons
         };
     };
     
-    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Recon: JCA_MCRP_V_CarrierRigKBT_01_recon_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Recon: JCA_V_CarrierRigKBT_01_recon_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Recon Rig (Blue)";
@@ -160,7 +160,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Tactical: JCA_MCRP_V_CarrierRigKBT_01_tactical_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Tactical: JCA_V_CarrierRigKBT_01_tactical_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Tactical Rig (Blue)";
@@ -177,7 +177,7 @@ class cfgWeapons
 
     //// OD
 
-    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Combat: JCA_MCRP_V_CarrierRigKBT_01_combat_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Combat: JCA_V_CarrierRigKBT_01_combat_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Combat Rig (OD)";
@@ -189,7 +189,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Command: JCA_MCRP_V_CarrierRigKBT_01_command_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Command: JCA_V_CarrierRigKBT_01_command_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Command Rig (OD)";
@@ -202,7 +202,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Compact: JCA_MCRP_V_CarrierRigKBT_01_compact_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Compact: JCA_V_CarrierRigKBT_01_compact_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Compact Vest (OD)";
@@ -214,7 +214,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_OD_CQB: JCA_MCRP_V_CarrierRigKBT_01_CQB_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OD_CQB: JCA_V_CarrierRigKBT_01_CQB_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier CQB Rig (OD)";
@@ -226,7 +226,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Crew: JCA_MCRP_V_CarrierRigKBT_01_crew_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Crew: JCA_V_CarrierRigKBT_01_crew_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Crew Vest (OD)";
@@ -238,7 +238,7 @@ class cfgWeapons
         };
     };
     
-    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Recon: JCA_MCRP_V_CarrierRigKBT_01_recon_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Recon: JCA_V_CarrierRigKBT_01_recon_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Recon Rig (OD)";
@@ -250,7 +250,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Tactical: JCA_MCRP_V_CarrierRigKBT_01_tactical_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Tactical: JCA_V_CarrierRigKBT_01_tactical_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Tactical Rig (OD)";
@@ -267,7 +267,7 @@ class cfgWeapons
 
     //// OGA
 
-    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Combat: JCA_MCRP_V_CarrierRigKBT_01_combat_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Combat: JCA_V_CarrierRigKBT_01_combat_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Combat Rig (OGA)";
@@ -279,7 +279,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Command: JCA_MCRP_V_CarrierRigKBT_01_command_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Command: JCA_V_CarrierRigKBT_01_command_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Command Rig (OGA)";
@@ -292,7 +292,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Compact: JCA_MCRP_V_CarrierRigKBT_01_compact_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Compact: JCA_V_CarrierRigKBT_01_compact_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Compact Vest (OGA)";
@@ -304,7 +304,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_CQB: JCA_MCRP_V_CarrierRigKBT_01_CQB_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_CQB: JCA_V_CarrierRigKBT_01_CQB_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier CQB Rig (OGA)";
@@ -316,7 +316,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Crew: JCA_MCRP_V_CarrierRigKBT_01_crew_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Crew: JCA_V_CarrierRigKBT_01_crew_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Crew Vest (OGA)";
@@ -328,7 +328,7 @@ class cfgWeapons
         };
     };
     
-    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Recon: JCA_MCRP_V_CarrierRigKBT_01_recon_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Recon: JCA_V_CarrierRigKBT_01_recon_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Recon Rig (OGA)";
@@ -340,7 +340,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
-    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Tactical: JCA_MCRP_V_CarrierRigKBT_01_tactical_olive_F
+    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Tactical: JCA_V_CarrierRigKBT_01_tactical_olive_F
     {
         scope=2;
         displayName="[UNIF] Modular Carrier Tactical Rig (OGA)";
