@@ -1,4 +1,3 @@
-#include "BIS_AddonInfo.hpp"
 class CfgPatches 
 { 
     class UNIF_UN_Faction_CUP_Gear
