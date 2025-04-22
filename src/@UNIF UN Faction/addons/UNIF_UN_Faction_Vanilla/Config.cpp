@@ -39,6 +39,8 @@ class CfgPatches
           "UNIF_Faction_UN_Jeep_LMG",
           "UNIF_Faction_UN_Jeep_AT",
 
+          "UNIF_Faction_UN_Nemmera",
+
           "UNIF_UN_Faction_Vanilla_Obj_Flag_UN",
           "UNIF_UN_Faction_Vanilla_Obj_Flag_Text",
           "UNIF_UN_Faction_Vanilla_Obj_Banner_UN",
@@ -903,6 +905,29 @@ class CfgVehicles
       typicalCargo[]={"UNIF_UN_Faction_Soldier_Rifleman"};
       #include "Inventory_Vehicle.hpp"
     };
+
+    class B_APC_Tracked_01_CRV_F;
+
+    class UNIF_Faction_UN_Nemmera:  B_APC_Tracked_01_CRV_F
+    {
+      faction="UNIF_Faction_UNIF_UN_BLUFOR";
+      editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
+      editorPreview  = "\UNIF_UN_Faction_Vanilla\UI\UNIF_Faction_UN_Offroad_Repair.jpg";
+
+      side=1;
+      hiddenSelectionsTextures[]=
+      {
+        "\UNIF_UN_Faction_Vanilla\textures\nemmera\UNIF_Nemmera_White.paa",
+        "\UNIF_UN_Faction_Vanilla\textures\nemmera\UNIF_Nemmera_White_1.paa",
+        "\UNIF_UN_Faction_Vanilla\textures\nemmera\UNIF_Nemmera_White_2.paa",
+        "\UNIF_UN_Faction_Vanilla\textures\nemmera\UNIF_Nemmera_White_3.paa",
+      };
+      textureList[] = {};
+      crew="UNIF_UN_Faction_Soldier_Crewman";
+      typicalCargo[]={"UNIF_UN_Faction_Soldier_Crewman"};
+      #include "Inventory_Vehicle.hpp"
+    };
+
 
   	 //************************************************************************************************************************************************************************************************
     //*****           Soldier  Units                *********************************************************************************************************************************************************
