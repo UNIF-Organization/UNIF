@@ -912,7 +912,7 @@ class CfgVehicles
     {
       faction="UNIF_Faction_UNIF_UN_BLUFOR";
       editorSubcategory = "UNIF_Faction_edcat_NATO_APCs";
-      editorPreview  = "\UNIF_UN_Faction_Vanilla\UI\UNIF_Faction_UN_Offroad_Repair.jpg";
+      editorPreview  = "\UNIF_UN_Faction_Vanilla\UI\UNIF_Faction_UN_Nemmera.jpg";
 
       side=1;
       hiddenSelectionsTextures[]=
