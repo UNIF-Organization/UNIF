@@ -2,7 +2,7 @@ class CfgPatches
 { 
     class UNIF_Join
     { 
-       units[] = 
+        units[] = 
         {
             
         }; 
@@ -11,7 +11,7 @@ class CfgPatches
         
         }; 
         requiredVersion = 0.1; 
-        requiredAddons[] = {"A3_Characters_F"}; 
+        requiredAddons[] = {"A3_Ui_F"}; 
     }; 
 }; 
 
@@ -19,8 +19,8 @@ class CfgPatches
 //*****        Server                  *********************************************************************************************************************************************************
 //************************************************************************************************************************************************************************************************
 
-class RscStandardDisplay;
-class RscMainMenuSpotlight;
+class RscStandardDisplay; // ui_f.pbo
+class RscMainMenuSpotlight; // ui_f.pbo
 
 class RscDisplayMain: RscStandardDisplay
 {

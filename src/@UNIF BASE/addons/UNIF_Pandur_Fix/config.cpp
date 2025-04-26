@@ -58,7 +58,7 @@ class CfgFactionClasses
 		priority=0;
 	};
 };
-class DefaultEventHandlers;
+class DefaultEventHandlers; // probably arma inbuilt
 class WeaponFireGun;
 class WeaponCloudsGun;
 class WeaponFireMGun;
