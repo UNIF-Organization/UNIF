@@ -1,0 +1,12 @@
+pbo.json
+key.json
+*.bikey
+*.bisign
+*.wss
+*.sqf
+*.paa
+*.ogg
+texHeaders.bin
+mod.cpp
+meta.cpp
+*.hpp
