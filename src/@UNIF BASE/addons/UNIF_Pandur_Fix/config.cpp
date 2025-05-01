@@ -23,6 +23,8 @@ class CfgPatches
 		};
 		requiredAddons[]=
 		{
+			"A3_Weapons_F"
+			"A3_Weapons_F_Acc"
 			"A3_Data_F",
 			"A3_Air_F",
 			"A3_Armor_F",
@@ -59,28 +61,28 @@ class CfgFactionClasses
 	};
 };
 class DefaultEventHandlers; // probably arma inbuilt
-class WeaponFireGun;
-class WeaponCloudsGun;
-class WeaponFireMGun;
-class WeaponCloudsMGun;
-class RCWSOptics;
-class Optics_Armored;
+class WeaponFireGun; // Arma 3 Dta bin.pbo
+class WeaponCloudsGun; // Arma 3 Dta bin.pbo
+class WeaponFireMGun; // Arma 3 Dta bin.pbo
+class WeaponCloudsMGun; // Arma 3 Dta bin.pbo
+class RCWSOptics; // A3_Weapons_F_Acc
+class Optics_Armored; // A3_Weapons_F
 class Optics_Commander_02: Optics_Armored
 {
-	class Wide;
-	class Medium;
-	class Narrow;
+	class Wide; // A3_Weapons_F
+	class Medium; // A3_Weapons_F
+	class Narrow; // A3_Weapons_F
 };
 class Optics_Gunner_APC_03: Optics_Armored
 {
-	class Wide;
-	class Medium;
-	class Narrow;
+	class Wide; // A3_Weapons_F
+	class Medium; // A3_Weapons_F
+	class Narrow; // A3_Weapons_F
 };
 class CfgVehicles
 {
-	class Car;
-	class Car_F: Car
+	class Car; // Arma 3 Dta bin.pbo
+	class Car_F: Car // A3_Soft_F
 	{
 		class NewTurret;
 		class Sounds;
