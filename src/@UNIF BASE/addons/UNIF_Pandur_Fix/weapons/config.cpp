@@ -34,8 +34,8 @@ class CfgMagazines
 };
 class CfgWeapons
 {
-    class missiles_titan;
-    class missiles_titan_aa_2Rnd_Pan: missiles_titan
+	class missiles_titan;
+	class missiles_titan_aa_2Rnd_Pan: missiles_titan
 	{
 		magazines[]=
 		{

@@ -13,22 +13,22 @@ class TransportItems
         count=4;
         name="ACE_BloodIV";
     };
-    class _xx_ACE_SalineIV_500 
+    class _xx_ACE_SalineIV_500
     {
         count=6;
         name="ACE_BloodIV_500";
     };
-    class _xx_ACE_SalineIV_250 
+    class _xx_ACE_SalineIV_250
     {
         count=4;
         name="ACE_BloodIV_250";
     };
-    class _xx_ACE_elasticBandage 
+    class _xx_ACE_elasticBandage
     {
         count=20;
         name="ACE_elasticBandage";
     };
-    class _xx_ACE_packingBandage 
+    class _xx_ACE_packingBandage
     {
         count=20;
         name="ACE_packingBandage";
@@ -38,22 +38,22 @@ class TransportItems
         count=20;
         name="ACE_quikclot";
     };
-    class _xx_ACE_epinephrine 
+    class _xx_ACE_epinephrine
     {
         count=10;
         name="ACE_epinephrine";
     };
-    class _xx_ACE_morphine 
+    class _xx_ACE_morphine
     {
         count=10;
         name="ACE_morphine";
     };
-    class _xx_ACE_tourniquet 
+    class _xx_ACE_tourniquet
     {
         count=10;
         name="ACE_tourniquet";
     };
-    class _xx_ACE_surgicalKit 
+    class _xx_ACE_surgicalKit
     {
         count=1;
         name="ACE_surgicalKit";

@@ -1708,852 +1708,852 @@ class CfgVehicles
 		class EventHandlers: EventHandlers
 		{
 			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-		};
-		faction="BLU_F_WD";
-		forceInGarage=1;
-		side=1;
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3",
-			"camo4",
-			"CamoNet",
-			"CamoSlat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\UNIF_Pandur_Fix\data\pandur_01_ext_wd.paa",
-			"\UNIF_Pandur_Fix\data\pandur_02_ext_wd.paa",
-			"\UNIF_Pandur_Fix\data\pandur_Turret_wd.paa",
-			"\UNIF_Pandur_Fix\data\pandur_03_ext_wd.paa",
-			"a3\Armor_F\Data\camonet_green_CO.paa",
-			"A3\armor_f\data\cage_G1_co.paa"
-		};
-		class TransportMagazines
-		{
-			class _xx_30Rnd_65x39_caseless_mag
-			{
-				magazine="30Rnd_65x39_caseless_mag";
-				count=12;
-			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=6;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=6;
-			};
-			class _xx_MiniGrenade
-			{
-				magazine="MiniGrenade";
-				count=6;
-			};
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=6;
-			};
-			class _xx_1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeGreen_Grenade_shell
-			{
-				magazine="1Rnd_SmokeGreen_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeOrange_Grenade_shell
-			{
-				magazine="1Rnd_SmokeOrange_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=3;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=8;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=8;
-			};
-			class _xx_SmokeShellOrange
-			{
-				magazine="SmokeShellOrange";
-				count=8;
-			};
-			class _xx_SmokeShellBlue
-			{
-				magazine="SmokeShellBlue";
-				count=8;
-			};
-			class _xx_NLAW_F
-			{
-				magazine="NLAW_F";
-				count=5;
-			};
-			class _xx_Titan_AT
-			{
-				magazine="Titan_AT";
-				count=2;
-			};
-			class _xx_Titan_AP
-			{
-				magazine="Titan_AP";
-				count=2;
-			};
-			class _xx_Titan_AA
-			{
-				magazine="Titan_AA";
-				count=2;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=10;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_arifle_MX_F
-			{
-				weapon="arifle_MX_F";
-				count=2;
-			};
-		};
-	};
-	class Pandur2_unarmed_D: Pandur2_Unarmed_F
-	{
-		crew="B_crew_F";
-		typicalCargo[]=
-		{
-			"B_soldier_F"
-		};
-		scope=2;
-		scopeCurator=2;
-		displayName="Pandur II Transport";
-		picture="\UNIF_Pandur_Fix\data\APC_Wheeled_03_Base_CA";
-		icon="\UNIF_Pandur_Fix\data\map_APC_Wheeled_03_Base_CA.paa";
-		class EventHandlers: EventHandlers
-		{
-			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-		};
-		faction="BLU_F_D";
-		forceInGarage=1;
-		side=1;
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3",
-			"camo4",
-			"CamoNet",
-			"CamoSlat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\UNIF_Pandur_Fix\data\pandur_01_ext_d.paa",
-			"\UNIF_Pandur_Fix\data\pandur_02_ext_d.paa",
-			"\UNIF_Pandur_Fix\data\pandur_Turret_d.paa",
-			"\UNIF_Pandur_Fix\data\pandur_03_ext_d.paa",
-			"\UNIF_Pandur_Fix\data\camonet_desert_CO.paa",
-			"\UNIF_Pandur_Fix\data\cage_desert_CO.paa"
-		};
-		class TransportMagazines
-		{
-			class _xx_30Rnd_65x39_caseless_mag
-			{
-				magazine="30Rnd_65x39_caseless_mag";
-				count=12;
-			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=6;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=6;
-			};
-			class _xx_MiniGrenade
-			{
-				magazine="MiniGrenade";
-				count=6;
-			};
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=6;
-			};
-			class _xx_1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeGreen_Grenade_shell
-			{
-				magazine="1Rnd_SmokeGreen_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeOrange_Grenade_shell
-			{
-				magazine="1Rnd_SmokeOrange_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=3;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=8;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=8;
-			};
-			class _xx_SmokeShellOrange
-			{
-				magazine="SmokeShellOrange";
-				count=8;
-			};
-			class _xx_SmokeShellBlue
-			{
-				magazine="SmokeShellBlue";
-				count=8;
-			};
-			class _xx_NLAW_F
-			{
-				magazine="NLAW_F";
-				count=5;
-			};
-			class _xx_Titan_AT
-			{
-				magazine="Titan_AT";
-				count=2;
-			};
-			class _xx_Titan_AP
-			{
-				magazine="Titan_AP";
-				count=2;
-			};
-			class _xx_Titan_AA
-			{
-				magazine="Titan_AA";
-				count=2;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=10;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_arifle_MX_F
-			{
-				weapon="arifle_MX_F";
-				count=2;
-			};
-		};
-	};
-	class Pandur2_unarmed_E: Pandur2_Unarmed_F
-	{
-		crew="B_crew_F";
-		typicalCargo[]=
-		{
-			"B_soldier_F"
-		};
-		scope=2;
-		scopeCurator=2;
-		displayName="Pandur II Transport";
-		picture="\UNIF_Pandur_Fix\data\APC_Wheeled_03_Base_CA";
-		icon="\UNIF_Pandur_Fix\data\map_APC_Wheeled_03_Base_CA.paa";
-		class EventHandlers: EventHandlers
-		{
-			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-		};
-		faction="BLU_F_A";
-		forceInGarage=1;
-		side=1;
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3",
-			"camo4",
-			"CamoNet",
-			"CamoSlat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_co.paa",
-			"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext2_co.paa",
-			"A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa",
-			"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa",
-			"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
-			"a3\Armor_F\Data\cage_sand_CO.paa"
-		};
-		class TransportMagazines
-		{
-			class _xx_30Rnd_65x39_caseless_mag
-			{
-				magazine="30Rnd_65x39_caseless_mag";
-				count=12;
-			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=6;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=6;
-			};
-			class _xx_MiniGrenade
-			{
-				magazine="MiniGrenade";
-				count=6;
-			};
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=6;
-			};
-			class _xx_1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeGreen_Grenade_shell
-			{
-				magazine="1Rnd_SmokeGreen_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeOrange_Grenade_shell
-			{
-				magazine="1Rnd_SmokeOrange_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=3;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=8;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=8;
-			};
-			class _xx_SmokeShellOrange
-			{
-				magazine="SmokeShellOrange";
-				count=8;
-			};
-			class _xx_SmokeShellBlue
-			{
-				magazine="SmokeShellBlue";
-				count=8;
-			};
-			class _xx_NLAW_F
-			{
-				magazine="NLAW_F";
-				count=5;
-			};
-			class _xx_Titan_AT
-			{
-				magazine="Titan_AT";
-				count=2;
-			};
-			class _xx_Titan_AP
-			{
-				magazine="Titan_AP";
-				count=2;
-			};
-			class _xx_Titan_AA
-			{
-				magazine="Titan_AA";
-				count=2;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=10;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_arifle_MX_F
-			{
-				weapon="arifle_MX_F";
-				count=2;
-			};
-		};
-	};
-	class Pandur2_medical_WD: Pandur2_Medical_F
-	{
-		crew="B_crew_F";
-		typicalCargo[]=
-		{
-			"B_soldier_F"
-		};
-		scope=2;
-		scopeCurator=2;
-		displayName="Pandur II Medical";
-		picture="\UNIF_Pandur_Fix\data\APC_Wheeled_03_Base_CA";
-		icon="\UNIF_Pandur_Fix\data\map_APC_Wheeled_03_Base_CA.paa";
-		vehicleClass="Support";
-		supplyRadius=10;
-		attendant=1;
-		class EventHandlers: EventHandlers
-		{
-			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-		};
-		faction="BLU_F_WD";
-		forceInGarage=1;
-		side=1;
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3",
-			"camo4",
-			"CamoNet",
-			"CamoSlat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\UNIF_Pandur_Fix\data\pandur_01_med_ext_wd.paa",
-			"\UNIF_Pandur_Fix\data\pandur_02_med_ext_wd.paa",
-			"\UNIF_Pandur_Fix\data\pandur_Turret_wd.paa",
-			"\UNIF_Pandur_Fix\data\pandur_03_ext_wd.paa",
-			"a3\Armor_F\Data\camonet_green_CO.paa",
-			"A3\armor_f\data\cage_G1_co.paa"
-		};
-		class TransportMagazines
-		{
-			class _xx_30Rnd_65x39_caseless_mag
-			{
-				magazine="30Rnd_65x39_caseless_mag";
-				count=12;
-			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=6;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=6;
-			};
-			class _xx_MiniGrenade
-			{
-				magazine="MiniGrenade";
-				count=6;
-			};
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=6;
-			};
-			class _xx_1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeGreen_Grenade_shell
-			{
-				magazine="1Rnd_SmokeGreen_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeOrange_Grenade_shell
-			{
-				magazine="1Rnd_SmokeOrange_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=3;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=8;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=8;
-			};
-			class _xx_SmokeShellOrange
-			{
-				magazine="SmokeShellOrange";
-				count=8;
-			};
-			class _xx_SmokeShellBlue
-			{
-				magazine="SmokeShellBlue";
-				count=8;
-			};
-			class _xx_NLAW_F
-			{
-				magazine="NLAW_F";
-				count=5;
-			};
-			class _xx_Titan_AT
-			{
-				magazine="Titan_AT";
-				count=2;
-			};
-			class _xx_Titan_AP
-			{
-				magazine="Titan_AP";
-				count=2;
-			};
-			class _xx_Titan_AA
-			{
-				magazine="Titan_AA";
-				count=2;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=10;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_arifle_MX_F
-			{
-				weapon="arifle_MX_F";
-				count=2;
-			};
-		};
-	};
-	class Pandur2_medical_D: Pandur2_Medical_F
-	{
-		crew="B_crew_F";
-		typicalCargo[]=
-		{
-			"B_soldier_F"
-		};
-		scope=2;
-		scopeCurator=2;
-		displayName="Pandur II Medical";
-		picture="\UNIF_Pandur_Fix\data\APC_Wheeled_03_Base_CA";
-		icon="\UNIF_Pandur_Fix\data\map_APC_Wheeled_03_Base_CA.paa";
-		vehicleClass="Support";
-		supplyRadius=10;
-		attendant=1;
-		class EventHandlers: EventHandlers
-		{
-			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-		};
-		faction="BLU_F_D";
-		forceInGarage=1;
-		side=1;
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3",
-			"camo4",
-			"CamoNet",
-			"CamoSlat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\UNIF_Pandur_Fix\data\pandur_01_med_ext_d.paa",
-			"\UNIF_Pandur_Fix\data\pandur_02_med_ext_d.paa",
-			"\UNIF_Pandur_Fix\data\pandur_Turret_d.paa",
-			"\UNIF_Pandur_Fix\data\pandur_03_ext_d.paa",
-			"\UNIF_Pandur_Fix\data\camonet_desert_CO.paa",
-			"\UNIF_Pandur_Fix\data\cage_desert_CO.paa"
-		};
-		class TransportMagazines
-		{
-			class _xx_30Rnd_65x39_caseless_mag
-			{
-				magazine="30Rnd_65x39_caseless_mag";
-				count=12;
-			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=6;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=6;
-			};
-			class _xx_MiniGrenade
-			{
-				magazine="MiniGrenade";
-				count=6;
-			};
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=6;
-			};
-			class _xx_1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeGreen_Grenade_shell
-			{
-				magazine="1Rnd_SmokeGreen_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeOrange_Grenade_shell
-			{
-				magazine="1Rnd_SmokeOrange_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=3;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=8;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=8;
-			};
-			class _xx_SmokeShellOrange
-			{
-				magazine="SmokeShellOrange";
-				count=8;
-			};
-			class _xx_SmokeShellBlue
-			{
-				magazine="SmokeShellBlue";
-				count=8;
-			};
-			class _xx_NLAW_F
-			{
-				magazine="NLAW_F";
-				count=5;
-			};
-			class _xx_Titan_AT
-			{
-				magazine="Titan_AT";
-				count=2;
-			};
-			class _xx_Titan_AP
-			{
-				magazine="Titan_AP";
-				count=2;
-			};
-			class _xx_Titan_AA
-			{
-				magazine="Titan_AA";
-				count=2;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=10;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_arifle_MX_F
-			{
-				weapon="arifle_MX_F";
-				count=2;
-			};
-		};
-	};
-	class Pandur2_medical_E: Pandur2_Medical_F
-	{
-		crew="B_crew_F";
-		typicalCargo[]=
-		{
-			"B_soldier_F"
-		};
-		scope=2;
-		scopeCurator=2;
-		displayName="Pandur II Medical";
-		picture="\UNIF_Pandur_Fix\data\APC_Wheeled_03_Base_CA";
-		icon="\UNIF_Pandur_Fix\data\map_APC_Wheeled_03_Base_CA.paa";
-		vehicleClass="Support";
-		supplyRadius=10;
-		attendant=1;
-		class EventHandlers: EventHandlers
-		{
-			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-		};
-		faction="BLU_F_A";
-		forceInGarage=1;
-		side=1;
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3",
-			"camo4",
-			"CamoNet",
-			"CamoSlat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\UNIF_Pandur_Fix\data\pandur_01_med_ext_e.paa",
-			"\UNIF_Pandur_Fix\data\pandur_02_med_ext_e.paa",
-			"A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa",
-			"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa",
-			"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
-			"a3\Armor_F\Data\cage_sand_CO.paa",
-			"A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa",
-			"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa"
-		};
-		class TransportMagazines
-		{
-			class _xx_30Rnd_65x39_caseless_mag
-			{
-				magazine="30Rnd_65x39_caseless_mag";
-				count=12;
-			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=6;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=6;
-			};
-			class _xx_MiniGrenade
-			{
-				magazine="MiniGrenade";
-				count=6;
-			};
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=6;
-			};
-			class _xx_1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeGreen_Grenade_shell
-			{
-				magazine="1Rnd_SmokeGreen_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeOrange_Grenade_shell
-			{
-				magazine="1Rnd_SmokeOrange_Grenade_shell";
-				count=3;
-			};
-			class _xx_1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=3;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=8;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=8;
-			};
-			class _xx_SmokeShellOrange
-			{
-				magazine="SmokeShellOrange";
-				count=8;
-			};
-			class _xx_SmokeShellBlue
-			{
-				magazine="SmokeShellBlue";
-				count=8;
-			};
-			class _xx_NLAW_F
-			{
-				magazine="NLAW_F";
-				count=5;
-			};
-			class _xx_Titan_AT
-			{
-				magazine="Titan_AT";
-				count=2;
-			};
-			class _xx_Titan_AP
-			{
-				magazine="Titan_AP";
-				count=2;
-			};
-			class _xx_Titan_AA
-			{
-				magazine="Titan_AA";
-				count=2;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=10;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_arifle_MX_F
-			{
-				weapon="arifle_MX_F";
-				count=2;
 			};
-		};
-	};
-};
+			faction="BLU_F_WD";
+			forceInGarage=1;
+			side=1;
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"CamoNet",
+				"CamoSlat"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\UNIF_Pandur_Fix\data\pandur_01_ext_wd.paa",
+				"\UNIF_Pandur_Fix\data\pandur_02_ext_wd.paa",
+				"\UNIF_Pandur_Fix\data\pandur_Turret_wd.paa",
+				"\UNIF_Pandur_Fix\data\pandur_03_ext_wd.paa",
+				"a3\Armor_F\Data\camonet_green_CO.paa",
+				"A3\armor_f\data\cage_G1_co.paa"
+			};
+			class TransportMagazines
+			{
+				class _xx_30Rnd_65x39_caseless_mag
+				{
+					magazine="30Rnd_65x39_caseless_mag";
+					count=12;
+				};
+				class _xx_100Rnd_65x39_caseless_mag
+				{
+					magazine="100Rnd_65x39_caseless_mag";
+					count=6;
+				};
+				class _xx_HandGrenade
+				{
+					magazine="HandGrenade";
+					count=6;
+				};
+				class _xx_MiniGrenade
+				{
+					magazine="MiniGrenade";
+					count=6;
+				};
+				class _xx_1Rnd_HE_Grenade_shell
+				{
+					magazine="1Rnd_HE_Grenade_shell";
+					count=6;
+				};
+				class _xx_1Rnd_Smoke_Grenade_shell
+				{
+					magazine="1Rnd_Smoke_Grenade_shell";
+					count=3;
+				};
+				class _xx_1Rnd_SmokeGreen_Grenade_shell
+				{
+					magazine="1Rnd_SmokeGreen_Grenade_shell";
+					count=3;
+				};
+				class _xx_1Rnd_SmokeOrange_Grenade_shell
+				{
+					magazine="1Rnd_SmokeOrange_Grenade_shell";
+					count=3;
+				};
+				class _xx_1Rnd_SmokeBlue_Grenade_shell
+				{
+					magazine="1Rnd_SmokeBlue_Grenade_shell";
+					count=3;
+				};
+				class _xx_SmokeShell
+				{
+					magazine="SmokeShell";
+					count=8;
+				};
+				class _xx_SmokeShellGreen
+				{
+					magazine="SmokeShellGreen";
+					count=8;
+				};
+				class _xx_SmokeShellOrange
+				{
+					magazine="SmokeShellOrange";
+					count=8;
+				};
+				class _xx_SmokeShellBlue
+				{
+					magazine="SmokeShellBlue";
+					count=8;
+				};
+				class _xx_NLAW_F
+				{
+					magazine="NLAW_F";
+					count=5;
+				};
+				class _xx_Titan_AT
+				{
+					magazine="Titan_AT";
+					count=2;
+				};
+				class _xx_Titan_AP
+				{
+					magazine="Titan_AP";
+					count=2;
+				};
+				class _xx_Titan_AA
+				{
+					magazine="Titan_AA";
+					count=2;
+				};
+			};
+			class TransportItems
+			{
+				class _xx_FirstAidKit
+				{
+					name="FirstAidKit";
+					count=10;
+				};
+			};
+			class TransportWeapons
+			{
+				class _xx_arifle_MX_F
+				{
+					weapon="arifle_MX_F";
+					count=2;
+				};
+			};
+			};
+			class Pandur2_unarmed_D: Pandur2_Unarmed_F
+			{
+				crew="B_crew_F";
+				typicalCargo[]=
+				{
+					"B_soldier_F"
+				};
+				scope=2;
+				scopeCurator=2;
+				displayName="Pandur II Transport";
+				picture="\UNIF_Pandur_Fix\data\APC_Wheeled_03_Base_CA";
+				icon="\UNIF_Pandur_Fix\data\map_APC_Wheeled_03_Base_CA.paa";
+				class EventHandlers: EventHandlers
+				{
+					init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+					};
+					faction="BLU_F_D";
+					forceInGarage=1;
+					side=1;
+					hiddenSelections[]=
+					{
+						"camo1",
+						"camo2",
+						"camo3",
+						"camo4",
+						"CamoNet",
+						"CamoSlat"
+					};
+					hiddenSelectionsTextures[]=
+					{
+						"\UNIF_Pandur_Fix\data\pandur_01_ext_d.paa",
+						"\UNIF_Pandur_Fix\data\pandur_02_ext_d.paa",
+						"\UNIF_Pandur_Fix\data\pandur_Turret_d.paa",
+						"\UNIF_Pandur_Fix\data\pandur_03_ext_d.paa",
+						"\UNIF_Pandur_Fix\data\camonet_desert_CO.paa",
+						"\UNIF_Pandur_Fix\data\cage_desert_CO.paa"
+					};
+					class TransportMagazines
+					{
+						class _xx_30Rnd_65x39_caseless_mag
+						{
+							magazine="30Rnd_65x39_caseless_mag";
+							count=12;
+						};
+						class _xx_100Rnd_65x39_caseless_mag
+						{
+							magazine="100Rnd_65x39_caseless_mag";
+							count=6;
+						};
+						class _xx_HandGrenade
+						{
+							magazine="HandGrenade";
+							count=6;
+						};
+						class _xx_MiniGrenade
+						{
+							magazine="MiniGrenade";
+							count=6;
+						};
+						class _xx_1Rnd_HE_Grenade_shell
+						{
+							magazine="1Rnd_HE_Grenade_shell";
+							count=6;
+						};
+						class _xx_1Rnd_Smoke_Grenade_shell
+						{
+							magazine="1Rnd_Smoke_Grenade_shell";
+							count=3;
+						};
+						class _xx_1Rnd_SmokeGreen_Grenade_shell
+						{
+							magazine="1Rnd_SmokeGreen_Grenade_shell";
+							count=3;
+						};
+						class _xx_1Rnd_SmokeOrange_Grenade_shell
+						{
+							magazine="1Rnd_SmokeOrange_Grenade_shell";
+							count=3;
+						};
+						class _xx_1Rnd_SmokeBlue_Grenade_shell
+						{
+							magazine="1Rnd_SmokeBlue_Grenade_shell";
+							count=3;
+						};
+						class _xx_SmokeShell
+						{
+							magazine="SmokeShell";
+							count=8;
+						};
+						class _xx_SmokeShellGreen
+						{
+							magazine="SmokeShellGreen";
+							count=8;
+						};
+						class _xx_SmokeShellOrange
+						{
+							magazine="SmokeShellOrange";
+							count=8;
+						};
+						class _xx_SmokeShellBlue
+						{
+							magazine="SmokeShellBlue";
+							count=8;
+						};
+						class _xx_NLAW_F
+						{
+							magazine="NLAW_F";
+							count=5;
+						};
+						class _xx_Titan_AT
+						{
+							magazine="Titan_AT";
+							count=2;
+						};
+						class _xx_Titan_AP
+						{
+							magazine="Titan_AP";
+							count=2;
+						};
+						class _xx_Titan_AA
+						{
+							magazine="Titan_AA";
+							count=2;
+						};
+					};
+					class TransportItems
+					{
+						class _xx_FirstAidKit
+						{
+							name="FirstAidKit";
+							count=10;
+						};
+					};
+					class TransportWeapons
+					{
+						class _xx_arifle_MX_F
+						{
+							weapon="arifle_MX_F";
+							count=2;
+						};
+					};
+					};
+					class Pandur2_unarmed_E: Pandur2_Unarmed_F
+					{
+						crew="B_crew_F";
+						typicalCargo[]=
+						{
+							"B_soldier_F"
+						};
+						scope=2;
+						scopeCurator=2;
+						displayName="Pandur II Transport";
+						picture="\UNIF_Pandur_Fix\data\APC_Wheeled_03_Base_CA";
+						icon="\UNIF_Pandur_Fix\data\map_APC_Wheeled_03_Base_CA.paa";
+						class EventHandlers: EventHandlers
+						{
+							init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+							};
+							faction="BLU_F_A";
+							forceInGarage=1;
+							side=1;
+							hiddenSelections[]=
+							{
+								"camo1",
+								"camo2",
+								"camo3",
+								"camo4",
+								"CamoNet",
+								"CamoSlat"
+							};
+							hiddenSelectionsTextures[]=
+							{
+								"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_co.paa",
+								"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext2_co.paa",
+								"A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa",
+								"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa",
+								"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+								"a3\Armor_F\Data\cage_sand_CO.paa"
+							};
+							class TransportMagazines
+							{
+								class _xx_30Rnd_65x39_caseless_mag
+								{
+									magazine="30Rnd_65x39_caseless_mag";
+									count=12;
+								};
+								class _xx_100Rnd_65x39_caseless_mag
+								{
+									magazine="100Rnd_65x39_caseless_mag";
+									count=6;
+								};
+								class _xx_HandGrenade
+								{
+									magazine="HandGrenade";
+									count=6;
+								};
+								class _xx_MiniGrenade
+								{
+									magazine="MiniGrenade";
+									count=6;
+								};
+								class _xx_1Rnd_HE_Grenade_shell
+								{
+									magazine="1Rnd_HE_Grenade_shell";
+									count=6;
+								};
+								class _xx_1Rnd_Smoke_Grenade_shell
+								{
+									magazine="1Rnd_Smoke_Grenade_shell";
+									count=3;
+								};
+								class _xx_1Rnd_SmokeGreen_Grenade_shell
+								{
+									magazine="1Rnd_SmokeGreen_Grenade_shell";
+									count=3;
+								};
+								class _xx_1Rnd_SmokeOrange_Grenade_shell
+								{
+									magazine="1Rnd_SmokeOrange_Grenade_shell";
+									count=3;
+								};
+								class _xx_1Rnd_SmokeBlue_Grenade_shell
+								{
+									magazine="1Rnd_SmokeBlue_Grenade_shell";
+									count=3;
+								};
+								class _xx_SmokeShell
+								{
+									magazine="SmokeShell";
+									count=8;
+								};
+								class _xx_SmokeShellGreen
+								{
+									magazine="SmokeShellGreen";
+									count=8;
+								};
+								class _xx_SmokeShellOrange
+								{
+									magazine="SmokeShellOrange";
+									count=8;
+								};
+								class _xx_SmokeShellBlue
+								{
+									magazine="SmokeShellBlue";
+									count=8;
+								};
+								class _xx_NLAW_F
+								{
+									magazine="NLAW_F";
+									count=5;
+								};
+								class _xx_Titan_AT
+								{
+									magazine="Titan_AT";
+									count=2;
+								};
+								class _xx_Titan_AP
+								{
+									magazine="Titan_AP";
+									count=2;
+								};
+								class _xx_Titan_AA
+								{
+									magazine="Titan_AA";
+									count=2;
+								};
+							};
+							class TransportItems
+							{
+								class _xx_FirstAidKit
+								{
+									name="FirstAidKit";
+									count=10;
+								};
+							};
+							class TransportWeapons
+							{
+								class _xx_arifle_MX_F
+								{
+									weapon="arifle_MX_F";
+									count=2;
+								};
+							};
+							};
+							class Pandur2_medical_WD: Pandur2_Medical_F
+							{
+								crew="B_crew_F";
+								typicalCargo[]=
+								{
+									"B_soldier_F"
+								};
+								scope=2;
+								scopeCurator=2;
+								displayName="Pandur II Medical";
+								picture="\UNIF_Pandur_Fix\data\APC_Wheeled_03_Base_CA";
+								icon="\UNIF_Pandur_Fix\data\map_APC_Wheeled_03_Base_CA.paa";
+								vehicleClass="Support";
+								supplyRadius=10;
+								attendant=1;
+								class EventHandlers: EventHandlers
+								{
+									init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+									};
+									faction="BLU_F_WD";
+									forceInGarage=1;
+									side=1;
+									hiddenSelections[]=
+									{
+										"camo1",
+										"camo2",
+										"camo3",
+										"camo4",
+										"CamoNet",
+										"CamoSlat"
+									};
+									hiddenSelectionsTextures[]=
+									{
+										"\UNIF_Pandur_Fix\data\pandur_01_med_ext_wd.paa",
+										"\UNIF_Pandur_Fix\data\pandur_02_med_ext_wd.paa",
+										"\UNIF_Pandur_Fix\data\pandur_Turret_wd.paa",
+										"\UNIF_Pandur_Fix\data\pandur_03_ext_wd.paa",
+										"a3\Armor_F\Data\camonet_green_CO.paa",
+										"A3\armor_f\data\cage_G1_co.paa"
+									};
+									class TransportMagazines
+									{
+										class _xx_30Rnd_65x39_caseless_mag
+										{
+											magazine="30Rnd_65x39_caseless_mag";
+											count=12;
+										};
+										class _xx_100Rnd_65x39_caseless_mag
+										{
+											magazine="100Rnd_65x39_caseless_mag";
+											count=6;
+										};
+										class _xx_HandGrenade
+										{
+											magazine="HandGrenade";
+											count=6;
+										};
+										class _xx_MiniGrenade
+										{
+											magazine="MiniGrenade";
+											count=6;
+										};
+										class _xx_1Rnd_HE_Grenade_shell
+										{
+											magazine="1Rnd_HE_Grenade_shell";
+											count=6;
+										};
+										class _xx_1Rnd_Smoke_Grenade_shell
+										{
+											magazine="1Rnd_Smoke_Grenade_shell";
+											count=3;
+										};
+										class _xx_1Rnd_SmokeGreen_Grenade_shell
+										{
+											magazine="1Rnd_SmokeGreen_Grenade_shell";
+											count=3;
+										};
+										class _xx_1Rnd_SmokeOrange_Grenade_shell
+										{
+											magazine="1Rnd_SmokeOrange_Grenade_shell";
+											count=3;
+										};
+										class _xx_1Rnd_SmokeBlue_Grenade_shell
+										{
+											magazine="1Rnd_SmokeBlue_Grenade_shell";
+											count=3;
+										};
+										class _xx_SmokeShell
+										{
+											magazine="SmokeShell";
+											count=8;
+										};
+										class _xx_SmokeShellGreen
+										{
+											magazine="SmokeShellGreen";
+											count=8;
+										};
+										class _xx_SmokeShellOrange
+										{
+											magazine="SmokeShellOrange";
+											count=8;
+										};
+										class _xx_SmokeShellBlue
+										{
+											magazine="SmokeShellBlue";
+											count=8;
+										};
+										class _xx_NLAW_F
+										{
+											magazine="NLAW_F";
+											count=5;
+										};
+										class _xx_Titan_AT
+										{
+											magazine="Titan_AT";
+											count=2;
+										};
+										class _xx_Titan_AP
+										{
+											magazine="Titan_AP";
+											count=2;
+										};
+										class _xx_Titan_AA
+										{
+											magazine="Titan_AA";
+											count=2;
+										};
+									};
+									class TransportItems
+									{
+										class _xx_FirstAidKit
+										{
+											name="FirstAidKit";
+											count=10;
+										};
+									};
+									class TransportWeapons
+									{
+										class _xx_arifle_MX_F
+										{
+											weapon="arifle_MX_F";
+											count=2;
+										};
+									};
+									};
+									class Pandur2_medical_D: Pandur2_Medical_F
+									{
+										crew="B_crew_F";
+										typicalCargo[]=
+										{
+											"B_soldier_F"
+										};
+										scope=2;
+										scopeCurator=2;
+										displayName="Pandur II Medical";
+										picture="\UNIF_Pandur_Fix\data\APC_Wheeled_03_Base_CA";
+										icon="\UNIF_Pandur_Fix\data\map_APC_Wheeled_03_Base_CA.paa";
+										vehicleClass="Support";
+										supplyRadius=10;
+										attendant=1;
+										class EventHandlers: EventHandlers
+										{
+											init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+											};
+											faction="BLU_F_D";
+											forceInGarage=1;
+											side=1;
+											hiddenSelections[]=
+											{
+												"camo1",
+												"camo2",
+												"camo3",
+												"camo4",
+												"CamoNet",
+												"CamoSlat"
+											};
+											hiddenSelectionsTextures[]=
+											{
+												"\UNIF_Pandur_Fix\data\pandur_01_med_ext_d.paa",
+												"\UNIF_Pandur_Fix\data\pandur_02_med_ext_d.paa",
+												"\UNIF_Pandur_Fix\data\pandur_Turret_d.paa",
+												"\UNIF_Pandur_Fix\data\pandur_03_ext_d.paa",
+												"\UNIF_Pandur_Fix\data\camonet_desert_CO.paa",
+												"\UNIF_Pandur_Fix\data\cage_desert_CO.paa"
+											};
+											class TransportMagazines
+											{
+												class _xx_30Rnd_65x39_caseless_mag
+												{
+													magazine="30Rnd_65x39_caseless_mag";
+													count=12;
+												};
+												class _xx_100Rnd_65x39_caseless_mag
+												{
+													magazine="100Rnd_65x39_caseless_mag";
+													count=6;
+												};
+												class _xx_HandGrenade
+												{
+													magazine="HandGrenade";
+													count=6;
+												};
+												class _xx_MiniGrenade
+												{
+													magazine="MiniGrenade";
+													count=6;
+												};
+												class _xx_1Rnd_HE_Grenade_shell
+												{
+													magazine="1Rnd_HE_Grenade_shell";
+													count=6;
+												};
+												class _xx_1Rnd_Smoke_Grenade_shell
+												{
+													magazine="1Rnd_Smoke_Grenade_shell";
+													count=3;
+												};
+												class _xx_1Rnd_SmokeGreen_Grenade_shell
+												{
+													magazine="1Rnd_SmokeGreen_Grenade_shell";
+													count=3;
+												};
+												class _xx_1Rnd_SmokeOrange_Grenade_shell
+												{
+													magazine="1Rnd_SmokeOrange_Grenade_shell";
+													count=3;
+												};
+												class _xx_1Rnd_SmokeBlue_Grenade_shell
+												{
+													magazine="1Rnd_SmokeBlue_Grenade_shell";
+													count=3;
+												};
+												class _xx_SmokeShell
+												{
+													magazine="SmokeShell";
+													count=8;
+												};
+												class _xx_SmokeShellGreen
+												{
+													magazine="SmokeShellGreen";
+													count=8;
+												};
+												class _xx_SmokeShellOrange
+												{
+													magazine="SmokeShellOrange";
+													count=8;
+												};
+												class _xx_SmokeShellBlue
+												{
+													magazine="SmokeShellBlue";
+													count=8;
+												};
+												class _xx_NLAW_F
+												{
+													magazine="NLAW_F";
+													count=5;
+												};
+												class _xx_Titan_AT
+												{
+													magazine="Titan_AT";
+													count=2;
+												};
+												class _xx_Titan_AP
+												{
+													magazine="Titan_AP";
+													count=2;
+												};
+												class _xx_Titan_AA
+												{
+													magazine="Titan_AA";
+													count=2;
+												};
+											};
+											class TransportItems
+											{
+												class _xx_FirstAidKit
+												{
+													name="FirstAidKit";
+													count=10;
+												};
+											};
+											class TransportWeapons
+											{
+												class _xx_arifle_MX_F
+												{
+													weapon="arifle_MX_F";
+													count=2;
+												};
+											};
+											};
+											class Pandur2_medical_E: Pandur2_Medical_F
+											{
+												crew="B_crew_F";
+												typicalCargo[]=
+												{
+													"B_soldier_F"
+												};
+												scope=2;
+												scopeCurator=2;
+												displayName="Pandur II Medical";
+												picture="\UNIF_Pandur_Fix\data\APC_Wheeled_03_Base_CA";
+												icon="\UNIF_Pandur_Fix\data\map_APC_Wheeled_03_Base_CA.paa";
+												vehicleClass="Support";
+												supplyRadius=10;
+												attendant=1;
+												class EventHandlers: EventHandlers
+												{
+													init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+													};
+													faction="BLU_F_A";
+													forceInGarage=1;
+													side=1;
+													hiddenSelections[]=
+													{
+														"camo1",
+														"camo2",
+														"camo3",
+														"camo4",
+														"CamoNet",
+														"CamoSlat"
+													};
+													hiddenSelectionsTextures[]=
+													{
+														"\UNIF_Pandur_Fix\data\pandur_01_med_ext_e.paa",
+														"\UNIF_Pandur_Fix\data\pandur_02_med_ext_e.paa",
+														"A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa",
+														"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa",
+														"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+														"a3\Armor_F\Data\cage_sand_CO.paa",
+														"A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa",
+														"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa"
+													};
+													class TransportMagazines
+													{
+														class _xx_30Rnd_65x39_caseless_mag
+														{
+															magazine="30Rnd_65x39_caseless_mag";
+															count=12;
+														};
+														class _xx_100Rnd_65x39_caseless_mag
+														{
+															magazine="100Rnd_65x39_caseless_mag";
+															count=6;
+														};
+														class _xx_HandGrenade
+														{
+															magazine="HandGrenade";
+															count=6;
+														};
+														class _xx_MiniGrenade
+														{
+															magazine="MiniGrenade";
+															count=6;
+														};
+														class _xx_1Rnd_HE_Grenade_shell
+														{
+															magazine="1Rnd_HE_Grenade_shell";
+															count=6;
+														};
+														class _xx_1Rnd_Smoke_Grenade_shell
+														{
+															magazine="1Rnd_Smoke_Grenade_shell";
+															count=3;
+														};
+														class _xx_1Rnd_SmokeGreen_Grenade_shell
+														{
+															magazine="1Rnd_SmokeGreen_Grenade_shell";
+															count=3;
+														};
+														class _xx_1Rnd_SmokeOrange_Grenade_shell
+														{
+															magazine="1Rnd_SmokeOrange_Grenade_shell";
+															count=3;
+														};
+														class _xx_1Rnd_SmokeBlue_Grenade_shell
+														{
+															magazine="1Rnd_SmokeBlue_Grenade_shell";
+															count=3;
+														};
+														class _xx_SmokeShell
+														{
+															magazine="SmokeShell";
+															count=8;
+														};
+														class _xx_SmokeShellGreen
+														{
+															magazine="SmokeShellGreen";
+															count=8;
+														};
+														class _xx_SmokeShellOrange
+														{
+															magazine="SmokeShellOrange";
+															count=8;
+														};
+														class _xx_SmokeShellBlue
+														{
+															magazine="SmokeShellBlue";
+															count=8;
+														};
+														class _xx_NLAW_F
+														{
+															magazine="NLAW_F";
+															count=5;
+														};
+														class _xx_Titan_AT
+														{
+															magazine="Titan_AT";
+															count=2;
+														};
+														class _xx_Titan_AP
+														{
+															magazine="Titan_AP";
+															count=2;
+														};
+														class _xx_Titan_AA
+														{
+															magazine="Titan_AA";
+															count=2;
+														};
+													};
+													class TransportItems
+													{
+														class _xx_FirstAidKit
+														{
+															name="FirstAidKit";
+															count=10;
+														};
+													};
+													class TransportWeapons
+													{
+														class _xx_arifle_MX_F
+														{
+															weapon="arifle_MX_F";
+															count=2;
+														};
+													};
+													};
+												};

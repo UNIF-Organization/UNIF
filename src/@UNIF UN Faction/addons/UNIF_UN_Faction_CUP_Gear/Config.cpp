@@ -1,87 +1,87 @@
-class CfgPatches 
-{ 
+class CfgPatches
+{
     class UNIF_UN_Faction_CUP_Gear
-    { 
-       units[] =  // UNITTS are added here so they show up on zeus
+    {
+        units[] =  // UNITTS are added here so they show up on zeus
         {
             "UNIF_Faction_UN_Condor_Backpack_Black",
             "UNIF_Faction_UN_Condor_Backpack_OD",
             "UNIF_Faction_UN_Condor_Backpack_OGA",
-        }; 
-        weapons[] = 
+        };
+        weapons[] =
         {
-        	"UNIF_Headgear_Beret_1",
-        	"UNIF_Headgear_Beret_2",
-        	"UNIF_Headgear_BoonieHat",
-        	"UNIF_Headgear_CVCHelmet",
-        	"UNIF_Headgear_PatrolCap",
-        	"UNIF_Headgear_SPH4Helmet1",
-        	"UNIF_Headgear_SPH4Helmet2",
-        	"UNIF_Headgear_SPH4Helmet3",
-        	"UNIF_Headgear_SSh68Helmet1",
-        	"UNIF_Headgear_SSh68Helmet2",
-        	"UNIF_Headgear_SSh68Helmet3",
-        	"UNIF_Headgear_M1Helmet",
-        	"UNIF_Headgear_PASGT",
-        	"UNIF_Headgear_MarshallCap",
-        	"UNIF_Headgear_Cap",
-        	"UNIF_Headgear_Cap_Back",
-        	"UNIF_Headgear_MarshallCap_Back",
-        	"UNIF_Headgear_Altyn",
-        	"UNIF_Headgear_Altyn_Goggles",
-        	"UNIF_Headgear_Altyn_ShieldDown",
-        	"UNIF_Headgear_Altyn_ShieldUp",
-        	"UNIF_Headgear_6B47_Goggle_Up",
-        	"UNIF_Headgear_6B47_Goggle_Down",
-        	"UNIF_Headgear_6B47",
-        	"UNIF_Headgear_SP_M88Helmet_UN1",
-        	"UNIF_Headgear_SP_M88Helmet_UN2",
-        	"UNIF_Headgear_SP_M88PSMHelmet_UN1",
-        	"UNIF_Headgear_SP_M88PSMHelmet_UN2",
-        	"UNIF_Headgear_SP_M96Helmet_UN1",
-        	"UNIF_Headgear_SP_M96Helmet_UN2",
-        	"UNIF_Headgear_SP_Mk7Helmet_UN1",
-        	"UNIF_Headgear_SP_Mk7Helmet_UN2",
-        	"UNIF_Vest_RAV_Operator_UN",
-        	"UNIF_Vest_RAV_Breacher_UN",
-        	"UNIF_Vest_RAV_MG_UN",
-        	"UNIF_Vest_RAV_Light_UN",
-        	"UNIF_Vest_RAV_Operator_UN_OGA",
-        	"UNIF_Vest_RAV_Breacher_UN_OGA",
-        	"UNIF_Vest_RAV_MG_UN_OGA",
-        	"UNIF_Vest_RAV_Light_UN_OGA",
-        	"UNIF_Vest_RAV_Operator_UN_OD",
-        	"UNIF_Vest_RAV_Breacher_UN_OD",
-        	"UNIF_Vest_RAV_MG_UN_OD",
-        	"UNIF_Vest_RAV_Light_UN_OD",
-        	"UNIF_UN_UniformItem_C_Uni_1",
-        	"UNIF_UN_UniformItem_C_Uni_2",
-        	"UNIF_Headgear_VSM_Mich2000_OGA",
-        	"UNIF_Headgear_VSM_Mich2000_2_OGA",
-        }; 
+            "UNIF_Headgear_Beret_1",
+            "UNIF_Headgear_Beret_2",
+            "UNIF_Headgear_BoonieHat",
+            "UNIF_Headgear_CVCHelmet",
+            "UNIF_Headgear_PatrolCap",
+            "UNIF_Headgear_SPH4Helmet1",
+            "UNIF_Headgear_SPH4Helmet2",
+            "UNIF_Headgear_SPH4Helmet3",
+            "UNIF_Headgear_SSh68Helmet1",
+            "UNIF_Headgear_SSh68Helmet2",
+            "UNIF_Headgear_SSh68Helmet3",
+            "UNIF_Headgear_M1Helmet",
+            "UNIF_Headgear_PASGT",
+            "UNIF_Headgear_MarshallCap",
+            "UNIF_Headgear_Cap",
+            "UNIF_Headgear_Cap_Back",
+            "UNIF_Headgear_MarshallCap_Back",
+            "UNIF_Headgear_Altyn",
+            "UNIF_Headgear_Altyn_Goggles",
+            "UNIF_Headgear_Altyn_ShieldDown",
+            "UNIF_Headgear_Altyn_ShieldUp",
+            "UNIF_Headgear_6B47_Goggle_Up",
+            "UNIF_Headgear_6B47_Goggle_Down",
+            "UNIF_Headgear_6B47",
+            "UNIF_Headgear_SP_M88Helmet_UN1",
+            "UNIF_Headgear_SP_M88Helmet_UN2",
+            "UNIF_Headgear_SP_M88PSMHelmet_UN1",
+            "UNIF_Headgear_SP_M88PSMHelmet_UN2",
+            "UNIF_Headgear_SP_M96Helmet_UN1",
+            "UNIF_Headgear_SP_M96Helmet_UN2",
+            "UNIF_Headgear_SP_Mk7Helmet_UN1",
+            "UNIF_Headgear_SP_Mk7Helmet_UN2",
+            "UNIF_Vest_RAV_Operator_UN",
+            "UNIF_Vest_RAV_Breacher_UN",
+            "UNIF_Vest_RAV_MG_UN",
+            "UNIF_Vest_RAV_Light_UN",
+            "UNIF_Vest_RAV_Operator_UN_OGA",
+            "UNIF_Vest_RAV_Breacher_UN_OGA",
+            "UNIF_Vest_RAV_MG_UN_OGA",
+            "UNIF_Vest_RAV_Light_UN_OGA",
+            "UNIF_Vest_RAV_Operator_UN_OD",
+            "UNIF_Vest_RAV_Breacher_UN_OD",
+            "UNIF_Vest_RAV_MG_UN_OD",
+            "UNIF_Vest_RAV_Light_UN_OD",
+            "UNIF_UN_UniformItem_C_Uni_1",
+            "UNIF_UN_UniformItem_C_Uni_2",
+            "UNIF_Headgear_VSM_Mich2000_OGA",
+            "UNIF_Headgear_VSM_Mich2000_2_OGA",
+        };
         magazines[]=
         {
         };
-        requiredVersion = 0.1; 
-        requiredAddons[] = {}; 
-    }; 
-}; 
+        requiredVersion = 0.1;
+        requiredAddons[] = {};
+    };
+};
 
-class CfgVehicles 
-{   
+class CfgVehicles
+{
     class C_Marshal_F;
-    class UNIF_Faction_UN_C_Char_1: C_Marshal_F 
+    class UNIF_Faction_UN_C_Char_1: C_Marshal_F
     {
-        author = "Sawtes"; 
-        _generalMacro = "B_soldier_F"; 
-        scope = 1; 
-        displayName = ""; 
+        author = "Sawtes";
+        _generalMacro = "B_soldier_F";
+        scope = 1;
+        displayName = "";
         modelsides[] = {3,2,1,0};
         uniformClass = "UNIF_UN_UniformItem_C_Uni_1";
-        hiddenSelectionsTextures[] = 
-        { 
+        hiddenSelectionsTextures[] =
+        {
             "\UNIF_UN_Faction_CUP_Gear\textures\Marshall\UN_PoloShirt_khaki.paa"
-        };  
+        };
     };
     class UNIF_Faction_UN_C_Char_2: UNIF_Faction_UN_C_Char_1
     {
@@ -93,130 +93,115 @@ class CfgVehicles
         };
     };
 
+    //Backpacks
 
-
-  	 //************************************************************************************************************************************************************************************************
-    //*****           Bkacpacks                *********************************************************************************************************************************************************
-    //************************************************************************************************************************************************************************************************
     class B_Carryall_Base;
-    class UNIF_Faction_UN_Condor_Backpack_Black: B_Carryall_Base 
+    class UNIF_Faction_UN_Condor_Backpack_Black: B_Carryall_Base
     {
         armor = 200;
         mass = 90;
         maximumLoad = 480;
         author = "UNIF Mod Team";
-        scope = 2; 
-        displayName = "Condor Backpack (Black)"; 
+        scope = 2;
+        displayName = "Condor Backpack (Black)";
         model = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
         picture = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
         hiddenSelections[] = {"Camo"};
-        hiddenSelectionsTextures[] = 
-        { 
+        hiddenSelectionsTextures[] =
+        {
             "\UNIF_UN_Faction_CUP_Gear\textures\Condor\Black_Condor.paa"
-        };  
+        };
     };
-    class UNIF_Faction_UN_Condor_Backpack_OD: B_Carryall_Base 
+    class UNIF_Faction_UN_Condor_Backpack_OD: B_Carryall_Base
     {
         armor = 200;
         mass = 90;
         maximumLoad = 480;
         author = "UNIF Mod Team";
-        scope = 2; 
-        displayName = "Condor Backpack (OD)"; 
+        scope = 2;
+        displayName = "Condor Backpack (OD)";
         model = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
         picture = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
         hiddenSelections[] = {"Camo"};
-        hiddenSelectionsTextures[] = 
-        { 
+        hiddenSelectionsTextures[] =
+        {
             "\UNIF_UN_Faction_CUP_Gear\textures\Condor\OD_Condor.paa"
-        };  
+        };
     };
-    class UNIF_Faction_UN_Condor_Backpack_OGA: B_Carryall_Base 
+    class UNIF_Faction_UN_Condor_Backpack_OGA: B_Carryall_Base
     {
         armor = 200;
         mass = 90;
         maximumLoad = 480;
         author = "UNIF Mod Team";
-        scope = 2; 
-        displayName = "Condor Backpack (OGA)"; 
+        scope = 2;
+        displayName = "Condor Backpack (OGA)";
         model = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
         picture = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
         hiddenSelections[] = {"Camo"};
-        hiddenSelectionsTextures[] = 
-        { 
+        hiddenSelectionsTextures[] =
+        {
             "\UNIF_UN_Faction_CUP_Gear\textures\Condor\OGA_Condor.paa"
-        };  
+        };
     };
 
-    //************************************************************************************************************************************************************************************************
-    //*****           Uniform  Units                *********************************************************************************************************************************************************
-    //************************************************************************************************************************************************************************************************
+    //Uniform Units
 
-    //************************************************************************************************************************************************************************************************
-    //*****             Objects              *********************************************************************************************************************************************************
-    //************************************************************************************************************************************************************************************************
-    
-	//************************************************************************************************************************************************************************************************
-    //*****             Vehicles             *********************************************************************************************************************************************************
-    //************************************************************************************************************************************************************************************************
- 
+    //Objects
+
+    //Vehicles
 };
 
-class cfgWeapons 
-{ 
-	class ItemCore; 
+class cfgWeapons
+{
+    class ItemCore;
     class VestItem;
-	class Vest_Camo_Base: ItemCore
-	{
-		class ItemInfo;
-	};
+    class Vest_Camo_Base: ItemCore
+    {
+        class ItemInfo;
+    };
     class V_Press_F: Vest_Camo_Base
     {
         class ItemInfo;
     };
-    class UniformItem; 
-    class Uniform_Base: ItemCore 
-    { 
-        class ItemInfo; 
-    }; 
+    class UniformItem;
+    class Uniform_Base: ItemCore
+    {
+        class ItemInfo;
+    };
 
-    //********************************************************************************************************************************************************************************************
-    //*****            Uniforms              *****************************************************************************************************************************************************
-    //********************************************************************************************************************************************************************************************
-    
+    //Uniforms
+
     class U_Marshal;
     class UNIF_UN_UniformItem_C_Uni_1: U_Marshal
-    { 
+    {
         scope = 2;
-        scopeArsenal = 2; 
+        scopeArsenal = 2;
         displayName = "[UNIF] Humanitarian Clothes (UN/Khaki)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        class ItemInfo : UniformItem { 
+        class ItemInfo : UniformItem {
             uniformModel="-";
             uniformClass = "UNIF_Faction_UN_C_Char_1";
-            containerClass = "Supply60"; 
-            mass = 30; 
+            containerClass = "Supply60";
+            mass = 30;
         };
     };
     class UNIF_UN_UniformItem_C_Uni_2: UNIF_UN_UniformItem_C_Uni_1
-    { 
+    {
         scope = 2;
-        scopeArsenal = 2; 
+        scopeArsenal = 2;
         displayName = "[UNIF] Humanitarian Clothes (UN/Jeans)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"; 
-        class ItemInfo : UniformItem { 
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        class ItemInfo : UniformItem {
             uniformModel="-";
             uniformClass = "UNIF_Faction_UN_C_Char_2";
-            containerClass = "Supply60"; 
-            mass = 30; 
+            containerClass = "Supply60";
+            mass = 30;
         };
     };
 
+    //Helmets
 
-    //************************************************************************************************************************************************************************************************
-    //*****             Helmets               *********************************************************************************************************************************************************
-    //************************************************************************************************************************************************************************************************
-    
     class SP_Beret_UN1;
     class SP_Beret_UN2;
 
@@ -323,40 +308,40 @@ class cfgWeapons
     {
         displayName = "[UNIF] Cap w/DEF (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
+        };
     };
 
     class UNIF_Headgear_Cap: CUP_H_PMC_Cap_Grey
     {
         displayName = "[UNIF] Cap (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
+        };
     };
 
     class UNIF_Headgear_Cap_Back: CUP_H_PMC_Cap_Back_Grey
     {
         displayName = "[UNIF] Cap Backwards (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
+        };
     };
 
     class UNIF_Headgear_MarshallCap_Back: CUP_H_PMC_Cap_Back_EP_Grey
     {
         displayName = "[UNIF] Cap Backwards w/DEF (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\MarshallCap\UN_MarshallCap.paa"
+        };
     };
 
     class CUP_H_RUS_Altyn_black;
@@ -368,44 +353,44 @@ class cfgWeapons
     {
         displayName = "[UNIF] Altyn Combat Helmet (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
-        	"cup\creatures\people\military\cup_creatures_people_military_russia\data\altyn_stripes_co.paa"
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
+            "cup\creatures\people\military\cup_creatures_people_military_russia\data\altyn_stripes_co.paa"
+        };
     };
 
     class UNIF_Headgear_Altyn_Goggles: CUP_H_RUS_Altyn_Goggles_black
     {
         displayName = "[UNIF] Altyn Combat Helmet w/Goggles (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
-        	"cup\creatures\people\military\cup_creatures_people_military_russia\data\altyn_stripes_co.paa"
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
+            "cup\creatures\people\military\cup_creatures_people_military_russia\data\altyn_stripes_co.paa"
+        };
     };
 
     class UNIF_Headgear_Altyn_ShieldDown: CUP_H_RUS_Altyn_Shield_Down_black
     {
         displayName = "[UNIF] Altyn Combat Helmet Shield Down (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
-        	"cup\creatures\people\military\cup_creatures_people_military_russia\data\altyn_stripes_co.paa"
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
+            "cup\creatures\people\military\cup_creatures_people_military_russia\data\altyn_stripes_co.paa"
+        };
     };
 
     class UNIF_Headgear_Altyn_ShieldUp: CUP_H_RUS_Altyn_Shield_Up_black
     {
         displayName = "[UNIF] Altyn Combat Helmet Shield Up (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
-        	"cup\creatures\people\military\cup_creatures_people_military_russia\data\altyn_stripes_co.paa"
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\Altyn\UN_Altyn.paa",
+            "cup\creatures\people\military\cup_creatures_people_military_russia\data\altyn_stripes_co.paa"
+        };
     };
 
     class CUP_H_RUS_6B47_NV_6M21_Winter;
@@ -416,35 +401,35 @@ class cfgWeapons
     {
         displayName = "[UNIF] 6B47 Helmet w/Goggles Up (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\6b47\UN_6b47.paa",
-        	"CUP\Creatures\People\Military\CUP_Creatures_People_Military_RussiaModern\Headgear\Data\GSSH_ESS_s_CO.paa",
-        	"CUP\Creatures\People\Military\CUP_Creatures_People_Military_RussiaModern\Headgear\Data\GSSH_ESS_s_CO.paa"
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\6b47\UN_6b47.paa",
+            "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RussiaModern\Headgear\Data\GSSH_ESS_s_CO.paa",
+            "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RussiaModern\Headgear\Data\GSSH_ESS_s_CO.paa"
+        };
     };
 
     class UNIF_Headgear_6B47_Goggle_Down: CUP_H_RUS_6B47_NV_6M21_6B34D_Winter
     {
         displayName = "[UNIF] 6B47 Helmet w/Goggles Down (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\6b47\UN_6b47.paa",
-        	"CUP\Creatures\People\Military\CUP_Creatures_People_Military_RussiaModern\Headgear\Data\GSSH_ESS_s_CO.paa",
-        	"CUP\Creatures\People\Military\CUP_Creatures_People_Military_RussiaModern\Headgear\Data\GSSH_ESS_s_CO.paa"
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\6b47\UN_6b47.paa",
+            "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RussiaModern\Headgear\Data\GSSH_ESS_s_CO.paa",
+            "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RussiaModern\Headgear\Data\GSSH_ESS_s_CO.paa"
+        };
     };
 
     class UNIF_Headgear_6B47: CUP_H_RUS_6B47_NV_6M21_Winter
     {
         displayName = "[UNIF] 6B47 Helmet (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\6b47\UN_6b47.paa",
-        	"CUP\Creatures\People\Military\CUP_Creatures_People_Military_RussiaModern\Headgear\Data\GSSH_ESS_s_CO.paa",
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\6b47\UN_6b47.paa",
+            "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RussiaModern\Headgear\Data\GSSH_ESS_s_CO.paa",
+        };
     };
 
     class SP_M88Helmet_UN1;
@@ -515,11 +500,11 @@ class cfgWeapons
         displayName = "[UNIF] MICH 2000 (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\MICH\vsm_mich2000_UN.paa",
-        	"\UNIF_UN_Faction_CUP_Gear\textures\MICH\vsm_ops_UN.paa",
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\MICH\vsm_mich2000_UN.paa",
+            "\UNIF_UN_Faction_CUP_Gear\textures\MICH\vsm_ops_UN.paa",
+        };
     };
 
     class UNIF_Headgear_VSM_Mich2000_2_OGA: VSM_Mich2000_2_OGA
@@ -527,19 +512,15 @@ class cfgWeapons
         displayName = "[UNIF] MICH 2000 2 (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
-        hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] =
         {
-        	"\UNIF_UN_Faction_CUP_Gear\textures\MICH\vsm_mich2000_UN.paa",
-        	"\UNIF_UN_Faction_CUP_Gear\textures\MICH\vsm_ops_UN.paa",
-    	};
+            "\UNIF_UN_Faction_CUP_Gear\textures\MICH\vsm_mich2000_UN.paa",
+            "\UNIF_UN_Faction_CUP_Gear\textures\MICH\vsm_ops_UN.paa",
+        };
     };
 
+    //Vests
 
-
-    //************************************************************************************************************************************************************************************************
-    //*****             Vests               *********************************************************************************************************************************************************
-    //************************************************************************************************************************************************************************************************
-    
     class CFP_RAV_operator_OGA;
     class CFP_RAV_MG_OGA;
     class CFP_RAV_Breacher_OGA;
@@ -550,16 +531,16 @@ class cfgWeapons
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
-		{
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Chestrig_UN.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_DropHolster_UN.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Gear_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\radio_pouch_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_Pouches_un.paa",
-		};
+        {
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Chestrig_UN.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_DropHolster_UN.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Gear_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\radio_pouch_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_Pouches_un.paa",
+        };
     };
 
     class UNIF_Vest_RAV_MG_UN: CFP_RAV_MG_OGA
@@ -567,18 +548,18 @@ class cfgWeapons
         displayName = "[UNIF] VSM Blue Paraclete RAV Gunner (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
-		hiddenSelectionsTextures[]=
-		{
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Chestrig_UN.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\vsm_boxmag_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_DropHolster_UN.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Gear_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\radio_pouch_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_Pouches_un.paa",
-		};
+        hiddenSelectionsTextures[]=
+        {
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Chestrig_UN.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\vsm_boxmag_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_DropHolster_UN.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Gear_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\radio_pouch_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_Pouches_un.paa",
+        };
     };
 
     class UNIF_Vest_RAV_Breacher_UN: CFP_RAV_Breacher_OGA
@@ -587,17 +568,17 @@ class cfgWeapons
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
-		{
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Chestrig_UN.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_DropHolster_UN.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Gear_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\radio_pouch_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_Pouches_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_ButtPouch_un.paa",
-		};
+        {
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Chestrig_UN.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_DropHolster_UN.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Gear_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\radio_pouch_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_Pouches_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_ButtPouch_un.paa",
+        };
     };
 
     class UNIF_Vest_RAV_Light_UN: CFP_RAV_MG_OGA
@@ -606,17 +587,17 @@ class cfgWeapons
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"
 
         hiddenSelectionsTextures[]=
-		{
-			"",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_DropHolster_UN.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Gear_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\radio_pouch_un.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			"",
-		};
+        {
+            "",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_DropHolster_UN.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_OGA_Gear_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\radio_pouch_un.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            "",
+        };
 
         class ItemInfo: VestItem
         {
@@ -664,23 +645,23 @@ class cfgWeapons
             };
         };
     };
-///OGA
+    ///OGA
     class UNIF_Vest_RAV_Operator_UN_OGA: CFP_RAV_operator_OGA
     {
         displayName = "[UNIF] VSM OGA Paraclete RAV Operator (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
-		{
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
-			"x\cfp\addons\vsm_vests\data\radio_pouch.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa"
-		};
+        {
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
+            "x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa"
+        };
     };
 
     class UNIF_Vest_RAV_MG_UN_OGA: CFP_RAV_MG_OGA
@@ -688,18 +669,18 @@ class cfgWeapons
         displayName = "[UNIF] VSM OGA Paraclete RAV Gunner (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
-		hiddenSelectionsTextures[]=
-		{
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_boxmag_OGA.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
-			"x\cfp\addons\vsm_vests\data\radio_pouch.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa"
-		};
+        hiddenSelectionsTextures[]=
+        {
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_boxmag_OGA.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
+            "x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa"
+        };
 
     };
 
@@ -709,17 +690,17 @@ class cfgWeapons
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
-		{
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
-			"x\cfp\addons\vsm_vests\data\radio_pouch.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_buttpouch_OGA.paa"
-		};
+        {
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
+            "x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_buttpouch_OGA.paa"
+        };
 
     };
 
@@ -729,17 +710,17 @@ class cfgWeapons
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"
 
         hiddenSelectionsTextures[]=
-		{
-			"",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"",
-			"x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
-			"x\cfp\addons\vsm_vests\data\radio_pouch.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			""
-		};
+        {
+            "",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "",
+            "x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
+            "x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            ""
+        };
 
         class ItemInfo: VestItem
         {
@@ -794,16 +775,16 @@ class cfgWeapons
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
-		{
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
-			"x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa"
-		};
+        {
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
+            "x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa"
+        };
     };
 
     class UNIF_Vest_RAV_MG_UN_OD: CFP_RAV_MG_OGA
@@ -811,18 +792,18 @@ class cfgWeapons
         displayName = "[UNIF] VSM OD Paraclete RAV Gunner (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
-		hiddenSelectionsTextures[]=
-		{
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_boxmag_OGA_OD.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
-			"x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa"
-		};
+        hiddenSelectionsTextures[]=
+        {
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_boxmag_OGA_OD.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
+            "x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa"
+        };
 
     };
 
@@ -832,17 +813,17 @@ class cfgWeapons
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
-		{
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
-			"x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_buttpouch_OGA_OD.paa"
-		};
+        {
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
+            "x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_buttpouch_OGA_OD.paa"
+        };
 
     };
 
@@ -852,17 +833,17 @@ class cfgWeapons
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"
 
         hiddenSelectionsTextures[]=
-		{
-			"",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-			"",
-			"x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-			"x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
-			"x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
-			"UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-			""
-		};
+        {
+            "",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
+            "",
+            "x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
+            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
+            "x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+            "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
+            ""
+        };
 
         class ItemInfo: VestItem
         {
@@ -911,13 +892,8 @@ class cfgWeapons
         };
     };
 
-    //************************************************************************************************************************************************************************************************
-    //*****             guns               *********************************************************************************************************************************************************
-    //************************************************************************************************************************************************************************************************
-	
-};
-    
+    //Guns
 
-  //************************************************************************************************************************************************************************************************
-  //*****             Groups               *********************************************************************************************************************************************************
-  //************************************************************************************************************************************************************************************************
+};
+
+//Groups
