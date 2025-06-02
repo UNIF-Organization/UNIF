@@ -1,0 +1,14 @@
+{
+    "compress": {
+        "exclude": [
+        ],
+        "include": [
+        ]
+    },
+    "headers": [
+        {
+            "name": "prefix",
+            "value": "UNIF_CUP_TFAR_Fix"
+        }
+    ]
+}
