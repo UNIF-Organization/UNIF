@@ -1,28 +1,26 @@
 #include "BIS_AddonInfo.hpp"
-class CfgPatches 
+class CfgPatches
 {
-	class UNIF_Faction_Base 
-	{
+    class UNIF_Faction_Base
+    {
         author = "UNIF Mod Team";
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 1.0;
-		requiredAddons[] = {};
-	};
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = 1.0;
+        requiredAddons[] = {};
+    };
 };
 
+//Factions
 
-//************************************************************************************************************************************************************************************************
-//*****        Factions                  *********************************************************************************************************************************************************
-//************************************************************************************************************************************************************************************************
 class cfgFactionClasses // Factions are made using this cfg
-{ 
+{
     class test //unique name
-    { 
-        displayName = "test"; 
-        priority = 1; // Position in list. 
-        side = 1; // Opfor = 0, Blufor = 1, Indep = 2. 
-        icon =  ""; //Custom Icon 
-    }; 
+    {
+        displayName = "test";
+        priority = 1; // Position in list.
+        side = 1; // Opfor = 0, Blufor = 1, Indep = 2.
+        icon =  ""; //Custom Icon
+    };
 };
 

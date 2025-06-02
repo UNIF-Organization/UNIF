@@ -1,37 +1,34 @@
-class CfgPatches 
+class CfgPatches
 {
-	class UNIF_UN_Faction_Base 
-	{
+    class UNIF_UN_Faction_Base
+    {
         author = "UNIF Mod Team";
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 1.0;
-		requiredAddons[] = {};
-	};
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = 1.0;
+        requiredAddons[] = {};
+    };
 };
 
+//Factions
 
-//************************************************************************************************************************************************************************************************
-//*****        Factions                  *********************************************************************************************************************************************************
-//************************************************************************************************************************************************************************************************
 class cfgFactionClasses // Factions are made using this cfg
-{ 
+{
     class UNIF_Faction_UNIF_UN_BLUFOR //unique name
-    { 
-        displayName = "[UNIF] United Nations Intervention Force"; 
-        priority = 1; // Position in list. 
-        side = 1; // Opfor = 0, Blufor = 1, Indep = 2. 
-        icon =  "\UNIF_Patches\data\UNIF_base.paa"; //Custom Icon 
-    }; 
+    {
+        displayName = "[UNIF] United Nations Intervention Force";
+        priority = 1; // Position in list.
+        side = 1; // Opfor = 0, Blufor = 1, Indep = 2.
+        icon =  "\UNIF_Patches\data\UNIF_base.paa"; //Custom Icon
+    };
 };
 
 
-//************************************************************************************************************************************************************************************************
-//*****        Editor Category                  *********************************************************************************************************************************************************
-//************************************************************************************************************************************************************************************************
+//Editor Category
+
 
 class CfgEditorCategories
-{ 
+{
     class UNIF_Faction_edcat_props
     {
         displayname="[UNIF] United Nations Intervention Force";
@@ -130,4 +127,4 @@ class CfgEditorSubcategories
     {
         displayname="MRAPs (East)";
     };
-};  
+};

@@ -1,23 +1,21 @@
-class CfgPatches 
-{ 
+class CfgPatches
+{
     class UNIF_Join_Mehland_Fix
-    { 
-       units[] = 
+    {
+        units[] =
         {
-            
-        }; 
-        weapons[] = 
-        {
-        
-        }; 
-        requiredVersion = 0.1; 
-        requiredAddons[] = {"UNIF_Join","mehland"}; 
-    }; 
-}; 
 
-//************************************************************************************************************************************************************************************************
-//*****        Server                  *********************************************************************************************************************************************************
-//************************************************************************************************************************************************************************************************
+        };
+        weapons[] =
+        {
+
+        };
+        requiredVersion = 0.1;
+        requiredAddons[] = {"UNIF_Join","mehland"};
+    };
+};
+
+//Server
 
 class Controls;
 class GroupPicture;
@@ -46,7 +44,7 @@ class RscDisplayMain: RscStandardDisplay
     };
 
     class controls
-	{
+    {
         class BackgroundSpotlight: RscPicture
         {
             text = "#(argb,8,8,3)color(1,1,1,1)";
@@ -204,10 +202,10 @@ class RscDisplayMain: RscStandardDisplay
             y = "0.5 + (	10 / 2) * 	(pixelH * pixelGridNoUIScale * 2)";
             angle = 180;
         };
-	};
+    };
 
-	class ControlsBackground
-	{
+    class ControlsBackground
+    {
         class MouseArea: RscText
         {
             idc = 999;
@@ -217,6 +215,6 @@ class RscDisplayMain: RscStandardDisplay
             w = "safezoneWAbs";
             h = "safezoneH";
         };
-	};
+    };
 };
 

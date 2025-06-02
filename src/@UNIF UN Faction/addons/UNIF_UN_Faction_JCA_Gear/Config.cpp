@@ -1,11 +1,11 @@
-class CfgPatches 
-{ 
+class CfgPatches
+{
     class UNIF_UN_Faction_JCA_Gear
-    { 
-       units[] =  // UNITTS are added here so they show up on zeus
+    {
+        units[] =  // UNITTS are added here so they show up on zeus
         {
-        }; 
-        weapons[] = 
+        };
+        weapons[] =
         {
             "UNIF_UN_Faction_JCA_Gear_Vest_Holster",
 
@@ -32,36 +32,34 @@ class CfgPatches
             "UNIF_UN_Faction_JCA_Gear_Vest_Blue_Crew",
             "UNIF_UN_Faction_JCA_Gear_Vest_Blue_Recon",
             "UNIF_UN_Faction_JCA_Gear_Vest_Blue_Tactical",
-        }; 
+        };
         magazines[]=
         {
         };
-        requiredVersion = 0.1; 
-        requiredAddons[] = {}; 
-    }; 
-}; 
+        requiredVersion = 0.1;
+        requiredAddons[] = {};
+    };
+};
 
-class cfgWeapons 
-{ 
-	class ItemCore; 
+class cfgWeapons
+{
+    class ItemCore;
     class VestItem;
-	class Vest_Camo_Base: ItemCore
-	{
-		class ItemInfo;
-	};
+    class Vest_Camo_Base: ItemCore
+    {
+        class ItemInfo;
+    };
     class V_Press_F: Vest_Camo_Base
     {
         class ItemInfo;
     };
-    class UniformItem; 
-    class Uniform_Base: ItemCore 
-    { 
-        class ItemInfo; 
-    }; 
+    class UniformItem;
+    class Uniform_Base: ItemCore
+    {
+        class ItemInfo;
+    };
 
-    //********************************************************************************************************************************************************************************************
-    //*****            Uniforms              *****************************************************************************************************************************************************
-    //********************************************************************************************************************************************************************************************
+    //Uniforms
 
     class JCA_V_CarrierRigKBT_01_combat_olive_F;
     class JCA_V_CarrierRigKBT_01_command_olive_F;
@@ -72,7 +70,7 @@ class cfgWeapons
     class JCA_V_CarrierRigKBT_01_recon_olive_F;
     class JCA_V_CarrierRigKBT_01_tactical_olive_F;
 
-    //// Holster
+    //Holster
 
     class UNIF_UN_Faction_JCA_Gear_Vest_Holster: JCA_V_CarrierRigKBT_01_holster_olive_F
     {
@@ -84,7 +82,7 @@ class cfgWeapons
         };
     };
 
-    //// Blue
+    //Blue
 
     class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Combat: JCA_V_CarrierRigKBT_01_combat_olive_F
     {
@@ -146,7 +144,7 @@ class cfgWeapons
             ""
         };
     };
-    
+
     class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Recon: JCA_V_CarrierRigKBT_01_recon_olive_F
     {
         scope=2;
@@ -174,7 +172,7 @@ class cfgWeapons
         };
     };
 
-    //// OD
+    //OD
 
     class UNIF_UN_Faction_JCA_Gear_Vest_OD_Combat: JCA_V_CarrierRigKBT_01_combat_olive_F
     {
@@ -236,7 +234,7 @@ class cfgWeapons
             ""
         };
     };
-    
+
     class UNIF_UN_Faction_JCA_Gear_Vest_OD_Recon: JCA_V_CarrierRigKBT_01_recon_olive_F
     {
         scope=2;
@@ -264,7 +262,7 @@ class cfgWeapons
         };
     };
 
-    //// OGA
+    //OGA
 
     class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Combat: JCA_V_CarrierRigKBT_01_combat_olive_F
     {
@@ -326,7 +324,7 @@ class cfgWeapons
             ""
         };
     };
-    
+
     class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Recon: JCA_V_CarrierRigKBT_01_recon_olive_F
     {
         scope=2;
@@ -354,15 +352,8 @@ class cfgWeapons
         };
     };
 
+    //Guns
 
-
-    //************************************************************************************************************************************************************************************************
-    //*****             guns               *********************************************************************************************************************************************************
-    //************************************************************************************************************************************************************************************************
-	
 };
-    
 
-  //************************************************************************************************************************************************************************************************
-  //*****             Groups               *********************************************************************************************************************************************************
-  //************************************************************************************************************************************************************************************************
+//Groups

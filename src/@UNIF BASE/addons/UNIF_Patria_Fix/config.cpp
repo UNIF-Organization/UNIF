@@ -911,139 +911,139 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-		};
-		faction="BLU_F_WD";
-		forceInGarage=1;
-		side=1;
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3",
-			"CamoNet",
-			"CamoSlat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\UNIF_Patria_Fix\data\Patria_01_ext_wd.paa",
-			"\UNIF_Patria_Fix\data\Patria_02_ext_wd.paa",
-			"\UNIF_Patria_Fix\data\Patria_Turret_wd.paa",
-			"a3\Armor_F\Data\camonet_green_CO.paa",
-			"A3\armor_f\data\cage_G1_co.paa"
-		};
-	};
-	class Patria_unarmed_D: Patria_base_unarmed_F
-	{
-		crew="B_crew_F";
-		typicalCargo[]=
-		{
-			"B_soldier_F"
-		};
-		scope=2;
-		scopeCurator=2;
-		displayName="Patria AMV Transport";
-		picture="\UNIF_Patria_Fix\data\APC_Wheeled_01_base_ca.paa";
-		Icon="\A3\armor_f_beta\APC_Wheeled_01\Data\UI\map_amw_medevac_CA.paa";
-		class EventHandlers
-		{
-			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-		};
-		faction="BLU_F_D";
-		forceInGarage=1;
-		side=1;
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3",
-			"CamoNet",
-			"CamoSlat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\UNIF_Patria_Fix\data\Patria_01_ext_d.paa",
-			"\UNIF_Patria_Fix\data\Patria_02_ext_d.paa",
-			"\UNIF_Patria_Fix\data\Patria_Turret_d.paa",
-			"\UNIF_Patria_Fix\data\camonet_desert_CO.paa",
-			"\UNIF_Patria_Fix\data\cage_desert_CO.paa"
-		};
-	};
-	class Patria_medical_WD: Patria_base_Medical_F
-	{
-		crew="B_crew_F";
-		typicalCargo[]=
-		{
-			"B_soldier_F"
-		};
-		scope=2;
-		scopeCurator=2;
-		displayName="Patria AMV Medical";
-		picture="\UNIF_Patria_Fix\data\APC_Wheeled_01_base_ca.paa";
-		Icon="\A3\armor_f_beta\APC_Wheeled_01\Data\UI\map_amw_medevac_CA.paa";
-		vehicleClass="Support";
-		supplyRadius=10;
-		attendant=1;
-		class EventHandlers
-		{
-			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-		};
-		faction="BLU_F_WD";
-		forceInGarage=1;
-		side=1;
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3",
-			"CamoNet",
-			"CamoSlat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\UNIF_Patria_Fix\data\Patria_01_med_ext_wd.paa",
-			"\UNIF_Patria_Fix\data\Patria_02_ext_wd.paa",
-			"\UNIF_Patria_Fix\data\Patria_Turret_wd.paa",
-			"a3\Armor_F\Data\camonet_green_CO.paa",
-			"A3\armor_f\data\cage_G1_co.paa"
-		};
-	};
-	class Patria_medical_D: Patria_base_Medical_F
-	{
-		crew="B_crew_F";
-		typicalCargo[]=
-		{
-			"B_soldier_F"
-		};
-		scope=2;
-		scopeCurator=2;
-		displayName="Patria AMV Medical";
-		picture="\UNIF_Patria_Fix\data\APC_Wheeled_01_base_ca.paa";
-		Icon="\A3\armor_f_beta\APC_Wheeled_01\Data\UI\map_amw_medevac_CA.paa";
-		vehicleClass="Support";
-		supplyRadius=10;
-		attendant=1;
-		class EventHandlers: EventHandlers
-		{
-			init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-		};
-		faction="BLU_F_D";
-		forceInGarage=1;
-		side=1;
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3",
-			"CamoNet",
-			"CamoSlat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\UNIF_Patria_Fix\data\Patria_01_med_ext_d.paa",
-			"\UNIF_Patria_Fix\data\Patria_02_ext_d.paa",
-			"\UNIF_Patria_Fix\data\Patria_Turret_d.paa",
-			"\UNIF_Patria_Fix\data\camonet_desert_CO.paa",
-			"\UNIF_Patria_Fix\data\cage_desert_CO.paa"
-		};
-	};
-};
+			};
+			faction="BLU_F_WD";
+			forceInGarage=1;
+			side=1;
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"camo3",
+				"CamoNet",
+				"CamoSlat"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\UNIF_Patria_Fix\data\Patria_01_ext_wd.paa",
+				"\UNIF_Patria_Fix\data\Patria_02_ext_wd.paa",
+				"\UNIF_Patria_Fix\data\Patria_Turret_wd.paa",
+				"a3\Armor_F\Data\camonet_green_CO.paa",
+				"A3\armor_f\data\cage_G1_co.paa"
+			};
+			};
+			class Patria_unarmed_D: Patria_base_unarmed_F
+			{
+				crew="B_crew_F";
+				typicalCargo[]=
+				{
+					"B_soldier_F"
+				};
+				scope=2;
+				scopeCurator=2;
+				displayName="Patria AMV Transport";
+				picture="\UNIF_Patria_Fix\data\APC_Wheeled_01_base_ca.paa";
+				Icon="\A3\armor_f_beta\APC_Wheeled_01\Data\UI\map_amw_medevac_CA.paa";
+				class EventHandlers
+				{
+					init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+					};
+					faction="BLU_F_D";
+					forceInGarage=1;
+					side=1;
+					hiddenSelections[]=
+					{
+						"camo1",
+						"camo2",
+						"camo3",
+						"CamoNet",
+						"CamoSlat"
+					};
+					hiddenSelectionsTextures[]=
+					{
+						"\UNIF_Patria_Fix\data\Patria_01_ext_d.paa",
+						"\UNIF_Patria_Fix\data\Patria_02_ext_d.paa",
+						"\UNIF_Patria_Fix\data\Patria_Turret_d.paa",
+						"\UNIF_Patria_Fix\data\camonet_desert_CO.paa",
+						"\UNIF_Patria_Fix\data\cage_desert_CO.paa"
+					};
+					};
+					class Patria_medical_WD: Patria_base_Medical_F
+					{
+						crew="B_crew_F";
+						typicalCargo[]=
+						{
+							"B_soldier_F"
+						};
+						scope=2;
+						scopeCurator=2;
+						displayName="Patria AMV Medical";
+						picture="\UNIF_Patria_Fix\data\APC_Wheeled_01_base_ca.paa";
+						Icon="\A3\armor_f_beta\APC_Wheeled_01\Data\UI\map_amw_medevac_CA.paa";
+						vehicleClass="Support";
+						supplyRadius=10;
+						attendant=1;
+						class EventHandlers
+						{
+							init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+							};
+							faction="BLU_F_WD";
+							forceInGarage=1;
+							side=1;
+							hiddenSelections[]=
+							{
+								"camo1",
+								"camo2",
+								"camo3",
+								"CamoNet",
+								"CamoSlat"
+							};
+							hiddenSelectionsTextures[]=
+							{
+								"\UNIF_Patria_Fix\data\Patria_01_med_ext_wd.paa",
+								"\UNIF_Patria_Fix\data\Patria_02_ext_wd.paa",
+								"\UNIF_Patria_Fix\data\Patria_Turret_wd.paa",
+								"a3\Armor_F\Data\camonet_green_CO.paa",
+								"A3\armor_f\data\cage_G1_co.paa"
+							};
+							};
+							class Patria_medical_D: Patria_base_Medical_F
+							{
+								crew="B_crew_F";
+								typicalCargo[]=
+								{
+									"B_soldier_F"
+								};
+								scope=2;
+								scopeCurator=2;
+								displayName="Patria AMV Medical";
+								picture="\UNIF_Patria_Fix\data\APC_Wheeled_01_base_ca.paa";
+								Icon="\A3\armor_f_beta\APC_Wheeled_01\Data\UI\map_amw_medevac_CA.paa";
+								vehicleClass="Support";
+								supplyRadius=10;
+								attendant=1;
+								class EventHandlers: EventHandlers
+								{
+									init="if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+									};
+									faction="BLU_F_D";
+									forceInGarage=1;
+									side=1;
+									hiddenSelections[]=
+									{
+										"camo1",
+										"camo2",
+										"camo3",
+										"CamoNet",
+										"CamoSlat"
+									};
+									hiddenSelectionsTextures[]=
+									{
+										"\UNIF_Patria_Fix\data\Patria_01_med_ext_d.paa",
+										"\UNIF_Patria_Fix\data\Patria_02_ext_d.paa",
+										"\UNIF_Patria_Fix\data\Patria_Turret_d.paa",
+										"\UNIF_Patria_Fix\data\camonet_desert_CO.paa",
+										"\UNIF_Patria_Fix\data\cage_desert_CO.paa"
+									};
+									};
+								};
