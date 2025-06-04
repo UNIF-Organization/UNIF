@@ -1,4 +1,4 @@
-    class CfgPatches
+class CfgPatches
 {
     class UNIF_UN_Faction_CUP_Gear
     {
@@ -18,9 +18,9 @@
             "UNIF_Headgear_SPH4Helmet1",
             "UNIF_Headgear_SPH4Helmet2",
             "UNIF_Headgear_SPH4Helmet3",
-            "UNIF_Headgear_SSh68Helmet1",
-            "UNIF_Headgear_SSh68Helmet2",
-            "UNIF_Headgear_SSh68Helmet3",
+            "UNIF_Headgear_SSh60Helmet1",
+            "UNIF_Headgear_SSh60Helmet2",
+            "UNIF_Headgear_SSh60Helmet3",
             "UNIF_Headgear_M1Helmet",
             "UNIF_Headgear_PASGT",
             "UNIF_Headgear_MarshallCap",
@@ -271,26 +271,38 @@ class cfgWeapons
         ace_hearing_protection = 0.85;
     };
 
-    class SP_SSh68Helmet_UN1;
-    class SP_SSh68NetHelmet_UN1;
-    class SP_SSh68CoverHelmet_UN1;
+    class CUP_H_SLA_Helmet_BLK;
+    class CUP_H_SLA_Helmet_BLK_worn;
+    class CUP_H_TK_Helmet;
 
-    class UNIF_Headgear_SSh68Helmet1: SP_SSh68Helmet_UN1
+    class UNIF_Headgear_SSh60Helmet1: CUP_H_SLA_Helmet_BLK
     {
         displayName = "[UNIF] SSh-60 (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\SSH60\UN_SSH60.paa"
+        };
     };
 
-    class UNIF_Headgear_SSh68Helmet2: SP_SSh68NetHelmet_UN1
+    class UNIF_Headgear_SSh60Helmet3: CUP_H_SLA_Helmet_BLK_worn
+    {
+        displayName = "[UNIF] SSh-60 Worn (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\SSH60\UN_SSH60_worn.paa"
+        };
+    };
+
+    class UNIF_Headgear_SSh60Helmet2: CUP_H_TK_Helmet
     {
         displayName = "[UNIF] SSh-60 Net (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-    };
-
-    class UNIF_Headgear_SSh68Helmet3: SP_SSh68CoverHelmet_UN1
-    {
-        displayName = "[UNIF] SSh-60 Cover (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\SSH60\UN_SSH60_net.paa"
+        };
     };
 
     class SP_M1Helmet_UN;
