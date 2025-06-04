@@ -22,6 +22,7 @@ class CfgPatches
             "UNIF_Headgear_SSh60Helmet2",
             "UNIF_Headgear_SSh60Helmet3",
             "UNIF_Headgear_M1Helmet",
+            "UNIF_Headgear_M1Helmet_Cigs",
             "UNIF_Headgear_PASGT",
             "UNIF_Headgear_MarshallCap",
             "UNIF_Headgear_Cap",
@@ -305,12 +306,27 @@ class cfgWeapons
         };
     };
 
-    class SP_M1Helmet_UN;
+    class CUP_H_USArmy_Helmet_M1_plain_M81;
+    class CUP_H_USArmy_Helmet_M1_Olive;
 
-    class UNIF_Headgear_M1Helmet: SP_M1Helmet_UN
+    class UNIF_Headgear_M1Helmet: CUP_H_USArmy_Helmet_M1_plain_M81
     {
         displayName = "[UNIF] M1 Helmet (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M1\UN_M1.paa"
+        };
+    };
+
+    class UNIF_Headgear_M1Helmet_Cigs: CUP_H_USArmy_Helmet_M1_Olive
+    {
+        displayName = "[UNIF] M1 Helmet (UN/Cigs)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M1\UN_M1_cigs.paa"
+        };
     };
 
     class H_Cap_marshal;
