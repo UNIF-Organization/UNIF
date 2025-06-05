@@ -18,10 +18,11 @@ class CfgPatches
             "UNIF_Headgear_SPH4Helmet1",
             "UNIF_Headgear_SPH4Helmet2",
             "UNIF_Headgear_SPH4Helmet3",
-            "UNIF_Headgear_SSh68Helmet1",
-            "UNIF_Headgear_SSh68Helmet2",
-            "UNIF_Headgear_SSh68Helmet3",
+            "UNIF_Headgear_SSh60Helmet1",
+            "UNIF_Headgear_SSh60Helmet2",
+            "UNIF_Headgear_SSh60Helmet3",
             "UNIF_Headgear_M1Helmet",
+            "UNIF_Headgear_M1Helmet_Cigs",
             "UNIF_Headgear_PASGT",
             "UNIF_Headgear_MarshallCap",
             "UNIF_Headgear_Cap",
@@ -34,12 +35,6 @@ class CfgPatches
             "UNIF_Headgear_6B47_Goggle_Up",
             "UNIF_Headgear_6B47_Goggle_Down",
             "UNIF_Headgear_6B47",
-            "UNIF_Headgear_SP_M88Helmet_UN1",
-            "UNIF_Headgear_SP_M88Helmet_UN2",
-            "UNIF_Headgear_SP_M88PSMHelmet_UN1",
-            "UNIF_Headgear_SP_M88PSMHelmet_UN2",
-            "UNIF_Headgear_SP_M96Helmet_UN1",
-            "UNIF_Headgear_SP_M96Helmet_UN2",
             "UNIF_Headgear_SP_Mk7Helmet_UN1",
             "UNIF_Headgear_SP_Mk7Helmet_UN2",
             "UNIF_Vest_RAV_Operator_UN",
@@ -58,6 +53,14 @@ class CfgPatches
             "UNIF_UN_UniformItem_C_Uni_2",
             "UNIF_Headgear_VSM_Mich2000_OGA",
             "UNIF_Headgear_VSM_Mich2000_2_OGA",
+            "UNIF_Headgear_M92_Cover",
+            "UNIF_Headgear_M92_Cover_GG",
+            "UNIF_Headgear_M92",
+            "UNIF_Headgear_M92_GG",
+            "UNIF_Headgear_M92_GG_CB",
+            "UNIF_Headgear_M92_GG_CF",
+            "UNIF_Headgear_M92_Cover_GG_CB",
+            "UNIF_Headgear_M92_Cover_GG_CF",
         };
         magazines[]=
         {
@@ -269,34 +272,61 @@ class cfgWeapons
         ace_hearing_protection = 0.85;
     };
 
-    class SP_SSh68Helmet_UN1;
-    class SP_SSh68NetHelmet_UN1;
-    class SP_SSh68CoverHelmet_UN1;
+    class CUP_H_SLA_Helmet_BLK;
+    class CUP_H_SLA_Helmet_BLK_worn;
+    class CUP_H_TK_Helmet;
 
-    class UNIF_Headgear_SSh68Helmet1: SP_SSh68Helmet_UN1
+    class UNIF_Headgear_SSh60Helmet1: CUP_H_SLA_Helmet_BLK
     {
         displayName = "[UNIF] SSh-60 (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\SSH60\UN_SSH60.paa"
+        };
     };
 
-    class UNIF_Headgear_SSh68Helmet2: SP_SSh68NetHelmet_UN1
+    class UNIF_Headgear_SSh60Helmet3: CUP_H_SLA_Helmet_BLK_worn
+    {
+        displayName = "[UNIF] SSh-60 Worn (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\SSH60\UN_SSH60_worn.paa"
+        };
+    };
+
+    class UNIF_Headgear_SSh60Helmet2: CUP_H_TK_Helmet
     {
         displayName = "[UNIF] SSh-60 Net (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\SSH60\UN_SSH60_net.paa"
+        };
     };
 
-    class UNIF_Headgear_SSh68Helmet3: SP_SSh68CoverHelmet_UN1
-    {
-        displayName = "[UNIF] SSh-60 Cover (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-    };
+    class CUP_H_USArmy_Helmet_M1_plain_M81;
+    class CUP_H_USArmy_Helmet_M1_Olive;
 
-    class SP_M1Helmet_UN;
-
-    class UNIF_Headgear_M1Helmet: SP_M1Helmet_UN
+    class UNIF_Headgear_M1Helmet: CUP_H_USArmy_Helmet_M1_plain_M81
     {
         displayName = "[UNIF] M1 Helmet (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M1\UN_M1.paa"
+        };
+    };
+
+    class UNIF_Headgear_M1Helmet_Cigs: CUP_H_USArmy_Helmet_M1_Olive
+    {
+        displayName = "[UNIF] M1 Helmet (UN/Cigs)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M1\UN_M1_cigs.paa"
+        };
     };
 
     class H_Cap_marshal;
@@ -432,50 +462,102 @@ class cfgWeapons
         };
     };
 
-    class SP_M88Helmet_UN1;
-    class SP_M88Helmet_UN2;
+    class CUP_H_Ger_M92_Black;
+    class CUP_H_Ger_M92_Cover;
+    class CUP_H_Ger_M92_Cover_GG;
+    class CUP_H_Ger_M92_Black_GG;
+    class CUP_H_Ger_M92_Black_GG_CB;
+    class CUP_H_Ger_M92_Black_GG_CF;
+    class CUP_H_Ger_M92_Cover_GG_CB;
+    class CUP_H_Ger_M92_Cover_GG_CF;
 
-    class UNIF_Headgear_SP_M88Helmet_UN1: SP_M88Helmet_UN1
+    class UNIF_Headgear_M92_Cover: CUP_H_Ger_M92_Cover
     {
-        displayName = "[UNIF] M88 Helmet Cover (UN)";
+        displayName = "[UNIF] M92 Helmet (UN/Covered)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors.paa",
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_helmet_cover_un.paa",
+        };
     };
 
-    class UNIF_Headgear_SP_M88Helmet_UN2: SP_M88Helmet_UN2
+    class UNIF_Headgear_M92_Cover_GG: CUP_H_Ger_M92_Cover_GG
     {
-        displayName = "[UNIF] M88 Helmet Cover w/Goggles (UN)";
+        displayName = "[UNIF] M92 Helmet (UN/Covered/Goggles)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors.paa",
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_helmet_cover_un.paa",
+        };
     };
 
-    class SP_M88PSMHelmet_UN1;
-    class SP_M88PSMHelmet_UN2;
-
-    class UNIF_Headgear_SP_M88PSMHelmet_UN1: SP_M88PSMHelmet_UN1
+    class UNIF_Headgear_M92: CUP_H_Ger_M92_Black
     {
-        displayName = "[UNIF] M88 Helmet (UN)";
+        displayName = "[UNIF] M92 Helmet (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors.paa",
+        };
     };
 
-    class UNIF_Headgear_SP_M88PSMHelmet_UN2: SP_M88PSMHelmet_UN2
+    class UNIF_Headgear_M92_GG: CUP_H_Ger_M92_Black_GG
     {
-        displayName = "[UNIF] M88 Helmet w/Goggles (UN)";
+        displayName = "[UNIF] M92 Helmet (UN/Goggles)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors.paa",
+        };
     };
 
-    class SP_M96Helmet_UN1;
-    class SP_M96Helmet_UN2;
-
-    class UNIF_Headgear_SP_M96Helmet_UN1: SP_M96Helmet_UN1
+    class UNIF_Headgear_M92_GG_CB: CUP_H_Ger_M92_Black_GG_CB
     {
-        displayName = "[UNIF] M96 Helmet Cover (UN)";
+        displayName = "[UNIF] M92 Helmet (UN/Goggles/Back Cover)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors.paa",
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_helmet_un_google_covers.paa",
+        };
     };
 
-    class UNIF_Headgear_SP_M96Helmet_UN2: SP_M96Helmet_UN2
+    class UNIF_Headgear_M92_GG_CF: CUP_H_Ger_M92_Black_GG_CF
     {
-        displayName = "[UNIF] M96 Helmet Cover w/Goggles (UN)";
+        displayName = "[UNIF] M92 Helmet (UN/Goggles/Cover)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors.paa",
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_helmet_un_google_covers.paa",
+        };
     };
+
+    class UNIF_Headgear_M92_Cover_GG_CB: CUP_H_Ger_M92_Cover_GG_CB
+    {
+        displayName = "[UNIF] M92 Helmet (UN/Covered/Back Cover/Goggles)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors.paa",
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_helmet_cover_un.paa",
+        };
+    };
+
+    class UNIF_Headgear_M92_Cover_GG_CF: CUP_H_Ger_M92_Cover_GG_CF
+    {
+        displayName = "[UNIF] M92 Helmet (UN/Covered/Cover/Goggles)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors.paa",
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_helmet_cover_un.paa",
+        };
+    };
+
+
 
     class SP_Mk7Helmet_UN1;
     class SP_Mk7Helmet_UN2;
