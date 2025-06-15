@@ -133,7 +133,7 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","CUP_Javelin_M"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Squad_Leader_pack";
+    backpack="FRXA_tf_rt1523g_big_Ranger_Green";
   };
 
   class UNIF_UN_Faction_Soldier_AA_Specialist_Stinger: B_Survivor_F
@@ -187,7 +187,8 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_Smoke_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203","CUP_1Rnd_SmokeRed_M203"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Squad_Leader_pack";
+    backpack="FRXA_tf_rt1523g_big_Ranger_Green";
+    attendant = 1;
   };
 
   class UNIF_UN_Faction_Soldier_Machinegunner: B_Survivor_F
@@ -259,6 +260,7 @@ class CfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_Combat_Life_Saver_pack";
+    attendant = 1;
   };
 
   class UNIF_UN_Faction_Soldier_Marksman: B_Survivor_F
@@ -330,7 +332,9 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_CVCHelmet","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_CVCHelmet","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Squad_Leader_pack";
+    backpack="FRXA_tf_rt1523g_big_Ranger_Green";
+    attendant = 1;
+    engineer = 1;
   };
 
   class UNIF_UN_Faction_Soldier_Officer: B_Survivor_F
@@ -348,7 +352,8 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_Beret_1","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_Beret_1","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Squad_Leader_pack";
+    backpack="FRXA_tf_rt1523g_big_Ranger_Green";
+    attendant = 1;
   };
 
   class UNIF_UN_Faction_Soldier_Officer_Parade: I_E_Uniform_ParadeUniform_01_LDF_F
@@ -370,6 +375,7 @@ class CfgVehicles
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","UNIF_Headgear_Beret_1"};
     backpack="";
     editorSubcategory = "EdSubcat_Personnel_Story";
+    attendant = 1;
   };
 
   class UNIF_UN_Faction_Soldier_JTAC : B_Survivor_F
@@ -387,7 +393,7 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","SmokeShell","SmokeShell"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_BoonieHat","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Squad_Leader_pack";
+    backpack="FRXA_tf_rt1523g_big_Ranger_Green";
   };
 
   class UNIF_UN_Faction_Soldier_Pilot_Helicopter: B_Survivor_F
@@ -405,7 +411,9 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_SPH4Helmet2","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_SPH4Helmet2","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Squad_Leader_pack";
+    backpack="FRXA_tf_rt1523g_big_Ranger_Green";
+    attendant = 1;
+    engineer = 1;
   };
 
   class UNIF_UN_Faction_Soldier_Pilot_Jet: B_Survivor_F
@@ -423,7 +431,9 @@ class CfgVehicles
     respawnMagazines[]={"ACE_painkillers","SmokeShell","SmokeShell","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","H_PilotHelmetFighter_B","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","H_PilotHelmetFighter_B","UNIF_Vest_RAV_Light_UN_OD"};
-    backpack="UNIF_Squad_Leader_pack";
+    backpack="FRXA_tf_rt1523g_big_Ranger_Green";
+    attendant = 1;
+    engineer = 1;
   };
 
   class UNIF_UN_Faction_Soldier_Engineer: B_Survivor_F
@@ -442,6 +452,8 @@ class CfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","UNIF_Headgear_VSM_Mich2000_OGA","UNIF_Vest_RAV_Light_UN_OD"};
     backpack="UNIF_Engineer_pack";
+    engineer = 1;
+    candeactivatemines = 1;
   };
 
   class UNIF_UN_Faction_Soldier_Humanitarian_Worker: B_Officer_Parade_F
@@ -480,6 +492,8 @@ class CfgVehicles
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","H_Construction_headset_white_F","V_Safety_yellow_F"};
     backpack="UNIF_Humanitarian_Engineer_pack";
     editorSubcategory = "EdSubcat_Personnel_Story";
+    engineer = 1;
+    candeactivatemines = 1;
   };
 
   class UNIF_UN_Faction_Soldier_Humanitarian_EOD: B_Officer_Parade_F
@@ -499,6 +513,7 @@ class CfgVehicles
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","UNIF_Headgear_Altyn_ShieldDown","V_EOD_blue_F"};
     backpack="UNIF_Humanitarian_EOD_pack";
     editorSubcategory = "EdSubcat_Personnel_Story";
+    candeactivatemines = 1;
   };
 
   class UNIF_UN_Faction_Soldier_CBRN_Specialist: B_W_Soldier_CBRN_F
@@ -537,6 +552,7 @@ class CfgVehicles
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","UNIF_Headgear_Cap","V_Plain_crystal_F"};
     backpack="UNIF_Humanitarian_Medic_pack";
     editorSubcategory = "EdSubcat_Personnel_Story";
+    attendant = 1;
   };
 
   class UNIF_UN_Faction_Soldier_Humanitarian_Aid_Worker: B_Officer_Parade_F
@@ -575,6 +591,7 @@ class CfgVehicles
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","UNIF_Headgear_Cap","V_Plain_crystal_F"};
     backpack="UNIF_Humanitarian_Paramedic_pack";
     editorSubcategory = "EdSubcat_Personnel_Story";
+    attendant = 1;
   };
 
 
@@ -614,16 +631,6 @@ class CfgVehicles
     class TransportItems{};
     class TransportWeapons{};
   };
-
-
-  class UNIF_Squad_Leader_pack: FRXA_tf_rt1523g_big_Ranger_Green
-  {
-    scope=1;
-    class TransportMagazines{};
-    class TransportItems{};
-    class TransportWeapons{};
-  };
-
 
   class UNIF_Ammobearer_pack: VSM_Multicam_carryall
   {
