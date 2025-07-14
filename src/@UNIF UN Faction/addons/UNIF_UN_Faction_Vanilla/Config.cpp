@@ -934,10 +934,10 @@ class CfgVehicles
 
   //Objects
 
-  class UnitedNations_Flag;
+  class FlagCarrierBLUFOR_EP1;
   class banner_01_f;
 
-  class UNIF_UN_Faction_Vanilla_Obj_Flag_UN: UnitedNations_Flag
+  class UNIF_UN_Faction_Vanilla_Obj_Flag_UN: FlagCarrierBLUFOR_EP1
   {
     author = "Mod team";
     displayName = "[UNIF] Flag (UN)";
@@ -950,7 +950,7 @@ class CfgVehicles
     };
   };
 
-  class UNIF_UN_Faction_Vanilla_Obj_Flag_Text: UnitedNations_Flag
+  class UNIF_UN_Faction_Vanilla_Obj_Flag_Text: FlagCarrierBLUFOR_EP1
   {
     author = "Mod team";
     displayName = "[UNIF] Flag (UN Logo)";
