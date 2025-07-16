@@ -603,11 +603,11 @@ class cfgWeapons
 
     //Vests
 
-    class CFP_RAV_operator_OGA;
-    class CFP_RAV_MG_OGA;
-    class CFP_RAV_Breacher_OGA;
+    class VSM_RAV_operator_OGA;
+    class VSM_RAV_MG_OGA;
+    class VSM_RAV_Breacher_OGA;
 
-    class UNIF_Vest_RAV_Operator_UN: CFP_RAV_operator_OGA
+    class UNIF_Vest_RAV_Operator_UN: VSM_RAV_operator_OGA
     {
         displayName = "[UNIF] VSM Blue Paraclete RAV Operator (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
@@ -625,7 +625,7 @@ class cfgWeapons
         };
     };
 
-    class UNIF_Vest_RAV_MG_UN: CFP_RAV_MG_OGA
+    class UNIF_Vest_RAV_MG_UN: VSM_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM Blue Paraclete RAV Gunner (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
@@ -644,7 +644,7 @@ class cfgWeapons
         };
     };
 
-    class UNIF_Vest_RAV_Breacher_UN: CFP_RAV_Breacher_OGA
+    class UNIF_Vest_RAV_Breacher_UN: VSM_RAV_Breacher_OGA
     {
         displayName = "[UNIF] VSM Blue Paraclete RAV Breacher (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
@@ -663,10 +663,10 @@ class cfgWeapons
         };
     };
 
-    class UNIF_Vest_RAV_Light_UN: CFP_RAV_MG_OGA
+    class UNIF_Vest_RAV_Light_UN: VSM_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM Blue Paraclete RAV Light (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
         {
@@ -728,65 +728,65 @@ class cfgWeapons
         };
     };
     ///OGA
-    class UNIF_Vest_RAV_Operator_UN_OGA: CFP_RAV_operator_OGA
+    class UNIF_Vest_RAV_Operator_UN_OGA: VSM_RAV_operator_OGA
     {
         displayName = "[UNIF] VSM OGA Paraclete RAV Operator (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
         {
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
+            "VSM_Vests\Spectergear_LBT\data\VSM_OGA_chestrig.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+            "VSM_Vests\LBT6094\Textures\VSM_dropholster_OGA.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
-            "x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_OGA_gear_co.paa",
+            "VSM_Vests\Spectergear_RAV\data\radio_pouch.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa"
+            "VSM_Vests\Spectergear_RAV\data\VSM_pouches_OGA.paa"
         };
     };
 
-    class UNIF_Vest_RAV_MG_UN_OGA: CFP_RAV_MG_OGA
+    class UNIF_Vest_RAV_MG_UN_OGA: VSM_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM OGA Paraclete RAV Gunner (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
         {
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
+            "VSM_Vests\Spectergear_LBT\data\VSM_OGA_chestrig.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_boxmag_OGA.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_boxmag_OGA.paa",
+            "VSM_Vests\LBT6094\Textures\VSM_dropholster_OGA.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
-            "x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_OGA_gear_co.paa",
+            "VSM_Vests\Spectergear_RAV\data\radio_pouch.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa"
+            "VSM_Vests\Spectergear_RAV\data\VSM_pouches_OGA.paa"
         };
 
     };
 
-    class UNIF_Vest_RAV_Breacher_UN_OGA: CFP_RAV_Breacher_OGA
+    class UNIF_Vest_RAV_Breacher_UN_OGA: VSM_RAV_Breacher_OGA
     {
         displayName = "[UNIF] VSM OGA Paraclete RAV Breacher (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
         {
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_chestrig.paa",
+            "VSM_Vests\Spectergear_LBT\data\VSM_OGA_chestrig.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+            "VSM_Vests\LBT6094\Textures\VSM_dropholster_OGA.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
-            "x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_OGA_gear_co.paa",
+            "VSM_Vests\Spectergear_RAV\data\radio_pouch.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_buttpouch_OGA.paa"
+            "VSM_Vests\Spectergear_RAV\data\VSM_pouches_OGA.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_buttpouch_OGA.paa"
         };
 
     };
 
-    class UNIF_Vest_RAV_Light_UN_OGA: CFP_RAV_MG_OGA
+    class UNIF_Vest_RAV_Light_UN_OGA: VSM_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM OGA Paraclete RAV Light (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"
@@ -796,10 +796,10 @@ class cfgWeapons
             "",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
             "",
-            "x\cfp\addons\vsm_vests\data\VSM_dropholster_OGA.paa",
+            "VSM_Vests\LBT6094\Textures\VSM_dropholster_OGA.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa",
-            "x\cfp\addons\vsm_vests\data\radio_pouch.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_OGA_gear_co.paa",
+            "VSM_Vests\Spectergear_RAV\data\radio_pouch.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
             ""
         };
@@ -851,65 +851,65 @@ class cfgWeapons
         };
     };
     ///OD
-    class UNIF_Vest_RAV_Operator_UN_OD: CFP_RAV_operator_OGA
+    class UNIF_Vest_RAV_Operator_UN_OD: VSM_RAV_operator_OGA
     {
         displayName = "[UNIF] VSM OD Paraclete RAV Operator (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
         {
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
+            "VSM_Vests\Spectergear_LBT\data\VSM_OGA_OD_chestrig.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+            "VSM_Vests\LBT6094\Textures\VSM_dropholster.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
-            "x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_OGA_OD_gear_co.paa",
+            "VSM_Vests\Spectergear_RAV\data\radio_pouch_green.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa"
+            "VSM_Vests\Spectergear_RAV\data\VSM_pouches_OGA_OD.paa"
         };
     };
 
-    class UNIF_Vest_RAV_MG_UN_OD: CFP_RAV_MG_OGA
+    class UNIF_Vest_RAV_MG_UN_OD: VSM_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM OD Paraclete RAV Gunner (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
         {
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
+            "VSM_Vests\Spectergear_LBT\data\VSM_OGA_OD_chestrig.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_boxmag_OGA_OD.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_boxmag_OGA_OD.paa",
+            "VSM_Vests\LBT6094\Textures\VSM_dropholster.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
-            "x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_OGA_OD_gear_co.paa",
+            "VSM_Vests\Spectergear_RAV\data\radio_pouch_green.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa"
+            "VSM_Vests\Spectergear_RAV\data\VSM_pouches_OGA_OD.paa"
         };
 
     };
 
-    class UNIF_Vest_RAV_Breacher_UN_OD: CFP_RAV_Breacher_OGA
+    class UNIF_Vest_RAV_Breacher_UN_OD: VSM_RAV_Breacher_OGA
     {
         displayName = "[UNIF] VSM OD Paraclete RAV Breacher (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
 
         hiddenSelectionsTextures[]=
         {
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_chestrig.paa",
+            "VSM_Vests\Spectergear_LBT\data\VSM_OGA_OD_chestrig.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+            "VSM_Vests\LBT6094\Textures\VSM_dropholster.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
-            "x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_OGA_OD_gear_co.paa",
+            "VSM_Vests\Spectergear_RAV\data\radio_pouch_green.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_pouches_OGA_OD.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_buttpouch_OGA_OD.paa"
+            "VSM_Vests\Spectergear_RAV\data\VSM_pouches_OGA_OD.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_buttpouch_OGA_OD.paa"
         };
 
     };
 
-    class UNIF_Vest_RAV_Light_UN_OD: CFP_RAV_MG_OGA
+    class UNIF_Vest_RAV_Light_UN_OD: VSM_RAV_MG_OGA
     {
         displayName = "[UNIF] VSM OD Paraclete RAV Light (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg"
@@ -919,10 +919,10 @@ class cfgWeapons
             "",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_BattleBelt_un.paa",
             "",
-            "x\cfp\addons\vsm_vests\data\VSM_dropholster.paa",
+            "VSM_Vests\LBT6094\Textures\VSM_dropholster.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\serpa_un.paa",
-            "x\cfp\addons\vsm_vests\data\VSM_OGA_OD_gear_co.paa",
-            "x\cfp\addons\vsm_vests\data\radio_pouch_green.paa",
+            "VSM_Vests\Spectergear_RAV\data\VSM_OGA_OD_gear_co.paa",
+            "VSM_Vests\Spectergear_RAV\data\radio_pouch_green.paa",
             "UNIF_UN_Faction_CUP_Gear\Textures\VSM_Vest\VSM_RAV_un.paa",
             ""
         };
