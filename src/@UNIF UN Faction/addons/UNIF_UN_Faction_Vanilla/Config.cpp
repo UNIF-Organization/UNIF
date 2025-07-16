@@ -963,6 +963,71 @@ class CfgVehicles
     };
   };
 
+  class UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF: FlagCarrierBLUFOR_EP1
+  {
+    author = "Mod team";
+    displayName = "[UNIF] Flag (UNIF Logo)";
+    editorPreview  = "\UNIF_UN_Faction_Vanilla\UI\UNIF_UN_Faction_Vanilla_Obj_Flag_Text.jpg";
+    editorCategory = "UNIF_Faction_edcat_props";
+    editorSubcategory = "EdSubcat_Flags";
+    class EventHandlers
+    {
+      init = "(_this select 0) setFlagTexture ""\UNIF_UN_Faction_Vanilla\Textures\Props\FLAG_UNIF.paa""";
+    };
+  };
+
+  class UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF_RAT: FlagCarrierBLUFOR_EP1
+  {
+    author = "Mod team";
+    displayName = "[UNIF] Flag (UNIF RAT)";
+    editorPreview  = "\UNIF_UN_Faction_Vanilla\UI\UNIF_UN_Faction_Vanilla_Obj_Flag_Text.jpg";
+    editorCategory = "UNIF_Faction_edcat_props";
+    editorSubcategory = "EdSubcat_Flags";
+    class EventHandlers
+    {
+      init = "(_this select 0) setFlagTexture ""\UNIF_UN_Faction_Vanilla\Textures\Props\FLAG_UNIF_RAT.paa""";
+    };
+  };
+
+  class UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF_RAT_Full_Pride: FlagCarrierBLUFOR_EP1
+  {
+    author = "Mod team";
+    displayName = "[UNIF] Flag (UNIF RAT Full Pride)";
+    editorPreview  = "\UNIF_UN_Faction_Vanilla\UI\UNIF_UN_Faction_Vanilla_Obj_Flag_Text.jpg";
+    editorCategory = "UNIF_Faction_edcat_props";
+    editorSubcategory = "EdSubcat_Flags";
+    class EventHandlers
+    {
+      init = "(_this select 0) setFlagTexture ""\UNIF_UN_Faction_Vanilla\Textures\Props\FLAG_UNIF_RAT_Full_Pride.paa""";
+    };
+  };
+
+  class UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF_RAT_Pride: FlagCarrierBLUFOR_EP1
+  {
+    author = "Mod team";
+    displayName = "[UNIF] Flag (UNIF RAT Pride)";
+    editorPreview  = "\UNIF_UN_Faction_Vanilla\UI\UNIF_UN_Faction_Vanilla_Obj_Flag_Text.jpg";
+    editorCategory = "UNIF_Faction_edcat_props";
+    editorSubcategory = "EdSubcat_Flags";
+    class EventHandlers
+    {
+      init = "(_this select 0) setFlagTexture ""\UNIF_UN_Faction_Vanilla\Textures\Props\FLAG_UNIF_RAT_Pride.paa""";
+    };
+  };
+
+  class UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF_Scribble: FlagCarrierBLUFOR_EP1
+  {
+    author = "Mod team";
+    displayName = "[UNIF] Flag (UNIF Logo Scribble)";
+    editorPreview  = "\UNIF_UN_Faction_Vanilla\UI\UNIF_UN_Faction_Vanilla_Obj_Flag_Text.jpg";
+    editorCategory = "UNIF_Faction_edcat_props";
+    editorSubcategory = "EdSubcat_Flags";
+    class EventHandlers
+    {
+      init = "(_this select 0) setFlagTexture ""\UNIF_UN_Faction_Vanilla\Textures\Props\FLAG_UNIF_Scribble.paa""";
+    };
+  };
+
   class UNIF_UN_Faction_Vanilla_Obj_Banner_UN: banner_01_f
   {
     author = "Mod team";
