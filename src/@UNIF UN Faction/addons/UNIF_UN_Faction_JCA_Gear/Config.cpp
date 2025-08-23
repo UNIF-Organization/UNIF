@@ -7,8 +7,6 @@ class CfgPatches
         };
         weapons[] =
         {
-            "UNIF_UN_Faction_JCA_Gear_Vest_Holster",
-
             "UNIF_UN_Faction_JCA_Gear_Vest_OD_Combat",
             "UNIF_UN_Faction_JCA_Gear_Vest_OD_Command",
             "UNIF_UN_Faction_JCA_Gear_Vest_OD_Compact",
@@ -16,6 +14,8 @@ class CfgPatches
             "UNIF_UN_Faction_JCA_Gear_Vest_OD_Crew",
             "UNIF_UN_Faction_JCA_Gear_Vest_OD_Recon",
             "UNIF_UN_Faction_JCA_Gear_Vest_OD_Tactical",
+            "UNIF_UN_Faction_JCA_Gear_Vest_OD_Light",
+            "UNIF_UN_Faction_JCA_Gear_Vest_OD_GL",
 
             "UNIF_UN_Faction_JCA_Gear_Vest_OGA_Combat",
             "UNIF_UN_Faction_JCA_Gear_Vest_OGA_Command",
@@ -24,6 +24,8 @@ class CfgPatches
             "UNIF_UN_Faction_JCA_Gear_Vest_OGA_Crew",
             "UNIF_UN_Faction_JCA_Gear_Vest_OGA_Recon",
             "UNIF_UN_Faction_JCA_Gear_Vest_OGA_Tactical",
+            "UNIF_UN_Faction_JCA_Gear_Vest_OGA_Light",
+            "UNIF_UN_Faction_JCA_Gear_Vest_OGA_GL",
 
             "UNIF_UN_Faction_JCA_Gear_Vest_Blue_Combat",
             "UNIF_UN_Faction_JCA_Gear_Vest_Blue_Command",
@@ -32,6 +34,12 @@ class CfgPatches
             "UNIF_UN_Faction_JCA_Gear_Vest_Blue_Crew",
             "UNIF_UN_Faction_JCA_Gear_Vest_Blue_Recon",
             "UNIF_UN_Faction_JCA_Gear_Vest_Blue_Tactical",
+            "UNIF_UN_Faction_JCA_Gear_Vest_Blue_Light",
+            "UNIF_UN_Faction_JCA_Gear_Vest_Blue_GL",
+
+            "UNIF_UN_Faction_JCA_Gear_Vest_Basic",
+
+
         };
         magazines[]=
         {
@@ -66,21 +74,11 @@ class cfgWeapons
     class JCA_V_CarrierRigKBT_01_compact_olive_F;
     class JCA_V_CarrierRigKBT_01_CQB_olive_F;
     class JCA_V_CarrierRigKBT_01_crew_olive_F;
-    class JCA_V_CarrierRigKBT_01_holster_olive_F;
     class JCA_V_CarrierRigKBT_01_recon_olive_F;
     class JCA_V_CarrierRigKBT_01_tactical_olive_F;
-
-    //Holster
-
-    class UNIF_UN_Faction_JCA_Gear_Vest_Holster: JCA_V_CarrierRigKBT_01_holster_olive_F
-    {
-        displayName="[UNIF] Modular Carrier Holster";
-        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[]=
-        {
-            "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
-        };
-    };
+    class JCA_V_CarrierRigKBT_01_base_F;
+    class JCA_V_CarrierRigKBT_01_light_olive_F;
+    class JCA_V_CarrierRigKBT_01_heavy_olive_F;
 
     //Blue
 
@@ -337,6 +335,7 @@ class cfgWeapons
             "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
         };
     };
+
     class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Tactical: JCA_V_CarrierRigKBT_01_tactical_olive_F
     {
         scope=2;
@@ -352,6 +351,110 @@ class cfgWeapons
         };
     };
 
+    class UNIF_UN_Faction_JCA_Gear_Vest_Basic: JCA_V_CarrierRigKBT_01_base_F
+    {
+        scope=2;
+        displayName="[UNIF] Modular Carrier Vest";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OGA.paa",
+            "",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
+        };
+    };
+
+    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_Light: JCA_V_CarrierRigKBT_01_light_olive_F
+    {
+        scope=2;
+        displayName="[UNIF] Modular Carrier Lite (Blue)";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
+            "",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
+        };
+    }
+
+    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_Light: JCA_V_CarrierRigKBT_01_light_olive_F
+    {
+        scope=2;
+        displayName="[UNIF] Modular Carrier Lite (OGA)";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OGA.paa",
+            "",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
+        };
+    }
+
+    class UNIF_UN_Faction_JCA_Gear_Vest_OD_Light: JCA_V_CarrierRigKBT_01_light_olive_F
+    {
+        scope=2;
+        displayName="[UNIF] Modular Carrier Lite (OD)";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OD.paa",
+            "",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
+        };
+    }
+
+    class UNIF_UN_Faction_JCA_Gear_Vest_Blue_GL: JCA_V_CarrierRigKBT_01_heavy_olive_F
+    {
+        scope=2;
+        displayName="[UNIF] Modular Carrier GL Rig (Blue)";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "UNIF_UN_Faction_JCA_Gear\Textures\Vest_Blue.paa",
+            "",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
+        };
+    }
+
+    class UNIF_UN_Faction_JCA_Gear_Vest_OGA_GL: JCA_V_CarrierRigKBT_01_heavy_olive_F
+    {
+        scope=2;
+        displayName="[UNIF] Modular Carrier GL Rig (OGA)";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OGA.paa",
+            "",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
+        };
+    }
+
+    class UNIF_UN_Faction_JCA_Gear_Vest_OD_GL: JCA_V_CarrierRigKBT_01_heavy_olive_F
+    {
+        scope=2;
+        displayName="[UNIF] Modular Carrier GL Rig (OD)";
+        picture="\UNIF_UN_Faction_JCA_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "UNIF_UN_Faction_JCA_Gear\Textures\Vest_OD.paa",
+            "",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa",
+            "UNIF_UN_Faction_JCA_Gear\Textures\UN_Patch_b.paa"
+        };
+    }
     //Guns
 
 };
