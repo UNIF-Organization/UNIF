@@ -214,12 +214,16 @@ class cfgWeapons
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
-    class SP_CVCHelmet_UN;
+    class CUP_H_CVCH_des;
 
-    class UNIF_Headgear_CVCHelmet: SP_CVCHelmet_UN
+    class UNIF_Headgear_CVCHelmet: CUP_H_CVCH_des
     {
         displayName = "[UNIF] CVC Helmet (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\CVC\UN_CVC.paa"
+        };
     };
 
     class SP_PatrolCap_UN;
