@@ -224,13 +224,6 @@ class cfgWeapons
         {
             "\UNIF_UN_Faction_CUP_Gear\Textures\CVC\UN_CVC.paa"
         };
-        class ItemInfo: ItemInfo
-        {
-            hiddenSelectionsTextures[]=
-            {
-                "\UNIF_UN_Faction_CUP_Gear\Textures\CVC\UN_CVC.paa"
-            };
-        };
     };
 
     class SP_PatrolCap_UN;
