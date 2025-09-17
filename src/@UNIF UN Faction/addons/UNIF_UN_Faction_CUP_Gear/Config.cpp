@@ -35,8 +35,6 @@ class CfgPatches
             "UNIF_Headgear_6B47_Goggle_Up",
             "UNIF_Headgear_6B47_Goggle_Down",
             "UNIF_Headgear_6B47",
-            "UNIF_Headgear_SP_Mk7Helmet_UN1",
-            "UNIF_Headgear_SP_Mk7Helmet_UN2",
             "UNIF_UN_UniformItem_C_Uni_1",
             "UNIF_UN_UniformItem_C_Uni_2",
             "UNIF_Headgear_M92_Cover",
@@ -47,6 +45,11 @@ class CfgPatches
             "UNIF_Headgear_M92_GG_CF",
             "UNIF_Headgear_M92_Cover_GG_CB",
             "UNIF_Headgear_M92_Cover_GG_CF",
+            "UNIF_Headgear_Mk7",
+            "UNIF_Headgear_Mk7_PRR",
+            "UNIF_Headgear_Mk7_Crew_PRR",
+            "UNIF_Headgear_Mk7_Glass_PRR",
+            "UNIF_Headgear_Mk7_Goggles_PRR",
         };
         magazines[]=
         {
@@ -546,20 +549,64 @@ class cfgWeapons
         };
     };
 
+    class CUP_H_BAF_MTP_Mk6_EMPTY;
+    class CUP_H_BAF_MTP_Mk6_EMPTY_PRR;
+    class CUP_H_BAF_MTP_Mk6_CREW_PRR;
+    class CUP_H_BAF_MTP_Mk6_GLASS_PRR;
+    class CUP_H_BAF_MTP_Mk6_GOGGLES_PRR;
 
-
-    class SP_Mk7Helmet_UN1;
-    class SP_Mk7Helmet_UN2;
-
-    class UNIF_Headgear_SP_Mk7Helmet_UN1: SP_Mk7Helmet_UN1
+    class UNIF_Headgear_Mk7: CUP_H_BAF_MTP_Mk6_EMPTY
     {
-        displayName = "[UNIF] Mk7 Helmet Cover (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        displayName = "[UNIF] Mk7 Helmet";
+        picture ="\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\Mk7\equip_co.paa",
+            "CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_headgear\data\equip_d_co.paa"
+        };
     };
 
-    class UNIF_Headgear_SP_Mk7Helmet_UN2: SP_Mk7Helmet_UN2
+    class UNIF_Headgear_Mk7_PRR: CUP_H_BAF_MTP_Mk6_EMPTY_PRR
     {
-        displayName = "[UNIF] Mk7 Helmet Cover w/Goggles (UN)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        displayName = "[UNIF] Mk7 Helmet (Headset)";
+        picture ="\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\Mk7\equip_co.paa",
+            "CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_headgear\data\equip_d_co.paa"
+        };
+    };
+
+    class UNIF_Headgear_Mk7_Crew_PRR: CUP_H_BAF_MTP_Mk6_CREW_PRR
+    {
+        displayName = "[UNIF] Mk7 Helmet (Crew)";
+        picture ="\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\Mk7\equip_co.paa",
+            "CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_headgear\data\equip_d_co.paa"
+        };
+    };
+
+    class UNIF_Headgear_Mk7_Glass_PRR: CUP_H_BAF_MTP_Mk6_GLASS_PRR
+    {
+        displayName = "[UNIF] Mk7 Helmet (Glasses/Headset)";
+        picture ="\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\Mk7\equip_co.paa",
+            "CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_headgear\data\equip_d_co.paa"
+        };
+    };
+
+    class UNIF_Headgear_Mk7_Goggles_PRR: CUP_H_BAF_MTP_Mk6_GOGGLES_PRR
+    {
+        displayName = "[UNIF] Mk7 Helmet (Goggles/Headset)";
+        picture ="\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\Mk7\equip_co.paa",
+            "CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_headgear\data\equip_d_co.paa"
+        };
     };
 };
