@@ -17,7 +17,9 @@ class CfgPatches
             "UNIF_Headgear_BoonieHat",
             "UNIF_Headgear_BoonieHat_Headset",
             "UNIF_Headgear_CVCHelmet",
-            "UNIF_Headgear_PatrolCap",
+            "UNIF_Headgear_MilCap_1",
+            "UNIF_Headgear_MilCap_2",
+            "UNIF_Headgear_MilCap_3",
             "UNIF_Headgear_SPH4Helmet1",
             "UNIF_Headgear_SPH4Helmet2",
             "UNIF_Headgear_SPH4Helmet3",
@@ -275,12 +277,36 @@ class cfgWeapons
         };
     };
 
-    class SP_PatrolCap_UN;
+    class H_MilCap_blue;
 
-    class UNIF_Headgear_PatrolCap: SP_PatrolCap_UN
+    class UNIF_Headgear_MilCap_1: H_MilCap_blue
     {
-        displayName = "[UNIF] Patrol Cap (UN)";
+        displayName = "[UNIF] Military Cap";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\MilCap\UN_MilCap_1.paa"
+        };
+    };
+
+    class UNIF_Headgear_MilCap_2: H_MilCap_blue
+    {
+        displayName = "[UNIF] Military Cap (UNIF Logo)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\MilCap\UN_MilCap_2.paa"
+        };
+    };
+
+    class UNIF_Headgear_MilCap_3: H_MilCap_blue
+    {
+        displayName = "[UNIF] Military Cap (RAT Logo)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\MilCap\UN_MilCap_3.paa"
+        };
     };
 
     class SP_SPH4Helmet_UN1;
