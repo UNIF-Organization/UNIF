@@ -12,6 +12,8 @@ class CfgPatches
         {
             "UNIF_Headgear_Beret_1",
             "UNIF_Headgear_Beret_2",
+            "UNIF_Headgear_Beret_3",
+            "UNIF_Headgear_Beret_4",
             "UNIF_Headgear_BoonieHat",
             "UNIF_Headgear_BoonieHat_Headset",
             "UNIF_Headgear_CVCHelmet",
@@ -195,19 +197,47 @@ class cfgWeapons
 
     //Helmets
 
-    class SP_Beret_UN1;
-    class SP_Beret_UN2;
+    class CUP_H_Ger_Beret_ARM_Grn;
+    class CUP_H_Ger_Beret_TankCommander_Grn;
 
-    class UNIF_Headgear_Beret_1: SP_Beret_UN1
+    class UNIF_Headgear_Beret_1: CUP_H_Ger_Beret_ARM_Grn
     {
-        displayName = "[UNIF] Beret (UN Patch)";
+        displayName = "[UNIF] Beret (UNIF Logo)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_Logo_1.paa"
+        };
     };
 
-    class UNIF_Headgear_Beret_2: SP_Beret_UN2
+    class UNIF_Headgear_Beret_2: CUP_H_Ger_Beret_ARM_Grn
     {
-        displayName = "[UNIF] Beret (UN Logo)";
+        displayName = "[UNIF] Beret (Rat Logo)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_Logo_2.paa"
+        };
+    };
+
+    class UNIF_Headgear_Beret_3: CUP_H_Ger_Beret_TankCommander_Grn
+    {
+        displayName = "[UNIF] Beret (UNIF Logo/Headset)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_Logo_1.paa"
+        };
+    };
+
+    class UNIF_Headgear_Beret_4: CUP_H_Ger_Beret_TankCommander_Grn
+    {
+        displayName = "[UNIF] Beret (Rat Logo/Headset)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_Logo_2.paa"
+        };
     };
 
     class H_Booniehat_khk;
