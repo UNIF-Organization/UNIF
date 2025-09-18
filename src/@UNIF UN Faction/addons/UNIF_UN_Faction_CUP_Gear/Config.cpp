@@ -13,6 +13,7 @@ class CfgPatches
             "UNIF_Headgear_Beret_1",
             "UNIF_Headgear_Beret_2",
             "UNIF_Headgear_BoonieHat",
+            "UNIF_Headgear_BoonieHat_Headset",
             "UNIF_Headgear_CVCHelmet",
             "UNIF_Headgear_PatrolCap",
             "UNIF_Headgear_SPH4Helmet1",
@@ -209,13 +210,28 @@ class cfgWeapons
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
     };
 
-    class SP_BoonieHat_UN;
+    class H_Booniehat_khk;
+    class H_Booniehat_khk_hs;
 
-    class UNIF_Headgear_BoonieHat: SP_BoonieHat_UN
+    class UNIF_Headgear_BoonieHat: H_Booniehat_khk
     {
-        displayName = "[UNIF] Boonie Hat (UN)";
+        displayName = "[UNIF] Boonie Hat";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Boonie\UN_Boonie.paa"
+        };
     };
+
+    class UNIF_Headgear_BoonieHat_Headset: H_Booniehat_khk_hs
+    {
+        displayName = "[UNIF] Boonie Hat (Headset)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Boonie\UN_Boonie.paa"
+        };
+    }
 
     class CUP_H_CVCH_des;
 
