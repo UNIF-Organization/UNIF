@@ -14,6 +14,8 @@ class CfgPatches
             "UNIF_Headgear_Beret_2",
             "UNIF_Headgear_Beret_3",
             "UNIF_Headgear_Beret_4",
+            "UNIF_Headgear_Beret_5",
+            "UNIF_Headgear_Beret_6",
             "UNIF_Headgear_BoonieHat",
             "UNIF_Headgear_BoonieHat_Headset",
             "UNIF_Headgear_CVCHelmet",
@@ -23,6 +25,9 @@ class CfgPatches
             "UNIF_Headgear_SPH4Helmet1",
             "UNIF_Headgear_SPH4Helmet2",
             "UNIF_Headgear_SPH4Helmet3",
+            "UNIF_Headgear_SPH4Helmet4",
+            "UNIF_Headgear_SPH4Helmet5",
+            "UNIF_Headgear_SPH4Helmet6",
             "UNIF_Headgear_SSh60Helmet1",
             "UNIF_Headgear_SSh60Helmet2",
             "UNIF_Headgear_SSh60Helmet3",
@@ -204,41 +209,61 @@ class cfgWeapons
 
     class UNIF_Headgear_Beret_1: CUP_H_Ger_Beret_ARM_Grn
     {
+        displayName = "[UNIF] Beret";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_1.paa"
+        };
+    };
+
+    class UNIF_Headgear_Beret_2: CUP_H_Ger_Beret_TankCommander_Grn
+    {
+        displayName = "[UNIF] Beret (Headset)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_1.paa"
+        };
+    };
+
+    class UNIF_Headgear_Beret_3: CUP_H_Ger_Beret_ARM_Grn
+    {
         displayName = "[UNIF] Beret (UNIF Logo)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] =
         {
-            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_Logo_1.paa"
-        };
-    };
-
-    class UNIF_Headgear_Beret_2: CUP_H_Ger_Beret_ARM_Grn
-    {
-        displayName = "[UNIF] Beret (Rat Logo)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] =
-        {
-            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_Logo_2.paa"
-        };
-    };
-
-    class UNIF_Headgear_Beret_3: CUP_H_Ger_Beret_TankCommander_Grn
-    {
-        displayName = "[UNIF] Beret (UNIF Logo/Headset)";
-        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        hiddenSelectionsTextures[] =
-        {
-            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_Logo_1.paa"
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_2.paa"
         };
     };
 
     class UNIF_Headgear_Beret_4: CUP_H_Ger_Beret_TankCommander_Grn
     {
+        displayName = "[UNIF] Beret (UNIF Logo/Headset)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_2.paa"
+        };
+    };
+
+    class UNIF_Headgear_Beret_5: CUP_H_Ger_Beret_ARM_Grn
+    {
+        displayName = "[UNIF] Beret (Rat Logo)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_3.paa"
+        };
+    };
+
+    class UNIF_Headgear_Beret_6: CUP_H_Ger_Beret_TankCommander_Grn
+    {
         displayName = "[UNIF] Beret (Rat Logo/Headset)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
         hiddenSelectionsTextures[] =
         {
-            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_Logo_2.paa"
+            "\UNIF_UN_Faction_CUP_Gear\Textures\Beret\UNIF_Beret_3.paa"
         };
     };
 
@@ -309,31 +334,67 @@ class cfgWeapons
         };
     };
 
-    class SP_SPH4Helmet_UN1;
-    class SP_SPH4Helmet_UN2;
-    class SP_SPH4Helmet_UN3;
-    class UNIF_Headgear_SPH4Helmet1: SP_SPH4Helmet_UN1
+    class CUP_H_SPH4_khaki;
+    class CUP_H_SPH4_khaki_visor;
+
+    class UNIF_Headgear_SPH4Helmet1: CUP_H_SPH4_khaki
     {
-        displayName = "[UNIF] SPH4 Helmet Blue (UN)";
+        displayName = "[UNIF] SPH-4 Helmet Blue (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        ace_hearing_lowerVolume = 0.6;
-        ace_hearing_protection = 0.85;
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\SPH4\UN_SPH4_1.paa"
+        };
     };
 
-    class UNIF_Headgear_SPH4Helmet2: SP_SPH4Helmet_UN2
+    class UNIF_Headgear_SPH4Helmet2: CUP_H_SPH4_khaki_visor
     {
-        displayName = "[UNIF] SPH4 Helmet Mix (UN)";
+        displayName = "[UNIF] SPH-4 Helmet Blue (UN/Visor)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        ace_hearing_lowerVolume = 0.6;
-        ace_hearing_protection = 0.85;
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\SPH4\UN_SPH4_1.paa"
+        };
     };
 
-    class UNIF_Headgear_SPH4Helmet3: SP_SPH4Helmet_UN3
+    class UNIF_Headgear_SPH4Helmet3: CUP_H_SPH4_khaki
     {
-        displayName = "[UNIF] SPH4 Helmet White (UN)";
+        displayName = "[UNIF] SPH-4 Helmet Mix (UN)";
         picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
-        ace_hearing_lowerVolume = 0.6;
-        ace_hearing_protection = 0.85;
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\SPH4\UN_SPH4_2.paa"
+        };
+    };
+
+    class UNIF_Headgear_SPH4Helmet4: CUP_H_SPH4_khaki_visor
+    {
+        displayName = "[UNIF] SPH-4 Helmet Mix (UN/Visor)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\SPH4\UN_SPH4_2.paa"
+        };
+    };
+
+    class UNIF_Headgear_SPH4Helmet5: CUP_H_SPH4_khaki
+    {
+        displayName = "[UNIF] SPH-4 Helmet White (UN)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\SPH4\UN_SPH4_3.paa"
+        };
+    };
+
+    class UNIF_Headgear_SPH4Helmet6: CUP_H_SPH4_khaki_visor
+    {
+        displayName = "[UNIF] SPH-4 Helmet White (UN/Visor)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[]=
+        {
+            "\UNIF_UN_Faction_CUP_Gear\Textures\SPH4\UN_SPH4_3.paa"
+        };
     };
 
     class CUP_H_SLA_Helmet_BLK;
