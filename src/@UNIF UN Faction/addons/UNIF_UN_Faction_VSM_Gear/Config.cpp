@@ -1,4 +1,4 @@
-class CfgPatches
+    class CfgPatches
 {
     class UNIF_UN_Faction_VSM_Gear
     {
@@ -21,6 +21,8 @@ class CfgPatches
             "UNIF_Vest_RAV_Light_UN_OD",
             "UNIF_Headgear_VSM_Mich2000_OGA",
             "UNIF_Headgear_VSM_Mich2000_2_OGA",
+            "UNIF_Headgear_VSM_Opscore",
+            "UNIF_Headgear_VSM_Opscore_2",
         };
         magazines[]=
         {
@@ -448,5 +450,55 @@ class cfgWeapons
                 };
             };
         };
+    };
+
+    class VSM_OGA_OD_OPS;
+    class VSM_OGA_OD_OPS_2;
+
+    class UNIF_Headgear_VSM_Opscore: VSM_OGA_OD_OPS
+    {
+        scope=2;
+        weaponPoolAvailable=1;
+        displayName="[UNIF] Opscore (UN)";
+        picture="\UNIF_UN_Faction_VSM_Gear\UI\UN_Item_UI.jpg";
+        model="\VSM_Helmets\models\VSM_ops";
+        hiddenSelections[]=
+        {
+            "_helmBase",
+            "_helmGear",
+            "_nvgWeight",
+            "_Peltor"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "UNIF_UN_Faction_VSM_Gear\Textures\Opscore\UNIF_Opscore.paa",
+            "vsm_helmets\textures\vsm_helmet_pouch.paa",
+            "vsm_helmets\textures\secco2.paa",
+            "UNIF_UN_Faction_VSM_Gear\Textures\Opscore\UNIF_Opscore_Headset.paa"
+        };
+    };
+
+    class UNIF_Headgear_VSM_Opscore_2: VSM_OGA_OD_OPS_2
+    {
+        scope=2;
+        weaponPoolAvailable=1;
+        displayName="[UNIF] Opscore 2 (UN)";
+        picture="\UNIF_UN_Faction_VSM_Gear\UI\UN_Item_UI.jpg";
+        model="\VSM_Helmets\models\VSM_ops_2";
+        hiddenSelections[]=
+        {
+            "_helmBase",
+            "_helmStrobe",
+            "_nvgBattery",
+            "_Peltor"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "UNIF_UN_Faction_VSM_Gear\Textures\Opscore\UNIF_Opscore.paa",
+            "UNIF_UN_Faction_VSM_Gear\Textures\Opscore\UNIF_Opscore_3.paa",
+            "UNIF_UN_Faction_VSM_Gear\Textures\Opscore\UNIF_Opscore_2.paa",
+            "UNIF_UN_Faction_VSM_Gear\Textures\Opscore\UNIF_Opscore_Headset.paa"
+        };
+
     };
 };
