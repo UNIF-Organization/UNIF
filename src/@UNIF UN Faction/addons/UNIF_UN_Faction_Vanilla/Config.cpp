@@ -43,6 +43,12 @@ class CfgPatches
 
       "UNIF_UN_Faction_Vanilla_Obj_Flag_UN",
       "UNIF_UN_Faction_Vanilla_Obj_Flag_Text",
+      "UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF",
+      "UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF_RAT",
+      "UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF_RAT_Full_Pride",
+      "UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF_RAT_Pride",
+      "UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF_Scribble",
+      "UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF_DOG",
       "UNIF_UN_Faction_Vanilla_Obj_Banner_UN",
       "UNIF_UN_Faction_Vanilla_Obj_Banner_UN_text",
       "UNIF_UN_Faction_Vanilla_Obj_MilSign_UN_Text",
@@ -1025,6 +1031,19 @@ class CfgVehicles
     class EventHandlers
     {
       init = "(_this select 0) setFlagTexture ""\UNIF_UN_Faction_Vanilla\Textures\Props\FLAG_UNIF_Scribble.paa""";
+    };
+  };
+
+  class UNIF_UN_Faction_Vanilla_Obj_Flag_UNIF_DOG: FlagCarrierBLUFOR_EP1
+  {
+    author = "Mod team";
+    displayName = "[UNIF] Flag (UNIF DOG)";
+    editorPreview  = "\UNIF_UN_Faction_Vanilla\UI\UNIF_UN_Faction_Vanilla_Obj_Flag_Text.jpg";
+    editorCategory = "UNIF_Faction_edcat_props";
+    editorSubcategory = "EdSubcat_Flags";
+    class EventHandlers
+    {
+      init = "(_this select 0) setFlagTexture ""\UNIF_UN_Faction_Vanilla\Textures\Props\FLAG_UNIF_DOG.paa""";
     };
   };
 

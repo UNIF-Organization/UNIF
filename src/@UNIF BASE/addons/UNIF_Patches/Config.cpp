@@ -36,4 +36,10 @@ class CfgUnitInsignia
 		texture = "\UNIF_Patches\data\UNIF_Intervention.paa";
 		author = "UNIF Dev Team";
 	};
+	class UNIF_Patch_5
+	{
+		displayName = "[UNIF] DOG";
+		texture = "\UNIF_Patches\data\UNIF_Dog.paa";
+		author = "UNIF Dev Team";
+	}
 };
