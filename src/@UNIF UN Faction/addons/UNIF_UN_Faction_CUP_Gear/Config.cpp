@@ -55,6 +55,9 @@ class CfgPatches
             "UNIF_Headgear_M92_GG_CF",
             "UNIF_Headgear_M92_Cover_GG_CB",
             "UNIF_Headgear_M92_Cover_GG_CF",
+            "UNIF_Headgear_M92_Med",
+            "UNIF_Headgear_M92_GG_Med",
+            "UNIF_Headgear_M92_GG_CB_Med",
             "UNIF_Headgear_Mk7",
             "UNIF_Headgear_Mk7_PRR",
             "UNIF_Headgear_Mk7_Crew_PRR",
@@ -681,6 +684,38 @@ class cfgWeapons
             "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_helmet_cover_un.paa",
         };
     };
+
+    class UNIF_Headgear_M92_Med: CUP_H_Ger_M92_Black
+    {
+        displayName = "[UNIF] M92 Helmet (UN/Medic)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors_medic.paa",
+        };
+    };
+
+    class UNIF_Headgear_M92_GG_Med: CUP_H_Ger_M92_Black_GG
+    {
+        displayName = "[UNIF] M92 Helmet (UN/Medic/Goggles)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors_medic.paa",
+        };
+    };
+
+    class UNIF_Headgear_M92_GG_CB_Med: CUP_H_Ger_M92_Black_GG_CB
+    {
+        displayName = "[UNIF] M92 Helmet (UN/Medic/Goggles/Back Cover)";
+        picture = "\UNIF_UN_Faction_CUP_Gear\UI\UN_Item_UI.jpg";
+        hiddenSelectionsTextures[] =
+        {
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_un_colors_medic.paa",
+            "\UNIF_UN_Faction_CUP_Gear\textures\M92\m92_helmet_un_google_covers.paa",
+        };
+    };
+
 
     class CUP_H_BAF_MTP_Mk6_EMPTY;
     class CUP_H_BAF_MTP_Mk6_EMPTY_PRR;
